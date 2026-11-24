@@ -251,26 +251,759 @@ const paginas = [
 },
 
 
-    {
-        titulo: "¿Qué es la paz territorial?",
-        contenido: `
-            <p>
-                Aquí desarrollaremos el concepto,
-                las características y la importancia
-                de la paz territorial.
-            </p>
-        `
-    },
 
-    {
-        titulo: "La paz desde la mirada de la comunidad",
-        contenido: `
+{
+    titulo: "¿Qué es la paz territorial?",
+
+    contenido: `
+
+        <div class="paz-territorial">
+
+            <div class="etiqueta-tematica">
+                FUNDAMENTACIÓN TEÓRICA
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Construir paz es aprender a vivir juntos,
+                respetando nuestras diferencias,
+                nuestra memoria y nuestro territorio.
+
+            </blockquote>
+
+            <h3>Concepto de paz territorial</h3>
+
             <p>
-                Aquí incorporaremos las percepciones
-                de los integrantes de la comunidad.
+
+                La paz territorial es un proceso de
+                construcción colectiva que reconoce las
+                características, necesidades, historias
+                y particularidades culturales de cada
+                territorio. Su finalidad es transformar
+                las condiciones que generan violencia,
+                desigualdad, exclusión y conflictos sociales,
+                promoviendo la participación de las comunidades
+                en la búsqueda de soluciones que permitan
+                vivir dignamente.
+
             </p>
-        `
-    },
+
+            <p>
+
+                A partir de las recomendaciones de la
+                Comisión de la Verdad (2022), comprendemos
+                que construir paz requiere reconocer las
+                realidades particulares de los territorios,
+                fortalecer la participación comunitaria,
+                garantizar los derechos humanos y promover
+                el diálogo social, la reconciliación y
+                la no repetición de las violencias.
+
+            </p>
+
+            <h3>Características de la paz territorial</h3>
+
+            <p>
+
+                Explora los seis pilares que hemos seleccionado
+                para comprender la construcción de paz
+                desde los territorios.
+
+            </p>
+
+            <div class="diagrama-paz">
+
+                <div class="diagrama-circulo">
+
+                    <svg class="conexiones-paz"
+                         viewBox="0 0 100 100"
+                         aria-hidden="true">
+
+                        <g stroke="#E9CD91"
+                           stroke-width="0.5"
+                           stroke-dasharray="2 1"
+                           opacity="0.7">
+
+                            <line x1="50" y1="50"
+                                  x2="50" y2="15"/>
+
+                            <line x1="50" y1="50"
+                                  x2="81" y2="32"/>
+
+                            <line x1="50" y1="50"
+                                  x2="81" y2="68"/>
+
+                            <line x1="50" y1="50"
+                                  x2="50" y2="85"/>
+
+                            <line x1="50" y1="50"
+                                  x2="19" y2="68"/>
+
+                            <line x1="50" y1="50"
+                                  x2="19" y2="32"/>
+
+                        </g>
+
+                    </svg>
+
+                    <div class="centro-paz">
+
+                        <span>🕊️</span>
+
+                        <strong>
+                            Paz<br>territorial
+                        </strong>
+
+                    </div>
+
+                    <button class="pilar pilar-1"
+                            onclick="mostrarPilar(this, 0)"
+                            aria-pressed="false">
+
+                        <span>🤝</span>
+                        Participación
+
+                    </button>
+
+                    <button class="pilar pilar-2"
+                            onclick="mostrarPilar(this, 1)"
+                            aria-pressed="false">
+
+                        <span>🌿</span>
+                        Identidad
+
+                    </button>
+
+                    <button class="pilar pilar-3"
+                            onclick="mostrarPilar(this, 2)"
+                            aria-pressed="false">
+
+                        <span>⚖️</span>
+                        Justicia
+
+                    </button>
+
+                    <button class="pilar pilar-4"
+                            onclick="mostrarPilar(this, 3)"
+                            aria-pressed="false">
+
+                        <span>💬</span>
+                        Diálogo
+
+                    </button>
+
+                    <button class="pilar pilar-5"
+                            onclick="mostrarPilar(this, 4)"
+                            aria-pressed="false">
+
+                        <span>⛰️</span>
+                        Territorio
+
+                    </button>
+
+                    <button class="pilar pilar-6"
+                            onclick="mostrarPilar(this, 5)"
+                            aria-pressed="false">
+
+                        <span>📖</span>
+                        Memoria
+
+                    </button>
+
+                </div>
+
+                <div class="informacion-pilar"
+                     aria-live="polite">
+
+                    <h4>Descubre los pilares de la paz</h4>
+
+                    <p>
+
+                        Presiona cualquiera de los seis
+                        círculos para conocer su significado.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <h3>Importancia para la convivencia</h3>
+
+            <p>
+
+                La paz territorial es fundamental porque
+                fortalece las relaciones comunitarias,
+                promueve el respeto por las diferencias
+                y genera oportunidades para construir
+                acuerdos colectivos.
+
+                Además, permite que las comunidades
+                participen activamente en la transformación
+                de sus propias realidades y en la búsqueda
+                de soluciones pacíficas a sus conflictos.
+
+            </p>
+
+            <div class="enfoque-kankuamo">
+
+                <h3>La paz en el territorio Kankuamo</h3>
+
+                <p>
+
+                    En el contexto del Resguardo Indígena
+                    Kankuamo, resulta importante abordar
+                    la paz desde el reconocimiento de
+                    la identidad cultural, la autonomía,
+                    la memoria colectiva, la protección
+                    del territorio y el respeto por las
+                    autoridades y los conocimientos
+                    tradicionales.
+
+                </p>
+
+                <p>
+
+                    Desde esta perspectiva, la construcción
+                    de paz también implica reconocer la relación
+                    entre las personas, la comunidad y la
+                    naturaleza, así como la importancia de
+                    preservar los conocimientos culturales
+                    para las futuras generaciones.
+
+                </p>
+
+                <p>
+
+                    Estos planteamientos serán contrastados
+                    con las percepciones recogidas durante
+                    el trabajo de campo.
+
+                </p>
+
+            </div>
+
+            <h3>La educación como camino hacia la paz</h3>
+
+            <p>
+
+                Desde nuestra formación como estudiantes
+                de Licenciatura en Matemáticas y futuros
+                docentes, comprendemos que la educación
+                constituye una herramienta fundamental
+                para construir una cultura de paz.
+
+                Nuestra responsabilidad no se limita a
+                transmitir conocimientos, sino también a
+                promover el pensamiento crítico, el trabajo
+                colaborativo, la inclusión, el respeto
+                y la convivencia pacífica.
+
+            </p>
+
+            <div class="reflexion-territorial">
+
+                <strong>Reflexionemos</strong>
+
+                <p>
+
+                    La paz no se construye únicamente
+                    mediante acuerdos institucionales.
+                    También nace de nuestras acciones
+                    cotidianas, del respeto por los demás
+                    y del compromiso con nuestro territorio.
+
+                </p>
+
+            </div>
+
+            <small class="credito-fotografico">
+                Fotografía de fondo: @elatanquero.
+            </small>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "La paz desde la mirada de la comunidad",
+
+    contenido: `
+
+        <div class="mirada-comunidad">
+
+            <div class="etiqueta-tematica">
+                INVESTIGACIÓN COMUNITARIA
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Escuchar las voces de la comunidad
+                es reconocer que la paz se construye
+                desde las experiencias de quienes
+                habitan el territorio.
+
+            </blockquote>
+
+            <h3>Escuchando nuestro territorio</h3>
+
+            <p>
+
+                Para comprender la paz territorial
+                desde una perspectiva comunitaria,
+                se propone un acercamiento a integrantes
+                del Resguardo Indígena Kankuamo.
+
+                Este ejercicio busca conocer sus
+                percepciones, experiencias y reflexiones
+                sobre el significado de la paz en
+                relación con su identidad, su cultura
+                y su territorio.
+
+            </p>
+
+            <p>
+
+                La entrevista constituye una herramienta
+                de investigación cualitativa que nos
+                permitirá escuchar directamente las voces
+                de la comunidad y relacionarlas con los
+                fundamentos teóricos desarrollados
+                en la asignatura Cátedra de la Paz.
+
+            </p>
+
+            <!-- ENTREVISTA COMUNITARIA -->
+
+            <div class="entrevista-comunidad">
+
+                <div class="encabezado-entrevista">
+
+                    <span>
+                        VOCES DEL TERRITORIO
+                    </span>
+
+                    <h3>
+
+                        ¿Qué entiende usted por
+                        paz territorial?
+
+                    </h3>
+
+                </div>
+
+                <!-- AQUÍ COLOCAREMOS EL VIDEO -->
+
+                <div id="video-paz-territorial"
+                     class="video-reservado">
+
+                    <span class="icono-video">▶</span>
+
+                    <strong>
+                        Entrevista comunitaria
+                    </strong>
+
+                    <p>
+
+                        Resguardo Indígena Kankuamo
+
+                    </p>
+
+                    <small>
+
+                        Video pendiente de incorporar
+
+                    </small>
+
+                </div>
+
+                <!-- DATOS DE LA ENTREVISTA -->
+
+                <div class="datos-entrevista">
+
+                    <p>
+
+                        <strong>Población:</strong>
+                        Resguardo Indígena Kankuamo.
+
+                    </p>
+
+                    <p>
+
+                        <strong>Técnica:</strong>
+                        Entrevista comunitaria.
+
+                    </p>
+
+                    <p>
+
+                        <strong>Participante:</strong>
+                        Pendiente de registrar según
+                        autorización.
+
+                    </p>
+
+                    <p>
+
+                        <strong>Fecha:</strong>
+                        Pendiente de registrar.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- PREGUNTAS DE LA ENTREVISTA -->
+
+            <h3>Preguntas orientadoras</h3>
+
+            <p>
+
+                Selecciona cada pregunta para conocer
+                los aspectos que orientan nuestro
+                acercamiento comunitario.
+
+            </p>
+
+            <div class="preguntas-entrevista">
+
+                <details>
+
+                    <summary>
+                        1. Concepto de paz territorial
+                    </summary>
+
+                    <p>
+
+                        ¿Qué entiende usted por
+                        paz territorial?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        2. Convivencia comunitaria
+                    </summary>
+
+                    <p>
+
+                        ¿Qué significa vivir en paz
+                        para el pueblo Kankuamo?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        3. Identidad cultural
+                    </summary>
+
+                    <p>
+
+                        ¿Qué importancia tienen las
+                        tradiciones y la identidad cultural
+                        en la construcción de paz?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        4. Territorio y naturaleza
+                    </summary>
+
+                    <p>
+
+                        ¿Qué relación existe entre
+                        el cuidado del territorio
+                        y la construcción de paz?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        5. Autoridades y comunidad
+                    </summary>
+
+                    <p>
+
+                        ¿Cómo contribuyen las autoridades
+                        tradicionales y la comunidad
+                        al fortalecimiento de la convivencia?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        6. Acciones para construir paz
+                    </summary>
+
+                    <p>
+
+                        ¿Qué acciones considera necesarias
+                        para fortalecer la paz dentro del
+                        Resguardo Indígena Kankuamo?
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        7. Mensaje para los jóvenes
+                    </summary>
+
+                    <p>
+
+                        ¿Qué mensaje les daría a los
+                        jóvenes y futuros docentes sobre
+                        la construcción de paz?
+
+                    </p>
+
+                </details>
+
+            </div>
+
+            <!-- COMPARACIÓN TEÓRICA Y COMUNITARIA -->
+
+            <h3>Teoría y percepción comunitaria</h3>
+
+            <p>
+
+                La siguiente matriz permitirá establecer
+                una comparación entre los fundamentos
+                teóricos de la paz territorial y las
+                percepciones obtenidas mediante
+                la entrevista comunitaria.
+
+            </p>
+
+            <div class="tabla-comparativa-paz">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Categoría</th>
+
+                            <th>Perspectiva teórica</th>
+
+                            <th>Percepción comunitaria</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Paz territorial</td>
+
+                            <td>
+                                Construcción colectiva de paz.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Participación</td>
+
+                            <td>
+                                Protagonismo comunitario
+                                en las decisiones.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Identidad cultural</td>
+
+                            <td>
+                                Reconocimiento y respeto
+                                de la diversidad cultural.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Territorio</td>
+
+                            <td>
+                                Espacio de vida,
+                                identidad y construcción social.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Convivencia</td>
+
+                            <td>
+                                Diálogo y resolución
+                                pacífica de conflictos.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Memoria</td>
+
+                            <td>
+                                Reconciliación y garantías
+                                de no repetición.
+                            </td>
+
+                            <td>
+                                Pendiente de entrevista.
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <!-- ANÁLISIS DE RESULTADOS -->
+
+            <h3>Análisis de la entrevista</h3>
+
+            <div class="analisis-comunitario">
+
+                <details>
+
+                    <summary>
+
+                        Semejanzas entre las perspectivas
+
+                    </summary>
+
+                    <p>
+
+                        Espacio reservado para identificar
+                        los puntos de encuentro entre
+                        los fundamentos teóricos y las
+                        percepciones de la comunidad.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        Diferencias entre las perspectivas
+
+                    </summary>
+
+                    <p>
+
+                        Espacio reservado para reconocer
+                        las particularidades culturales,
+                        territoriales y sociales que se
+                        identifiquen durante la entrevista.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        Nuestra reflexión académica
+
+                    </summary>
+
+                    <p>
+
+                        Espacio reservado para presentar
+                        nuestra interpretación, los
+                        aprendizajes y las reflexiones
+                        derivados del trabajo de campo.
+
+                    </p>
+
+                </details>
+
+            </div>
+
+            <div class="nota-etica">
+
+                <strong>
+
+                    Respeto por las voces del territorio
+
+                </strong>
+
+                <p>
+
+                    Las entrevistas serán incorporadas
+                    respetando el consentimiento informado,
+                    la dignidad, la identidad cultural
+                    y la privacidad de las personas
+                    participantes.
+
+                    La información será utilizada
+                    con fines académicos y únicamente
+                    conforme a las autorizaciones obtenidas.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    `
+},
 
     {
         titulo: "Conociendo nuestro territorio",
@@ -734,7 +1467,10 @@ function generarPagina(indice, posicion = "") {
 
     return `
 
-        <section class="pagina ${posicion} ${indice === 2 ? 'pagina-introduccion' : ''}">
+        <section class="pagina ${posicion}
+    ${indice === 2 ? 'pagina-introduccion' : ''}
+    ${indice === 3 ? 'pagina-paz-territorial' : ''}
+    ${indice === 4 ? 'pagina-paz-comunitaria' : ''}">
 
             ${contenido}
 
@@ -1429,3 +2165,102 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarPagina(false);
 
 });
+
+/* ==========================================
+   SEIS PILARES DE LA PAZ TERRITORIAL
+========================================== */
+
+const pilaresPaz = [
+
+    {
+        titulo: "Participación comunitaria",
+
+        descripcion:
+            "Reconoce a las comunidades como protagonistas " +
+            "de las decisiones y transformaciones de sus " +
+            "territorios, fortaleciendo la construcción " +
+            "colectiva de soluciones."
+    },
+
+    {
+        titulo: "Identidad y diversidad cultural",
+
+        descripcion:
+            "Respeta los conocimientos ancestrales, " +
+            "las tradiciones, las diferencias culturales " +
+            "y las formas propias de organización."
+    },
+
+    {
+        titulo: "Justicia social",
+
+        descripcion:
+            "Busca reducir las desigualdades, garantizar " +
+            "los derechos humanos y promover condiciones " +
+            "de vida dignas para todas las personas."
+    },
+
+    {
+        titulo: "Diálogo y reconciliación",
+
+        descripcion:
+            "Promueve la escucha activa, la solución " +
+            "pacífica de los conflictos, la construcción " +
+            "de acuerdos y la recuperación de la confianza."
+    },
+
+    {
+        titulo: "Protección del territorio",
+
+        descripcion:
+            "Reconoce la importancia de cuidar la naturaleza, " +
+            "el agua, los ecosistemas y los espacios donde " +
+            "se desarrolla la vida social, cultural " +
+            "y comunitaria."
+    },
+
+    {
+        titulo: "Memoria y no repetición",
+
+        descripcion:
+            "Permite reconocer y aprender de las experiencias " +
+            "del pasado para evitar nuevas situaciones " +
+            "de violencia y fortalecer la reconciliación."
+    }
+
+];
+
+
+function mostrarPilar(boton, indice) {
+
+    const diagrama = boton.closest(".diagrama-paz");
+
+    if (!diagrama || !pilaresPaz[indice]) {
+
+        return;
+
+    }
+
+    diagrama.querySelectorAll(".pilar").forEach(pilar => {
+
+        pilar.classList.remove("pilar-activo");
+
+        pilar.setAttribute("aria-pressed", "false");
+
+    });
+
+    boton.classList.add("pilar-activo");
+
+    boton.setAttribute("aria-pressed", "true");
+
+    const informacion = diagrama.querySelector(
+        ".informacion-pilar"
+    );
+
+    informacion.innerHTML =
+
+        "<h4>" + pilaresPaz[indice].titulo + "</h4>" +
+
+        "<p>" + pilaresPaz[indice].descripcion + "</p>";
+
+}
