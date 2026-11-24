@@ -378,41 +378,106 @@ function generarIndice() {
 
     let contenido = `
 
+        <small>
+            SEMBRANDO PAZ · 2026
+        </small>
+
         <h2>Índice interactivo</h2>
 
         <p>
-            Selecciona una sección para explorar
-            los contenidos de la cartilla.
+            Esta cartilla presenta una reflexión sobre la paz territorial
+            desde el Resguardo Indígena Kankuamo, articulando fundamentos
+            teóricos, trabajo de campo, voces comunitarias, construcción
+            de paz y actividades interactivas.
         </p>
 
-        <div class="indice">
+        <div class="tarjetas" style="margin-top: 25px;">
+
+            <div class="tarjeta">
+                <h3>Fundamentación</h3>
+                <div class="indice">
+                    <button onclick="irPagina(2)">
+                        3. Introducción
+                    </button>
+                    <button onclick="irPagina(3)">
+                        4. ¿Qué es la paz territorial?
+                    </button>
+                    <button onclick="irPagina(4)">
+                        5. La paz desde la mirada de la comunidad
+                    </button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Territorio y comunidad</h3>
+                <div class="indice">
+                    <button onclick="irPagina(5)">
+                        6. Conociendo nuestro territorio
+                    </button>
+                    <button onclick="irPagina(6)">
+                        7. Identidad y cultura de nuestro territorio
+                    </button>
+                    <button onclick="irPagina(7)">
+                        8. Conflictos que afectan la paz
+                    </button>
+                    <button onclick="irPagina(8)">
+                        9. Escuchando a nuestra comunidad
+                    </button>
+                    <button onclick="irPagina(9)">
+                        10. Análisis de las problemáticas
+                    </button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Instituciones y derechos</h3>
+                <div class="indice">
+                    <button onclick="irPagina(10)">
+                        11. Instituciones que construyen paz
+                    </button>
+                    <button onclick="irPagina(11)">
+                        12. Nuestra experiencia institucional
+                    </button>
+                    <button onclick="irPagina(12)">
+                        13. Derechos humanos y cultura de paz
+                    </button>
+                    <button onclick="irPagina(13)">
+                        14. Resolución pacífica de conflictos
+                    </button>
+                    <button onclick="irPagina(14)">
+                        15. Voces del territorio
+                    </button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Participación y cierre</h3>
+                <div class="indice">
+                    <button onclick="irPagina(15)">
+                        16. Aprendamos jugando
+                    </button>
+                    <button onclick="irPagina(16)">
+                        17. Retos para construir paz
+                    </button>
+                    <button onclick="irPagina(17)">
+                        18. Nuestros compromisos con la paz
+                    </button>
+                    <button onclick="irPagina(18)">
+                        19. Conclusiones
+                    </button>
+                    <button onclick="irPagina(19)">
+                        20. Referencias bibliográficas
+                    </button>
+                </div>
+            </div>
+
+        </div>
 
     `;
-
-    paginas.forEach((pagina, indice) => {
-
-        if (indice > 1) {
-
-            contenido += `
-
-                <button onclick="irPagina(${indice})">
-
-                    ${indice + 1}. ${pagina.titulo}
-
-                </button>
-
-            `;
-
-        }
-
-    });
-
-    contenido += "</div>";
 
     return contenido;
 
 }
-
 
 /* ==============================================
    6. GENERAR CONTENIDO DE UNA PÁGINA
