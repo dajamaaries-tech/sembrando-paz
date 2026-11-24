@@ -653,8 +653,8 @@ function cambiar(direccion) {
     });
 
     const selector = direccion > 0
-        ? ".pagina.derecha"
-        : ".pagina.izquierda";
+    ? ".pagina.izquierda"
+    : ".pagina.derecha";
 
     const hoja = libro.querySelector(selector)
         || libro.querySelector(".pagina");
