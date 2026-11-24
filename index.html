@@ -1,720 +1,320 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Sembrando Paz desde nuestro Territorio</title>
-
-<style>
-
-/* PALETA DE COLORES DEL TERRITORIO */
-
-:root {
-    --dorado: #d9b472;
-    --beige: #f1e2c2;
-    --gris: #8a8176;
-    --azulgris: #697487;
-    --verdeoscuro: #1f2b1d;
-    --verdeoliva: #4a5a2f;
-    --tierra: #5c4732;
-    --blanco-suave: rgba(255,255,255,0.88);
-    --sombra: rgba(0,0,0,0.28);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* FONDO PRINCIPAL */
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: var(--verdeoscuro);
-    background-color: #30382a;
-
-    background-image:
-        linear-gradient(
-            rgba(20,20,20,0.25),
-            rgba(20,20,20,0.25)
-        ),
-        url('imagenesfondo-territorio.jpeg');
-
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    min-height: 100vh;
-}
-
-/* ENCABEZADO */
-
-header {
-    background: rgba(31,43,29,0.82);
-    backdrop-filter: blur(4px);
-    color: white;
-    padding: 15px 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-header strong {
-    letter-spacing: 1px;
-    font-size: 15px;
-    text-align: center;
-}
-
-/* BOTONES */
-
-button {
-    border: none;
-    padding: 12px 18px;
-    border-radius: 10px;
-    background: var(--verdeoscuro);
-    color: white;
-    cursor: pointer;
-    font-size: 15px;
-    transition: 0.25s ease;
-}
-
-button:hover {
-    background: var(--verdeoliva);
-    transform: translateY(-1px);
-}
-
-button:focus-visible {
-    outline: 3px solid var(--dorado);
-    outline-offset: 3px;
-}
-
-button:disabled {
-    opacity: 0.45;
-    cursor: default;
-    transform: none;
-}
-
-header button {
-    background: rgba(255,255,255,0.10);
-    border: 1px solid rgba(255,255,255,0.25);
-}
-
-/* CONTENEDOR PRINCIPAL */
-
-.contenedor {
-    max-width: 1100px;
-    margin: 30px auto;
-    padding: 18px;
-}
-
-/* DISEÑO DE LAS PÁGINAS */
-
-.libro {
-    min-height: 600px;
-    background: var(--blanco-suave);
-    backdrop-filter: blur(5px);
-    border-radius: 18px;
-    padding: 50px;
-    box-shadow: 0 14px 40px var(--sombra);
-    border: 1px solid rgba(255,255,255,0.4);
-    animation: aparecer 0.4s ease;
-}
-
-/* ANIMACIÓN ENTRE PÁGINAS */
-
-@keyframes aparecer {
-
-    from {
-        opacity: 0;
-        transform: translateX(15px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-}
-
-/* PORTADA */
-
-.portada {
-    text-align: center;
-    padding-top: 40px;
-}
-
-.portada h1 {
-    font-family: Georgia, serif;
-    font-size: clamp(34px, 6vw, 64px);
-    line-height: 1.15;
-    color: var(--verdeoscuro);
-    margin-bottom: 20px;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-}
-
-.portada .frase {
-    font-size: 21px;
-    color: var(--tierra);
-    max-width: 700px;
-    margin: 0 auto 20px;
-    line-height: 1.7;
-}
-
-.simbolo {
-    font-size: 72px;
-    margin-bottom: 10px;
-}
-
-.etiqueta {
-    display: inline-block;
-    background: rgba(217,180,114,0.22);
-    color: var(--verdeoscuro);
-    padding: 10px 16px;
-    border-radius: 999px;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    margin-bottom: 18px;
-}
-
-/* TÍTULOS Y TEXTOS */
-
-h2 {
-    font-family: Georgia, serif;
-    font-size: 34px;
-    color: var(--verdeoscuro);
-    margin-top: 0;
-    border-bottom: 3px solid var(--dorado);
-    padding-bottom: 12px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #2d342a;
-}
-
-/* ÍNDICE INTERACTIVO */
-
-.indice button {
-    display: block;
-    width: 100%;
-    margin: 8px 0;
-    text-align: left;
-    background: rgba(255,255,255,0.82);
-    color: var(--verdeoscuro);
-    border: 1px solid rgba(105,116,135,0.15);
-}
-
-.indice button:hover {
-    background: rgba(217,180,114,0.18);
-}
-
-/* NAVEGACIÓN */
-
-.navegacion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 18px;
-    gap: 10px;
-    background: rgba(255,255,255,0.75);
-    backdrop-filter: blur(4px);
-    padding: 15px 18px;
-    border-radius: 14px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-}
-
-/* CONTADOR DE PÁGINAS */
-
-#contador {
-    color: white;
-    background: rgba(31,43,29,0.82);
-    padding: 10px 16px;
-    border-radius: 999px;
-    font-size: 15px;
-    white-space: nowrap;
-}
-
-/* BARRA DE PROGRESO */
-
-.progreso {
-    margin-top: 18px;
-    height: 10px;
-    background: rgba(255,255,255,0.55);
-    border-radius: 999px;
-    overflow: hidden;
-    box-shadow: inset 0 1px 4px rgba(0,0,0,0.08);
-}
-
-.barra {
-    height: 100%;
-    background: linear-gradient(
-        90deg,
-        var(--dorado),
-        var(--verdeoliva)
-    );
-    transition: width 0.35s ease;
-}
-
-/* PIE DE PÁGINA */
-
-footer {
-    text-align: center;
-    color: white;
-    background: rgba(31,43,29,0.75);
-    padding: 18px;
-    margin-top: 25px;
-    font-size: 13px;
-    backdrop-filter: blur(3px);
-}
-
-/* IMÁGENES Y VIDEOS */
-
-.libro img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
-
-.libro iframe {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 12px;
-}
-
-.libro video {
-    width: 100%;
-    border-radius: 12px;
-}
-
-/* ADAPTACIÓN A CELULARES */
-
-@media (max-width: 768px) {
-
-    .contenedor {
-        margin: 10px auto;
-        padding: 12px;
-    }
-
-    .libro {
-        padding: 28px;
-        min-height: 500px;
-    }
-
-    .portada {
-        padding-top: 15px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    button {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    header strong {
-        font-size: 12px;
-    }
-
-    .navegacion {
-        padding: 10px;
-        gap: 5px;
-    }
-
-    #contador {
-        font-size: 12px;
-        padding: 8px;
-    }
-
-    body {
-        background-attachment: scroll;
-    }
-
-}
-
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation: none !important;
-        transition: none !important;
-        scroll-behavior: auto !important;
-    }
-}
-
-</style>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Cartilla digital interactiva sobre paz territorial,
+          derechos humanos, convivencia y construcción de paz.">
+
+    <meta name="author"
+          content="Proyecto académico - Cátedra de la Paz">
+
+    <meta name="theme-color" content="#20251C">
+
+    <title>
+        Sembrando Paz desde nuestro Territorio
+    </title>
+
+    <!-- CONEXIÓN CON EL ARCHIVO DE DISEÑO -->
+
+    <link rel="stylesheet" href="./estilos.css">
+
+    <!-- CONEXIÓN CON EL ARCHIVO DE PROGRAMACIÓN -->
+
+    <script src="./script.js" defer></script>
+
+    <style>
+
+        .herramientas {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 12px;
+            background: rgba(32, 37, 28, 0.75);
+            border-bottom: 1px solid rgba(233,205,145,0.25);
+        }
+
+        .herramientas button {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(233,205,145,0.35);
+            color: #F5E6C9;
+        }
+
+        .herramientas button:hover {
+            background: #495126;
+        }
+
+        #zoom {
+            color: #E9CD91;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+        .escenario-libro {
+            overflow: auto;
+            padding: 12px;
+        }
+
+        .credito {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 768px) {
+
+            .herramientas {
+                padding: 8px;
+                gap: 5px;
+            }
+
+            .herramientas button {
+                font-size: 11px;
+                padding: 8px 10px;
+            }
+
+            .escenario-libro {
+                padding: 5px;
+            }
+
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-<!-- ENCABEZADO -->
+    <!-- ===================================
+         ENCABEZADO PRINCIPAL
+    ==================================== -->
 
-<header>
+    <header>
 
-    <button onclick="irPagina(1)">
-        ☰ Índice
-    </button>
+        <button type="button"
+                onclick="irPagina(1)"
+                aria-label="Abrir índice">
 
-    <strong>SEMBRANDO PAZ</strong>
+            ☰ Índice
 
-    <button onclick="irPagina(0)">
-        ⌂ Inicio
-    </button>
-
-</header>
-
-<!-- CARTILLA DIGITAL -->
-
-<main class="contenedor">
-
-    <article id="libro" class="libro"></article>
-
-    <!-- BOTONES DE NAVEGACIÓN -->
-
-    <div class="navegacion">
-
-        <button id="anterior" onclick="cambiar(-1)">
-            ◀ Anterior
         </button>
 
-        <strong id="contador" aria-live="polite"></strong>
+        <strong>
+            SEMBRANDO PAZ
+        </strong>
 
-        <button id="siguiente" onclick="cambiar(1)">
-            Siguiente ▶
+        <button type="button"
+                onclick="irPagina(0)"
+                aria-label="Regresar a la portada">
+
+            ⌂ Inicio
+
         </button>
 
-    </div>
+    </header>
 
-    <!-- BARRA DE PROGRESO -->
 
-    <div class="progreso">
+    <!-- ===================================
+         HERRAMIENTAS DEL LIBRO DIGITAL
+    ==================================== -->
 
-        <div class="barra" id="barra"></div>
+    <nav class="herramientas"
+         aria-label="Herramientas de lectura">
 
-    </div>
+        <button type="button"
+                onclick="pantallaCompleta()"
+                title="Activar pantalla completa">
 
-</main>
+            ⛶ Pantalla completa
 
-<!-- PIE DE PÁGINA -->
+        </button>
 
-<footer>
+        <button type="button"
+                onclick="disminuirZoom()"
+                title="Disminuir tamaño">
 
-    Sembrando Paz desde nuestro Territorio
-    |
-    Cátedra de la Paz 2026
+            −
 
-</footer>
+        </button>
 
-<script>
+        <span id="zoom" aria-live="polite">
 
-/* TÍTULOS DE LAS 20 PÁGINAS */
+            100%
 
-const titulos = [
+        </span>
 
-    "Portada",
+        <button type="button"
+                onclick="aumentarZoom()"
+                title="Aumentar tamaño">
 
-    "Índice interactivo",
+            +
 
-    "Introducción",
+        </button>
 
-    "¿Qué es la paz territorial?",
+        <button type="button"
+                onclick="restaurarZoom()">
 
-    "La paz desde la mirada de la comunidad",
+            Restablecer zoom
 
-    "Conociendo nuestro territorio",
+        </button>
 
-    "Identidad y cultura de nuestro territorio",
+        <button type="button"
+                id="sonido"
+                onclick="activarSonido()"
+                aria-pressed="false">
 
-    "Conflictos que afectan la paz",
+            🔇 Sonido
 
-    "Escuchando a nuestra comunidad",
+        </button>
 
-    "Análisis de las problemáticas",
+    </nav>
 
-    "Instituciones que construyen paz",
 
-    "Nuestra experiencia institucional",
+    <!-- ===================================
+         CONTENEDOR PRINCIPAL
+    ==================================== -->
 
-    "Derechos humanos y cultura de paz",
+    <main class="contenedor">
 
-    "Resolución pacífica de conflictos",
 
-    "Voces del territorio",
+        <!-- LIBRO DIGITAL -->
 
-    "Aprendamos jugando",
+        <div class="escenario-libro">
 
-    "Retos para construir paz",
+            <article id="libro"
+                     class="libro"
+                     aria-label="Cartilla digital interactiva">
 
-    "Nuestros compromisos con la paz",
+                <p>Cargando cartilla digital...</p>
 
-    "Conclusiones",
+            </article>
 
-    "Referencias bibliográficas"
+        </div>
 
-];
 
-/* CONTENIDO INICIAL DE LAS PÁGINAS */
+        <!-- ===================================
+             NAVEGACIÓN ENTRE PÁGINAS
+        ==================================== -->
 
-const contenidos = [
+        <nav class="navegacion"
+             aria-label="Navegación de páginas">
 
-    "",
+            <button type="button"
+                    onclick="irPagina(0)"
+                    title="Primera página">
 
-    "",
+                ⏮
 
-    "Aquí construiremos la introducción.",
+            </button>
 
-    "Aquí desarrollaremos el concepto de paz territorial.",
+            <button type="button"
+                    id="anterior"
+                    onclick="cambiar(-1)">
 
-    "Aquí incorporaremos las percepciones de la comunidad.",
+                ◀ Anterior
 
-    "Aquí presentaremos el territorio seleccionado.",
+            </button>
 
-    "Aquí describiremos su identidad y características culturales.",
+            <strong id="contador"
+                    aria-live="polite">
 
-    "Aquí identificaremos los conflictos y problemáticas.",
+                1 / 20
 
-    "Aquí incorporaremos los dos testimonios en video.",
+            </strong>
 
-    "Aquí analizaremos los resultados del trabajo de campo.",
+            <button type="button"
+                    id="siguiente"
+                    onclick="cambiar(1)">
 
-    "Aquí presentaremos la institución visitada.",
+                Siguiente ▶
 
-    "Aquí incorporaremos el video de la visita institucional.",
+            </button>
 
-    "Aquí desarrollaremos los derechos humanos y la cultura de paz.",
+            <button type="button"
+                    onclick="irPagina(19)"
+                    title="Última página">
 
-    "Aquí presentaremos estrategias de diálogo, mediación y resolución pacífica de conflictos.",
+                ⏭
 
-    "Aquí compartiremos las voces de la comunidad.",
+            </button>
 
-    "Aquí incorporaremos sopas de letras y crucigramas interactivos.",
+        </nav>
 
-    "Aquí desarrollaremos juegos y retos interactivos.",
 
-    "Aquí escribiremos nuestros compromisos individuales y colectivos.",
+        <!-- ===================================
+             BARRA DE PROGRESO
+        ==================================== -->
 
-    "Aquí presentaremos las conclusiones.",
+        <div class="progreso"
+             aria-label="Progreso de lectura">
 
-    "Aquí incorporaremos las referencias bibliográficas en normas APA, séptima edición."
-
-];
-
-/* PÁGINA INICIAL */
-
-let pagina = 0;
-
-/* FUNCIÓN PRINCIPAL */
-
-function mostrarPagina() {
-
-    const libro = document.getElementById("libro");
-
-    /* PORTADA */
-
-    if (pagina === 0) {
-
-        libro.innerHTML = `
-
-            <div class="portada">
-
-                <div class="etiqueta">
-                    CÁTEDRA DE LA PAZ · 2026
-                </div>
-
-                <div class="simbolo">🌄</div>
-
-                <h1>
-                    Sembrando Paz desde nuestro Territorio
-                </h1>
-
-                <p class="frase">
-                    Una cartilla interactiva para comprender
-                    la paz territorial desde las voces,
-                    experiencias y realidades de la comunidad.
-                </p>
-
-                <p>
-                    <strong>
-                        Trabajo de campo · Investigación
-                        comunitaria · Producción digital
-                    </strong>
-                </p>
-
-                <button onclick="irPagina(1)">
-                    Comenzar lectura ▶
-                </button>
+            <div class="barra"
+                 id="barra">
 
             </div>
 
-        `;
+        </div>
 
-    }
 
-    /* ÍNDICE INTERACTIVO */
+    </main>
 
-    else if (pagina === 1) {
 
-        let indice = `
-            <h2>Índice interactivo</h2>
+    <!-- ===================================
+         PIE DE PÁGINA
+    ==================================== -->
 
-            <p>
-                Selecciona una sección para navegar
-                directamente por la cartilla.
-            </p>
+    <footer>
 
-            <div class="indice">
-        `;
+        <div>
 
-        titulos.forEach((titulo, i) => {
+            <strong>
+                Sembrando Paz desde nuestro Territorio
+            </strong>
 
-            if (i > 1) {
+        </div>
 
-                indice += `
+        <div style="margin-top:8px;">
 
-                    <button onclick="irPagina(${i})">
+            Cátedra de la Paz · 2026
 
-                        ${i + 1}. ${titulo}
+        </div>
 
-                    </button>
+        <div class="credito">
 
-                `;
+            Trabajo de campo · Investigación comunitaria
+            · Producción digital
 
-            }
+        </div>
 
-        });
+    </footer>
 
-        indice += "</div>";
 
-        libro.innerHTML = indice;
+    <!-- MENSAJE SI JAVASCRIPT ESTÁ DESACTIVADO -->
 
-    }
+    <noscript>
 
-    /* PÁGINAS DE CONTENIDO */
+        <p style="
+            background:#ffffff;
+            color:#20251C;
+            padding:20px;
+            text-align:center;
+        ">
 
-    else {
+            Para visualizar correctamente esta cartilla,
+            debes activar JavaScript en tu navegador.
 
-        libro.innerHTML = `
+        </p>
 
-            <small style="color:#5c4732;">
-
-                <strong>
-                    SEMBRANDO PAZ · 2026
-                </strong>
-
-            </small>
-
-            <h2>${titulos[pagina]}</h2>
-
-            <p>${contenidos[pagina]}</p>
-
-        `;
-
-    }
-
-    /* ACTUALIZAR CONTADOR */
-
-    document.getElementById("contador").textContent =
-
-        (pagina + 1) + " / " + titulos.length;
-
-    /* ACTUALIZAR BARRA DE PROGRESO */
-
-    document.getElementById("barra").style.width =
-
-        ((pagina + 1) / titulos.length * 100) + "%";
-
-    /* CONTROLAR BOTONES */
-
-    document.getElementById("anterior").disabled =
-
-        pagina === 0;
-
-    document.getElementById("siguiente").disabled =
-
-        pagina === titulos.length - 1;
-
-    /* ACTIVAR ANIMACIÓN */
-
-    libro.style.animation = "none";
-
-    void libro.offsetWidth;
-
-    libro.style.animation = "aparecer 0.4s ease";
-
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-
-}
-
-/* IR A UNA PÁGINA ESPECÍFICA */
-
-function irPagina(numero) {
-
-    pagina = Math.max(
-
-        0,
-
-        Math.min(titulos.length - 1, numero)
-
-    );
-
-    mostrarPagina();
-
-}
-
-/* AVANZAR O RETROCEDER */
-
-function cambiar(direccion) {
-
-    irPagina(pagina + direccion);
-
-}
-
-/* NAVEGACIÓN CON EL TECLADO */
-
-document.addEventListener("keydown", function(evento) {
-
-    if (evento.target.matches("input, textarea, select, [contenteditable]")) {
-        return;
-    }
-
-    if (evento.key === "ArrowRight") {
-
-        cambiar(1);
-
-    }
-
-    if (evento.key === "ArrowLeft") {
-
-        cambiar(-1);
-
-    }
-
-});
-
-/* INICIAR CARTILLA */
-
-mostrarPagina();
-
-</script>
+    </noscript>
 
 </body>
 
