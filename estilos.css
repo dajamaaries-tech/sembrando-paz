@@ -828,3 +828,21 @@ footer {
         animation: none;
     }
 }
+/* MANTENER EL LIBRO COMPLETAMENTE FIJO */
+
+#libro,
+#libro.animar-pagina,
+.escenario-libro {
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+#libro {
+    perspective: 2500px;
+}
+
+#libro .pagina {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
