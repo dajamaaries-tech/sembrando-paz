@@ -305,6 +305,8 @@ function generarPortada() {
                 CÁTEDRA DE LA PAZ · 2026
             </div>
 
+            <div class="simbolo">🌱</div>
+
             <h1>
                 Sembrando Paz<br>
                 desde nuestro<br>
@@ -312,21 +314,54 @@ function generarPortada() {
             </h1>
 
             <p class="frase">
-
-                Construyendo caminos de diálogo,
-                memoria, convivencia y esperanza
-                desde las voces de nuestro territorio.
-
+                Una propuesta académica para comprender la paz territorial
+                desde la memoria, la convivencia, los derechos humanos
+                y las voces de la comunidad.
             </p>
 
-            <p>
-                Cartilla digital interactiva
-            </p>
+            <div style="
+                max-width: 850px;
+                margin: 25px auto 0;
+                background: rgba(255,255,255,0.10);
+                border: 1px solid rgba(255,255,255,0.25);
+                border-radius: 10px;
+                padding: 22px;
+                color: #F7E8CD;
+                line-height: 1.8;
+                font-size: 16px;
+                text-align: left;
+                backdrop-filter: blur(4px);
+            ">
 
-            <button onclick="irPagina(1)">
+                <p style="margin-top:0;">
+                    <strong>Cartilla digital interactiva</strong>
+                </p>
 
+                <p>
+                    <strong>Asignatura:</strong> Cátedra de la Paz<br>
+                    <strong>Institución:</strong> Universidad Popular del Cesar<br>
+                    <strong>Programa:</strong> Licenciatura en Matemáticas<br>
+                    <strong>Comunidad seleccionada:</strong> Resguardo Indígena Kankuamo<br>
+                    <strong>Docente:</strong> Yonaidis Ibarra<br>
+                    <strong>Año:</strong> 2026
+                </p>
+
+                <p style="margin-bottom: 8px;">
+                    <strong>Integrantes:</strong>
+                </p>
+
+                <p style="margin-top:0; margin-bottom:0;">
+                    DAYANA MICHEL ESCOBAR MARTÍNEZ<br>
+                    JOSE MIGUEL MEZA ANDARA<br>
+                    JHONATAN DAVID VERDECIA JIMÉNEZ<br>
+                    BRIANA PICÓN LENGUA<br>
+                    CARLOS ANDRÉS TORRES ROJAS
+                </p>
+
+            </div>
+
+            <button onclick="irPagina(1)" style="margin-top: 28px;">
                 Explorar cartilla ▶
-
             </button>
 
         </div>
@@ -334,7 +369,6 @@ function generarPortada() {
     `;
 
 }
-
 
 /* ==============================================
    5. GENERAR ÍNDICE INTERACTIVO
