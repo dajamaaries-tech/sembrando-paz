@@ -1164,3 +1164,185 @@ footer {
     }
 
 }
+
+/* ==========================================
+   PÁGINA 3 - FONDO COMPLETO DE LA CASCADA
+========================================== */
+
+#libro .pagina.pagina-introduccion {
+
+    background-color: #20352A;
+
+    background-image:
+        linear-gradient(
+            rgba(15, 28, 20, 0.55),
+            rgba(15, 28, 20, 0.70)
+        ),
+        url("./introducción-cascada.png.jpeg");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    color: #FFFFFF;
+}
+
+/* OCULTAR LA FOTOGRAFÍA PEQUEÑA */
+
+.pagina-introduccion .foto-introduccion {
+    display: none;
+}
+
+/* TÍTULO PRINCIPAL */
+
+.pagina-introduccion h2 {
+    color: #FFF4D8;
+    border-bottom: 2px solid #E9CD91;
+    font-family: Georgia, serif;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+/* ENCABEZADO */
+
+.pagina-introduccion small {
+    color: #E9CD91;
+    letter-spacing: 1.5px;
+}
+
+/* CONTENIDO */
+
+.pagina-introduccion .introduccion {
+    width: 100%;
+    position: relative;
+}
+
+/* TEXTO DE LA INTRODUCCIÓN */
+
+.pagina-introduccion .texto-introduccion {
+    color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.85);
+}
+
+/* LETRA CAPITAL */
+
+.pagina-introduccion
+.texto-introduccion:first-of-type:first-letter {
+
+    color: #E9CD91;
+    font-size: 52px;
+}
+
+/* FRASE REFLEXIVA */
+
+.pagina-introduccion .frase-paz {
+
+    background: rgba(0,0,0,0.25);
+
+    border-left: 3px solid #E9CD91;
+    border-radius: 0 6px 6px 0;
+
+    color: #FFF4D8;
+
+    padding: 18px;
+
+    font-size: 19px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* TÍTULO DE LAS ACTIVIDADES */
+
+.pagina-introduccion .titulo-explorar {
+    color: #E9CD91;
+    border-bottom: 1px solid #E9CD91;
+}
+
+/* INSTRUCCIONES */
+
+.pagina-introduccion .instruccion-introduccion {
+    color: #FFFFFF;
+}
+
+/* BOTONES INTERACTIVOS */
+
+.pagina-introduccion
+.explorar-introduccion details {
+
+    background: rgba(15,28,20,0.80);
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 8px;
+}
+
+.pagina-introduccion
+.explorar-introduccion summary {
+
+    color: #FFF4D8;
+    background: rgba(255,255,255,0.08);
+}
+
+.pagina-introduccion
+.explorar-introduccion summary:hover {
+
+    background: rgba(233,205,145,0.25);
+}
+
+.pagina-introduccion
+.explorar-introduccion summary::after {
+
+    color: #E9CD91;
+}
+
+.pagina-introduccion
+.explorar-introduccion details[open] summary {
+
+    background: #495126;
+    color: #FFFFFF;
+}
+
+.pagina-introduccion
+.explorar-introduccion details p {
+
+    color: #FFFFFF;
+}
+
+/* REFLEXIÓN FINAL */
+
+.pagina-introduccion
+.reflexion-introduccion {
+
+    background: rgba(15,28,20,0.80);
+
+    border: 1px solid #E9CD91;
+
+    color: #E9CD91;
+}
+
+.pagina-introduccion
+.reflexion-introduccion p {
+
+    color: #FFFFFF;
+}
+
+/* NÚMERO DE LA PÁGINA */
+
+.pagina-introduccion .numero-pagina {
+    color: #FFF4D8;
+}
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .pagina-introduccion .texto-introduccion {
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+}
