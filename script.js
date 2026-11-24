@@ -22,15 +22,234 @@ const paginas = [
         contenido: ""
     },
 
-    {
-        titulo: "Introducción",
-        contenido: `
-            <p>
-                Espacio destinado a la introducción
-                de nuestra cartilla digital.
+   
+{
+    titulo: "Introducción",
+
+    contenido: `
+
+        <div class="introduccion">
+
+            <figure class="foto-introduccion">
+
+                <img
+                    src="introduccion-cascada.png"
+                    alt="Cascada rodeada de vegetación y formaciones rocosas"
+                    loading="lazy"
+                >
+
+                <figcaption>
+                    Naturaleza, territorio y vida.
+                </figcaption>
+
+            </figure>
+
+            <blockquote class="frase-paz">
+
+                La paz se siembra en el territorio,
+                se fortalece en la comunidad y se
+                cultiva mediante el respeto.
+
+            </blockquote>
+
+            <p class="texto-introduccion">
+
+                La construcción de una cultura de paz
+                comienza en los territorios, en las relaciones
+                que establecemos con los demás y en la manera
+                como reconocemos y respetamos nuestras diferencias.
+
+                La paz no significa únicamente la ausencia
+                de violencia, sino también la posibilidad de
+                vivir con dignidad, fortalecer la convivencia,
+                proteger los derechos humanos y construir
+                soluciones colectivas mediante el diálogo,
+                el respeto y la participación comunitaria.
+
             </p>
-        `
-    },
+
+            <p class="texto-introduccion">
+
+                La presente cartilla digital interactiva,
+                titulada <strong>Sembrando Paz desde nuestro
+                Territorio</strong>, tiene como propósito
+                comprender la importancia de la paz territorial
+                a partir de las experiencias, conocimientos
+                y realidades sociales de las comunidades.
+
+                Asimismo, busca generar espacios de reflexión
+                y aprendizaje que permitan reconocer las
+                problemáticas que afectan la convivencia
+                y promover acciones orientadas a la construcción
+                de una sociedad más justa, incluyente y solidaria.
+
+            </p>
+
+            <p class="texto-introduccion">
+
+                Para el desarrollo de esta propuesta se seleccionó
+                el <strong>Resguardo Indígena Kankuamo</strong>,
+                ubicado en la Sierra Nevada de Santa Marta,
+                reconociendo la importancia de su identidad cultural,
+                sus conocimientos ancestrales, sus formas de
+                organización propia y su relación con el territorio.
+
+                Desde esta perspectiva, la construcción de paz
+                implica también fortalecer la memoria colectiva,
+                respetar los usos y costumbres, reconocer la
+                diversidad cultural y proteger el territorio
+                como espacio de vida y encuentro comunitario.
+
+            </p>
+
+            <p class="texto-introduccion">
+
+                La metodología propuesta tiene un enfoque
+                cualitativo y descriptivo, mediante la revisión
+                de documentos, el acercamiento comunitario,
+                la observación directa, las entrevistas a
+                integrantes de la comunidad y la visita a una
+                institución vinculada con la construcción de paz.
+
+                Estas actividades permitirán relacionar los
+                fundamentos teóricos de la asignatura Cátedra
+                de la Paz con las experiencias y percepciones
+                de la población seleccionada.
+
+            </p>
+
+            <p class="texto-introduccion">
+
+                Como estudiantes de Licenciatura en Matemáticas
+                de la Universidad Popular del Cesar y futuros
+                docentes, reconocemos nuestra responsabilidad
+                en la formación de ciudadanos capaces de convivir,
+                dialogar, respetar las diferencias y contribuir
+                a la transformación de sus realidades.
+
+                Por ello, esta cartilla integra contenidos
+                académicos, testimonios, recursos audiovisuales
+                y actividades interactivas como herramientas
+                pedagógicas para sembrar paz desde nuestros
+                territorios.
+
+            </p>
+
+            <div style="clear:both;"></div>
+
+            <h3 class="titulo-explorar">
+
+                Explora los fundamentos de nuestra cartilla
+
+            </h3>
+
+            <p class="instruccion-introduccion">
+
+                Presiona cada elemento para ampliar
+                la información.
+
+            </p>
+
+            <div class="explorar-introduccion">
+
+                <details>
+
+                    <summary>
+
+                        🕊️ Cultura de paz
+
+                    </summary>
+
+                    <p>
+
+                        Promueve el respeto, la convivencia,
+                        la dignidad humana, el diálogo y la
+                        resolución pacífica de los conflictos.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        🎯 Nuestro propósito
+
+                    </summary>
+
+                    <p>
+
+                        Comprender la paz territorial,
+                        reconocer las problemáticas comunitarias
+                        y promover acciones que contribuyan
+                        a la construcción colectiva de paz.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        ⛰️ Nuestra comunidad
+
+                    </summary>
+
+                    <p>
+
+                        Resguardo Indígena Kankuamo,
+                        Sierra Nevada de Santa Marta.
+                        Reconocemos su identidad cultural,
+                        memoria colectiva, organización propia
+                        y relación ancestral con el territorio.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        📋 Metodología
+
+                    </summary>
+
+                    <p>
+
+                        Enfoque cualitativo y descriptivo,
+                        revisión documental, observación directa,
+                        entrevistas comunitarias, visita
+                        institucional y producción digital.
+
+                    </p>
+
+                </details>
+
+            </div>
+
+            <div class="reflexion-introduccion">
+
+                <strong>Sembrando paz desde la educación</strong>
+
+                <p>
+
+                    Como futuros docentes, tenemos el compromiso
+                    de promover espacios educativos donde
+                    el respeto, la inclusión y el diálogo
+                    contribuyan a transformar nuestras realidades.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    `
+},
+
 
     {
         titulo: "¿Qué es la paz territorial?",
