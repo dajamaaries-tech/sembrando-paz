@@ -485,15 +485,21 @@ function mostrarPagina(animar = true) {
 
     }
 
-    if (animar) {
+  
+if (animar && paginaActual > 0) {
 
-        libro.classList.remove("animar-pagina");
+    const hoja = libro.querySelector(
+        ".pagina.derecha"
+    ) || libro.querySelector(".pagina");
 
-        void libro.offsetWidth;
+    if (hoja) {
 
-        libro.classList.add("animar-pagina");
+        hoja.classList.add("hoja-siguiente");
 
     }
+
+}
+
 
     libro.style.zoom = nivelZoom / 100;
 
@@ -600,33 +606,70 @@ function irPagina(numero) {
    10. AVANZAR Y RETROCEDER
 ============================================== */
 
+
 function cambiar(direccion) {
+
+    if (direccion > 0 &&
+        document.getElementById("siguiente").disabled) {
+        return;
+    }
+
+    if (direccion < 0 &&
+        paginaActual === 0) {
+        return;
+    }
 
     if (esPantallaPequena()) {
 
         irPagina(paginaActual + direccion);
 
-        return;
-
-    }
-
-    if (paginaActual === 0 && direccion > 0) {
+    } else if (paginaActual === 0 && direccion > 0) {
 
         irPagina(1);
 
-        return;
-
-    }
-
-    if (paginaActual === 1 && direccion < 0) {
+    } else if (paginaActual === 1 && direccion < 0) {
 
         irPagina(0);
 
-        return;
+    } else {
+
+        irPagina(paginaActual + direccion * 2);
 
     }
 
-    irPagina(paginaActual + direccion * 2);
+    if (paginaActual === 0) {
+        return;
+    }
+
+    const libro = document.getElementById("libro");
+
+    libro.querySelectorAll(".pagina").forEach(hoja => {
+
+        hoja.classList.remove(
+            "hoja-siguiente",
+            "hoja-anterior"
+        );
+
+    });
+
+    const selector = direccion > 0
+        ? ".pagina.derecha"
+        : ".pagina.izquierda";
+
+    const hoja = libro.querySelector(selector)
+        || libro.querySelector(".pagina");
+
+    if (hoja) {
+
+        void hoja.offsetWidth;
+
+        hoja.classList.add(
+            direccion > 0
+                ? "hoja-siguiente"
+                : "hoja-anterior"
+        );
+
+    }
 
 }
 
