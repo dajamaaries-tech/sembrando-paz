@@ -734,7 +734,7 @@ function generarPagina(indice, posicion = "") {
 
     return `
 
-        <section class="pagina ${posicion}">
+        <section class="pagina ${posicion} ${indice === 2 ? 'pagina-introduccion' : ''}">
 
             ${contenido}
 
