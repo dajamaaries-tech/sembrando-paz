@@ -1346,3 +1346,58 @@ footer {
     }
 
 }
+
+/* ==========================================
+   FONDO DEFINITIVO DE LA INTRODUCCIÓN
+========================================== */
+
+#libro .pagina.pagina-introduccion {
+
+    background-color: #20352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.40),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("./cascada.jpeg") !important;
+
+    background-size: cover !important;
+
+    background-position: center center !important;
+
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* MEJORAR LA LEGIBILIDAD DEL TEXTO */
+
+#libro .pagina-introduccion
+.texto-introduccion {
+
+    color: #FFFFFF;
+
+    font-weight: normal;
+
+    text-shadow: 0 1px 4px rgba(0,0,0,0.9);
+
+}
+
+/* FRASE REFLEXIVA */
+
+#libro .pagina-introduccion .frase-paz {
+
+    background: rgba(0,0,0,0.30);
+
+    color: #FFF4D8;
+
+}
+
+/* OCULTAR LA IMAGEN PEQUEÑA ANTERIOR */
+
+#libro .pagina-introduccion .foto-introduccion {
+
+    display: none !important;
+
+}
