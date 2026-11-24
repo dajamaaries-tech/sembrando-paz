@@ -926,3 +926,241 @@ footer {
     }
 
 }
+
+/* ==========================================
+   PÁGINA 3 - INTRODUCCIÓN
+========================================== */
+
+.introduccion {
+    position: relative;
+    display: flow-root;
+}
+
+/* FOTOGRAFÍA DE LA CASCADA */
+
+.foto-introduccion {
+    float: right;
+    width: 43%;
+    margin: 0 0 20px 20px;
+}
+
+.foto-introduccion img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.18);
+}
+
+.foto-introduccion figcaption {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    color: #8A8176;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* FRASE REFLEXIVA */
+
+.frase-paz {
+    margin: 0 0 20px;
+    padding: 15px 12px;
+
+    border-left: 3px solid #BD965E;
+
+    color: #495126;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+/* TEXTO PRINCIPAL */
+
+.introduccion .texto-introduccion {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 16px;
+    color: #292A24;
+}
+
+/* LETRA CAPITAL */
+
+.introduccion .texto-introduccion:first-of-type:first-letter {
+    float: left;
+    font-size: 52px;
+    line-height: 0.9;
+    padding-right: 7px;
+    padding-top: 5px;
+    color: #495126;
+}
+
+/* SECCIÓN INTERACTIVA */
+
+.titulo-explorar {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BD965E;
+
+    font-family: Georgia, serif;
+    color: #495126;
+    font-size: 22px;
+}
+
+.instruccion-introduccion {
+    color: #8A8176;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* CUATRO ELEMENTOS INTERACTIVOS */
+
+.explorar-introduccion {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.explorar-introduccion details {
+    background: #E9E0CE;
+    border: 1px solid #BD965E;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.explorar-introduccion summary {
+    padding: 16px 12px;
+
+    font-weight: bold;
+    font-size: 14px;
+    color: #20251C;
+
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+
+    transition: background 0.3s;
+}
+
+.explorar-introduccion summary::-webkit-details-marker {
+    display: none;
+}
+
+.explorar-introduccion summary::after {
+    content: "+";
+    position: absolute;
+    right: 12px;
+    color: #495126;
+}
+
+.explorar-introduccion details[open] summary::after {
+    content: "−";
+    color: #E9CD91;
+}
+
+.explorar-introduccion summary:hover {
+    background: #E9CD91;
+}
+
+.explorar-introduccion summary:focus-visible {
+    outline: 2px solid #495126;
+    outline-offset: -3px;
+}
+
+.explorar-introduccion details[open] summary {
+    background: #495126;
+    color: #FFFFFF;
+}
+
+.explorar-introduccion details p {
+    padding: 15px;
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    animation: ampliarIntroduccion 0.35s ease;
+}
+
+@keyframes ampliarIntroduccion {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* REFLEXIÓN FINAL */
+
+.reflexion-introduccion {
+    margin-top: 25px;
+    padding: 22px;
+
+    background: linear-gradient(
+        135deg,
+        #495126,
+        #20251C
+    );
+
+    border-radius: 8px;
+    color: #E9CD91;
+    text-align: center;
+}
+
+.reflexion-introduccion strong {
+    font-family: Georgia, serif;
+    font-size: 19px;
+}
+
+.reflexion-introduccion p {
+    margin-bottom: 0;
+
+    color: #FCF8EE;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .foto-introduccion {
+        width: 45%;
+        margin-left: 15px;
+    }
+
+    .introduccion .texto-introduccion {
+        font-size: 15px;
+    }
+
+    .frase-paz {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .foto-introduccion {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 20px;
+    }
+
+    .explorar-introduccion {
+        grid-template-columns: 1fr;
+    }
+
+}
