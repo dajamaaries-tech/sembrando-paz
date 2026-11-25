@@ -922,25 +922,740 @@ const paginas = [
     `
 },
 
-    {
-        titulo: "Conociendo nuestro territorio",
-        contenido: `
-            <p>
-                Aquí presentaremos la ubicación y
-                las características del territorio.
-            </p>
-        `
-    },
+    
+{
+    titulo: "Conociendo nuestro territorio",
 
-    {
-        titulo: "Identidad y cultura de nuestro territorio",
-        contenido: `
+    contenido: `
+
+        <div class="conociendo-territorio">
+
+            <div class="etiqueta-tematica">
+                TERRITORIO Y COMUNIDAD
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Conocer nuestro territorio es reconocer
+                nuestras raíces, nuestra historia y los
+                caminos que nos unen como comunidad.
+
+            </blockquote>
+
+            <h3>¿Dónde se encuentra ubicada la comunidad?</h3>
+
             <p>
-                Espacio destinado a las características
-                culturales, sociales y comunitarias.
+
+                El Resguardo Indígena Kankuamo se encuentra
+                ubicado en la vertiente suroriental de la
+                Sierra Nevada de Santa Marta, en el municipio
+                de Valledupar, departamento del Cesar, Colombia.
+
             </p>
-        `
-    },
+
+            <p>
+
+                El pueblo Kankuamo es uno de los cuatro
+                pueblos indígenas originarios de la Sierra
+                Nevada de Santa Marta, junto con los pueblos
+                Arhuaco, Kogui y Wiwa.
+
+                Estos pueblos comparten principios ancestrales
+                relacionados con el cuidado de la naturaleza,
+                el equilibrio territorial y la conservación
+                de la vida.
+
+            </p>
+
+            <div class="ubicacion-territorio">
+
+                <h3>Ubicación geográfica</h3>
+
+                <div class="dato-territorio">
+                    <strong>País:</strong> Colombia
+                </div>
+
+                <div class="dato-territorio">
+                    <strong>Departamento:</strong> Cesar
+                </div>
+
+                <div class="dato-territorio">
+                    <strong>Municipio:</strong> Valledupar
+                </div>
+
+                <div class="dato-territorio">
+                    <strong>Región:</strong>
+                    Sierra Nevada de Santa Marta
+                </div>
+
+                <div class="dato-territorio">
+                    <strong>Población:</strong>
+                    Pueblo Indígena Kankuamo
+                </div>
+
+                <a class="boton-mapa"
+                   href="https://www.google.com/maps/search/?api=1&query=Atanquez%2C+Cesar%2C+Colombia"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    📍 Explorar ubicación en el mapa
+
+                </a>
+
+            </div>
+
+            <h3>Comunidades del resguardo</h3>
+
+            <p>
+
+                Entre las doce comunidades históricamente
+                reconocidas en la conformación del
+                Resguardo Indígena Kankuamo se encuentran:
+
+            </p>
+
+            <div class="comunidades-kankuamas">
+
+                <span>Atánquez</span>
+
+                <span>Chemesquemena</span>
+
+                <span>Guatapurí</span>
+
+                <span>La Mina</span>
+
+                <span>Los Haticos</span>
+
+                <span>Río Seco</span>
+
+                <span>Las Flores</span>
+
+                <span>Pontón</span>
+
+                <span>Ramalito</span>
+
+                <span>Mojao</span>
+
+                <span>Murillo</span>
+
+                <span>Rancho de la Goya</span>
+
+            </div>
+
+            <p>
+
+                Actualmente, la presencia organizativa
+                del pueblo Kankuamo comprende también
+                otras comunidades, asentamientos y ciudades,
+                donde se fortalece su identidad y su
+                organización colectiva.
+
+            </p>
+
+            <h3>Características sociales y comunitarias</h3>
+
+            <p>
+
+                La vida comunitaria del pueblo Kankuamo
+                se encuentra estrechamente relacionada
+                con sus formas de organización propia,
+                el trabajo colectivo, la participación
+                de las familias y la transmisión de
+                conocimientos entre generaciones.
+
+            </p>
+
+            <div class="caracteristicas-territorio">
+
+                <details>
+
+                    <summary>
+                        🤝 Organización comunitaria
+                    </summary>
+
+                    <p>
+
+                        Participación en reuniones, asambleas
+                        y espacios de decisión colectiva,
+                        orientados al bienestar de las
+                        comunidades.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🏛 Gobierno propio
+                    </summary>
+
+                    <p>
+
+                        Ejercicio de la autonomía mediante
+                        autoridades e instituciones propias,
+                        orientadas por principios culturales
+                        y comunitarios.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        ❤️ Solidaridad
+                    </summary>
+
+                    <p>
+
+                        Cooperación entre familias y
+                        comunidades para atender necesidades
+                        colectivas y fortalecer los vínculos
+                        sociales.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🌱 Trabajo comunitario
+                    </summary>
+
+                    <p>
+
+                        Desarrollo de actividades colectivas
+                        que contribuyen al bienestar común,
+                        al cuidado del entorno y al
+                        fortalecimiento comunitario.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        👥 Participación intergeneracional
+                    </summary>
+
+                    <p>
+
+                        Reconocimiento de los aportes
+                        de mayores, mujeres, jóvenes y
+                        familias en la vida comunitaria
+                        y la transmisión de conocimientos.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🌿 Relación con la naturaleza
+                    </summary>
+
+                    <p>
+
+                        Protección del agua, la tierra,
+                        los bosques y los espacios
+                        naturales y culturales que
+                        sostienen la vida comunitaria.
+
+                    </p>
+
+                </details>
+
+            </div>
+
+            <h3>La vida en comunidad</h3>
+
+            <p>
+
+                Las siguientes fotografías permiten
+                apreciar diferentes espacios de encuentro,
+                participación y trabajo colectivo.
+
+                Selecciona cada fotografía para ampliarla.
+
+            </p>
+
+            <div class="galeria-territorial">
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar encuentro comunitario">
+
+                        <img
+                            src="comunidad-01.jpeg"
+                            alt="Personas reunidas en un espacio comunitario"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Encuentros comunitarios.
+
+                    </figcaption>
+
+                </figure>
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar participación colectiva">
+
+                        <img
+                            src="comunidad-02.jpeg"
+                            alt="Participantes en una reunión colectiva"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Participación y organización.
+
+                    </figcaption>
+
+                </figure>
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar espacios de diálogo">
+
+                        <img
+                            src="comunidad-03.jpeg"
+                            alt="Reunión en una construcción tradicional"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Espacios de diálogo comunitario.
+
+                    </figcaption>
+
+                </figure>
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar trabajo comunitario">
+
+                        <img
+                            src="comunidad-04.jpeg"
+                            alt="Personas participando en una actividad de trabajo colectivo"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Trabajo colectivo y solidaridad.
+
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+            <div class="reflexion-territorio">
+
+                <strong>El territorio como espacio de vida</strong>
+
+                <p>
+
+                    El territorio no es solamente un espacio
+                    geográfico. También es el lugar donde
+                    se construyen relaciones, se preserva
+                    la memoria y se fortalece la identidad
+                    de una comunidad.
+
+                </p>
+
+            </div>
+
+            <small class="fuente-territorio">
+
+                Fundamentación: Cabildo Indígena del
+                Resguardo Kankuamo (2023) e IGAC (2025).
+
+            </small>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Identidad y cultura de nuestro territorio",
+
+    contenido: `
+
+        <div class="identidad-territorio">
+
+            <div class="etiqueta-tematica">
+                CULTURA, MEMORIA Y PAZ
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                La identidad de un pueblo permanece viva
+                cuando su memoria, sus conocimientos
+                y sus tradiciones continúan caminando
+                entre generaciones.
+
+            </blockquote>
+
+            <h3>Características culturales</h3>
+
+            <p>
+
+                La identidad cultural del pueblo Kankuamo
+                se fundamenta en su relación ancestral
+                con la Sierra Nevada de Santa Marta,
+                la Ley de Origen, la memoria colectiva
+                y sus procesos de recuperación y
+                fortalecimiento cultural.
+
+            </p>
+
+            <p>
+
+                La tradición oral, los conocimientos
+                de los mayores, las prácticas espirituales,
+                las expresiones artesanales y los espacios
+                de encuentro comunitario contribuyen
+                a mantener viva su identidad y transmitir
+                sus conocimientos a las nuevas generaciones.
+
+            </p>
+
+            <div class="caracteristicas-territorio">
+
+                <details>
+
+                    <summary>
+                        🌿 Ley de Origen
+                    </summary>
+
+                    <p>
+
+                        Constituye un fundamento ancestral
+                        que orienta las relaciones entre
+                        las personas, la comunidad,
+                        la naturaleza y el territorio.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        📖 Memoria y tradición oral
+                    </summary>
+
+                    <p>
+
+                        Los conocimientos y experiencias
+                        transmitidos entre generaciones
+                        permiten preservar la historia,
+                        la identidad y los aprendizajes
+                        colectivos.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🧶 Expresiones culturales
+                    </summary>
+
+                    <p>
+
+                        Las expresiones artesanales,
+                        los saberes tradicionales y las
+                        prácticas culturales contribuyen
+                        al fortalecimiento de la identidad
+                        del pueblo Kankuamo.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        ⛰ Territorio y espiritualidad
+                    </summary>
+
+                    <p>
+
+                        La relación con los espacios
+                        naturales y sagrados constituye
+                        una dimensión fundamental de
+                        la vida cultural y espiritual.
+
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🤝 Unidad y gobierno propio
+                    </summary>
+
+                    <p>
+
+                        El fortalecimiento de las
+                        autoridades, la participación
+                        y las formas propias de organización
+                        contribuye a la permanencia cultural
+                        y territorial.
+
+                    </p>
+
+                </details>
+
+            </div>
+
+            <h3>Identidad cultural en imágenes</h3>
+
+            <p>
+
+                Estas fotografías invitan a reconocer
+                la diversidad cultural, los espacios
+                de encuentro y las relaciones que
+                fortalecen la vida colectiva.
+
+            </p>
+
+            <div class="galeria-territorial">
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar encuentro intercultural">
+
+                        <img
+                            src="comunidad-05.jpeg"
+                            alt="Encuentro colectivo en un espacio con construcciones tradicionales"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Encuentros e intercambio cultural.
+
+                    </figcaption>
+
+                </figure>
+
+                <figure>
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar diálogo comunitario">
+
+                        <img
+                            src="comunidad-06.jpeg"
+                            alt="Persona interviniendo ante un grupo de participantes"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Participación y diálogo.
+
+                    </figcaption>
+
+                </figure>
+
+                <figure class="foto-destacada">
+
+                    <button class="foto-ampliable"
+                        onclick="ampliarFotoTerritorio(this)"
+                        aria-label="Ampliar identidad y territorio">
+
+                        <img
+                            src="comunidad-07.jpeg"
+                            alt="Grupo de personas con prendas tradicionales en un paisaje montañoso"
+                            loading="lazy">
+
+                    </button>
+
+                    <figcaption>
+
+                        Identidad, diversidad cultural
+                        y territorio.
+
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+            <h3>¿Por qué seleccionamos esta población?</h3>
+
+            <p>
+
+                Seleccionamos el Resguardo Indígena
+                Kankuamo por su riqueza cultural,
+                histórica, social y territorial,
+                así como por sus procesos de resistencia,
+                recuperación de la identidad y
+                fortalecimiento de la organización
+                comunitaria.
+
+            </p>
+
+            <p>
+
+                Como estudiantes de Licenciatura en
+                Matemáticas de la Universidad Popular
+                del Cesar, consideramos importante
+                conocer las realidades de los pueblos
+                indígenas de nuestra región, reconocer
+                la diversidad cultural y comprender
+                las diferentes maneras de construir
+                paz desde los territorios.
+
+            </p>
+
+            <p>
+
+                Esta población nos permite reflexionar
+                sobre el papel de la educación, la
+                memoria, el diálogo intercultural
+                y la participación comunitaria
+                en la transformación de la sociedad.
+
+            </p>
+
+            <h3>¿Qué relación tiene con la construcción de paz?</h3>
+
+            <p>
+
+                El pueblo Kankuamo ha afrontado diferentes
+                situaciones de violencia y afectaciones
+                derivadas del conflicto armado colombiano.
+
+                Frente a estas experiencias, ha desarrollado
+                procesos de resistencia, recuperación
+                de la memoria y fortalecimiento de
+                su identidad colectiva.
+
+            </p>
+
+            <p>
+
+                La construcción de paz en este contexto
+                está relacionada con la protección
+                del territorio, el respeto por la autonomía,
+                el reconocimiento de los derechos colectivos,
+                la recuperación cultural y la participación
+                comunitaria.
+
+            </p>
+
+            <div class="caminos-paz">
+
+                <h3>Construyendo caminos de paz</h3>
+
+                <div>
+                    <span>01</span>
+                    Protección de la identidad cultural.
+                </div>
+
+                <div>
+                    <span>02</span>
+                    Fortalecimiento del gobierno propio.
+                </div>
+
+                <div>
+                    <span>03</span>
+                    Recuperación de la memoria colectiva.
+                </div>
+
+                <div>
+                    <span>04</span>
+                    Protección del territorio.
+                </div>
+
+                <div>
+                    <span>05</span>
+                    Diálogo y participación comunitaria.
+                </div>
+
+                <div>
+                    <span>06</span>
+                    Educación y respeto por la diversidad.
+                </div>
+
+            </div>
+
+            <div class="reflexion-territorio">
+
+                <strong>Nuestra reflexión como futuros docentes</strong>
+
+                <p>
+
+                    Conocer las realidades del pueblo
+                    Kankuamo nos invita a valorar la
+                    diversidad cultural y a comprender
+                    que la educación debe reconocer
+                    los conocimientos, las historias
+                    y las experiencias de las comunidades.
+
+                    Construir una cultura de paz desde
+                    las aulas implica promover el respeto,
+                    el diálogo intercultural, la inclusión
+                    y el aprendizaje colectivo.
+
+                </p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Un territorio que protege su memoria,
+                fortalece su identidad y camina en unidad
+                siembra las raíces de una paz duradera.
+
+            </blockquote>
+
+            <small class="fuente-territorio">
+
+                Fundamentación: Cabildo Indígena del
+                Resguardo Kankuamo, IGAC y Centro
+                Nacional de Memoria Histórica.
+
+            </small>
+
+        </div>
+
+    `
+},
 
     {
         titulo: "Conflictos que afectan la paz",
@@ -1387,8 +2102,9 @@ function generarPagina(indice, posicion = "") {
         <section class="pagina ${posicion}
     ${indice === 2 ? 'pagina-introduccion' : ''}
     ${indice === 3 ? 'pagina-paz-territorial' : ''}
-    ${indice === 4 ? 'pagina-paz-comunitaria' : ''}">
-
+    ${indice === 4 ? 'pagina-paz-comunitaria' : ''}
+    ${indice === 5 ? 'pagina-conociendo-territorio' : ''}
+    ${indice === 6 ? 'pagina-identidad-territorio' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
@@ -2181,3 +2897,83 @@ function mostrarPilar(boton, indice) {
         "<p>" + pilaresPaz[indice].descripcion + "</p>";
 
 }
+
+/* ==========================================
+   GALERÍA INTERACTIVA DE LAS PÁGINAS 6 Y 7
+========================================== */
+
+function ampliarFotoTerritorio(boton) {
+
+    const imagen = boton.querySelector("img");
+
+    if (!imagen) return;
+
+    const figura = boton.closest("figure");
+
+    const descripcion = figura
+        ?.querySelector("figcaption")
+        ?.textContent.trim() || imagen.alt;
+
+    const ventana = document.createElement("dialog");
+
+    ventana.className = "visor-foto-territorio";
+
+    ventana.setAttribute(
+        "aria-label",
+        "Visor de fotografía"
+    );
+
+    const cerrar = document.createElement("button");
+
+    cerrar.className = "cerrar-foto-territorio";
+
+    cerrar.textContent = "✕ Cerrar";
+
+    const fotografia = document.createElement("img");
+
+    fotografia.src = imagen.src;
+
+    fotografia.alt = imagen.alt;
+
+    const texto = document.createElement("p");
+
+    texto.textContent = descripcion;
+
+    ventana.append(cerrar, fotografia, texto);
+
+    document.body.appendChild(ventana);
+
+    cerrar.addEventListener("click", function() {
+
+        ventana.close();
+
+    });
+
+    ventana.addEventListener("click", function(evento) {
+
+        if (evento.target === ventana) {
+
+            ventana.close();
+
+        }
+
+    });
+
+    ventana.addEventListener("keydown", function(evento) {
+
+        evento.stopPropagation();
+
+    });
+
+    ventana.addEventListener("close", function() {
+
+        ventana.remove();
+
+        boton.focus();
+
+    });
+
+    ventana.showModal();
+
+}
+
