@@ -1657,50 +1657,894 @@ const paginas = [
     `
 },
 
-    {
-        titulo: "Conflictos que afectan la paz",
-        contenido: `
+    
+{
+    titulo: "Conflictos que afectan la paz",
+
+    contenido: `
+
+        <div class="conflictos-territorio">
+
+            <div class="etiqueta-tematica">
+                CONVIVENCIA Y REALIDADES SOCIALES
+            </div>
+
+            <blockquote class="frase-territorial">
+                Reconocer los conflictos es el primer
+                paso para transformar nuestras
+                realidades y construir caminos de paz.
+            </blockquote>
+
+            <h3>Problemáticas que afectan la convivencia</h3>
+
             <p>
-                Aquí identificaremos las problemáticas
-                encontradas durante el trabajo de campo.
+                La construcción de paz en los territorios
+                requiere reconocer las situaciones que
+                afectan el bienestar, la convivencia,
+                la dignidad y los derechos de las personas
+                y las comunidades.
             </p>
-        `
-    },
 
-    {
-        titulo: "Escuchando a nuestra comunidad",
-        contenido: `
             <p>
-                Espacio reservado para los dos
-                testimonios audiovisuales.
+                En el contexto del Resguardo Indígena
+                Kankuamo, resulta fundamental comprender
+                las afectaciones históricas del conflicto
+                armado, así como analizar los desafíos
+                relacionados con la inclusión social,
+                la identidad cultural, la participación
+                comunitaria y la protección del territorio.
             </p>
 
-            <div class="tarjetas">
+            <p>
+                La Corte Constitucional, mediante el
+                Auto 004 de 2009, reconoció las graves
+                afectaciones ocasionadas por el conflicto
+                armado al pueblo Kankuamo, particularmente
+                sobre su tejido social, su territorio
+                y sus procesos de recuperación cultural.
+            </p>
 
-                <div class="tarjeta">
-                    <h3>Testimonio 1</h3>
-                    <p>Video pendiente de incorporar.</p>
+            <h3>Explora las problemáticas</h3>
+
+            <p>
+                Selecciona cada problemática para conocer
+                su descripción y las posibles alternativas
+                para fortalecer la convivencia.
+            </p>
+
+            <div class="problemas-interactivos">
+
+                <details>
+
+                    <summary>
+                        ⚠️ Violencia y conflicto armado
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            El pueblo Kankuamo ha sufrido
+                            afectaciones históricas derivadas
+                            del conflicto armado colombiano,
+                            incluyendo desplazamiento forzado,
+                            amenazas y rupturas del tejido social.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Debilitamiento de la confianza,
+                            afectaciones familiares, pérdida
+                            de espacios comunitarios y
+                            dificultades para la transmisión
+                            de conocimientos culturales.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Fortalecer los procesos de memoria,
+                            reparación integral, reconciliación
+                            y garantías de no repetición.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🤝 Discriminación
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            La discriminación se manifiesta
+                            mediante prejuicios, señalamientos
+                            o tratos desiguales asociados
+                            con la identidad cultural,
+                            las tradiciones o la pertenencia
+                            a un pueblo indígena.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Puede afectar la dignidad,
+                            el reconocimiento cultural,
+                            la participación y el sentido
+                            de pertenencia.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Promover la educación intercultural,
+                            el respeto por la diversidad
+                            y el reconocimiento de los
+                            derechos colectivos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        ⚖️ Desigualdad social
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            La desigualdad social se relaciona
+                            con las diferencias en el acceso
+                            a oportunidades educativas,
+                            económicas, laborales y a
+                            servicios fundamentales.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Las barreras de acceso pueden
+                            limitar el bienestar de las
+                            familias y generar condiciones
+                            de exclusión y vulnerabilidad.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Promover oportunidades equitativas,
+                            el fortalecimiento de la educación
+                            y la garantía efectiva de derechos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        💬 Intolerancia
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            La intolerancia aparece cuando
+                            las personas tienen dificultades
+                            para reconocer y respetar las
+                            diferencias de pensamiento,
+                            opinión o comportamiento.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Puede generar enfrentamientos,
+                            dificultades de comunicación
+                            y debilitamiento de las relaciones
+                            familiares y comunitarias.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Fortalecer la escucha activa,
+                            el diálogo, la empatía y la
+                            resolución pacífica de conflictos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        👥 Exclusión social
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            La exclusión social ocurre cuando
+                            determinadas personas o colectivos
+                            encuentran barreras para participar
+                            plenamente en las decisiones
+                            y oportunidades de la sociedad.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Puede afectar el ejercicio de
+                            derechos, la participación
+                            comunitaria y el reconocimiento
+                            de las necesidades colectivas.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Garantizar espacios de participación,
+                            promover la inclusión y respetar
+                            las formas propias de organización.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🌿 Afectaciones territoriales y culturales
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <h4>Descripción</h4>
+
+                        <p>
+                            Las afectaciones al territorio,
+                            los espacios de importancia
+                            cultural y los procesos de
+                            transmisión de conocimientos
+                            pueden poner en riesgo la
+                            continuidad cultural de
+                            las comunidades indígenas.
+                        </p>
+
+                        <h4>Consecuencias</h4>
+
+                        <p>
+                            Debilitamiento de la identidad,
+                            afectaciones a la memoria
+                            colectiva y dificultades para
+                            mantener las relaciones
+                            ancestrales con el territorio.
+                        </p>
+
+                        <h4>Alternativas de solución</h4>
+
+                        <p>
+                            Fortalecer la autonomía,
+                            la protección territorial,
+                            la educación propia y la
+                            transmisión intergeneracional
+                            de conocimientos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Comprender para transformar
+                </strong>
+
+                <p>
+                    Identificar las problemáticas que
+                    afectan la convivencia permite
+                    reflexionar sobre sus causas,
+                    reconocer sus consecuencias y
+                    construir alternativas colectivas
+                    orientadas al respeto, la justicia
+                    y el bienestar comunitario.
+                </p>
+
+            </div>
+
+        </div>
+
+    `
+},
+
+   
+{
+    titulo: "Escuchando a nuestra comunidad",
+
+    contenido: `
+
+        <div class="testimonios-territorio">
+
+            <div class="etiqueta-tematica">
+                VOCES Y EXPERIENCIAS COMUNITARIAS
+            </div>
+
+            <blockquote class="frase-territorial">
+                Cada voz guarda una historia y cada
+                historia nos invita a comprender
+                los caminos de la paz.
+            </blockquote>
+
+            <h3>Testimonios de nuestro territorio</h3>
+
+            <p>
+                Como parte del acercamiento comunitario,
+                se realizaron dos entrevistas a integrantes
+                de la comunidad seleccionada, con el
+                propósito de conocer sus percepciones
+                acerca de las problemáticas que afectan
+                la convivencia y la construcción de paz.
+            </p>
+
+            <p>
+                Estos testimonios constituyen evidencias
+                audiovisuales que permiten acercarnos
+                a las experiencias de las personas
+                y reconocer la importancia de escuchar
+                las voces del territorio.
+            </p>
+
+            <!-- PRIMER TESTIMONIO -->
+
+            <div class="entrevista-comunidad">
+
+                <div class="encabezado-entrevista">
+
+                    <span>TESTIMONIO COMUNITARIO 01</span>
+
+                    <h3>
+                        Primer testimonio:
+                        problemáticas y construcción de paz
+                    </h3>
+
                 </div>
 
-                <div class="tarjeta">
-                    <h3>Testimonio 2</h3>
-                    <p>Video pendiente de incorporar.</p>
+                <div class="video-entrevista">
+
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/W8-KaDt0CCA"
+                        title="Primer testimonio comunitario Kankuamo"
+                        allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+
+                    <div class="informacion-video">
+
+                        <strong>
+                            Primer testimonio comunitario
+                        </strong>
+
+                        <p>
+                            Resguardo Indígena Kankuamo
+                        </p>
+
+                        <p>
+                            Duración: 6 minutos y 34 segundos.
+                        </p>
+
+                        <a
+                            class="boton-youtube"
+                            href="https://youtu.be/W8-KaDt0CCA"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            ▶ Ver video en YouTube
+
+                        </a>
+
+                        <div class="enlace-video">
+
+                            <small>Enlace del video:</small>
+
+                            <a
+                                href="https://youtu.be/W8-KaDt0CCA"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                https://youtu.be/W8-KaDt0CCA
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
-        `
-    },
 
-    {
-        titulo: "Análisis de las problemáticas",
-        contenido: `
+            <!-- SEGUNDO TESTIMONIO -->
+
+            <div class="entrevista-comunidad">
+
+                <div class="encabezado-entrevista">
+
+                    <span>TESTIMONIO COMUNITARIO 02</span>
+
+                    <h3>
+                        Segundo testimonio:
+                        convivencia y realidades comunitarias
+                    </h3>
+
+                </div>
+
+                <div class="video-entrevista">
+
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/DogqIDU7XYU"
+                        title="Segundo testimonio comunitario Kankuamo"
+                        allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+
+                    <div class="informacion-video">
+
+                        <strong>
+                            Segundo testimonio comunitario
+                        </strong>
+
+                        <p>
+                            Resguardo Indígena Kankuamo
+                        </p>
+
+                        <p>
+                            Duración: 11 minutos y 36 segundos.
+                        </p>
+
+                        <a
+                            class="boton-youtube"
+                            href="https://youtu.be/DogqIDU7XYU"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            ▶ Ver video en YouTube
+
+                        </a>
+
+                        <div class="enlace-video">
+
+                            <small>Enlace del video:</small>
+
+                            <a
+                                href="https://youtu.be/DogqIDU7XYU"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                https://youtu.be/DogqIDU7XYU
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    La importancia de escuchar
+                </strong>
+
+                <p>
+                    Escuchar las experiencias de las
+                    comunidades permite reconocer la
+                    diversidad de perspectivas y
+                    comprender que la construcción
+                    de paz requiere participación,
+                    sensibilidad y respeto por
+                    las realidades territoriales.
+                </p>
+
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Escuchar con respeto es sembrar
+                confianza; comprender al otro
+                es comenzar a construir paz.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Análisis de las problemáticas",
+
+    contenido: `
+
+        <div class="analisis-conflictos">
+
+            <div class="etiqueta-tematica">
+                REFLEXIÓN Y TRANSFORMACIÓN SOCIAL
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                La paz comienza cuando dejamos
+                de ignorar los problemas y
+                decidimos construir soluciones
+                colectivamente.
+
+            </blockquote>
+
+            <h3>Análisis del contexto territorial</h3>
+
             <p>
-                Aquí analizaremos los resultados
-                obtenidos durante las entrevistas
-                y el trabajo comunitario.
+                Las problemáticas que afectan la
+                convivencia deben comprenderse
+                considerando las dimensiones
+                históricas, sociales, culturales
+                y territoriales de las comunidades.
             </p>
-        `
-    },
+
+            <p>
+                En el caso del pueblo Kankuamo,
+                los antecedentes del conflicto
+                armado permiten reconocer la
+                importancia de fortalecer la memoria,
+                la identidad cultural, la autonomía
+                y los vínculos comunitarios como
+                elementos necesarios para la
+                construcción de una paz duradera.
+            </p>
+
+            <p>
+                El análisis de categorías como
+                violencia, discriminación, desigualdad,
+                intolerancia y exclusión permite
+                reflexionar sobre las condiciones
+                que pueden afectar la convivencia
+                y las posibilidades de transformación
+                desde la educación y la participación.
+            </p>
+
+            <h3>
+                Problemáticas, consecuencias
+                y alternativas de solución
+            </h3>
+
+            <div class="tabla-comparativa-paz">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Problemática</th>
+                            <th>Consecuencias</th>
+                            <th>Alternativas de paz</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Violencia</td>
+                            <td>
+                                Ruptura del tejido social
+                                y pérdida de confianza.
+                            </td>
+                            <td>
+                                Memoria, reparación
+                                y reconciliación.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Discriminación</td>
+                            <td>
+                                Afectación de la dignidad
+                                y la identidad cultural.
+                            </td>
+                            <td>
+                                Educación intercultural
+                                y respeto por la diversidad.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Desigualdad</td>
+                            <td>
+                                Limitaciones en el acceso
+                                a oportunidades y derechos.
+                            </td>
+                            <td>
+                                Equidad y garantía
+                                de derechos.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Intolerancia</td>
+                            <td>
+                                Conflictos y dificultades
+                                en la comunicación.
+                            </td>
+                            <td>
+                                Diálogo, empatía
+                                y mediación.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Exclusión social</td>
+                            <td>
+                                Barreras para la
+                                participación colectiva.
+                            </td>
+                            <td>
+                                Inclusión y fortalecimiento
+                                comunitario.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Afectaciones territoriales
+                                y culturales
+                            </td>
+                            <td>
+                                Riesgos para la memoria,
+                                la identidad y la
+                                continuidad cultural.
+                            </td>
+                            <td>
+                                Protección territorial
+                                y fortalecimiento
+                                de la autonomía.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <h3>
+                Dimensiones para comprender
+                las problemáticas
+            </h3>
+
+            <div class="problemas-interactivos">
+
+                <details>
+
+                    <summary>
+                        👥 Dimensión social
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <p>
+                            Permite analizar cómo las
+                            desigualdades, la exclusión
+                            y las dificultades de convivencia
+                            pueden afectar las relaciones
+                            entre las personas y limitar
+                            el bienestar colectivo.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🧶 Dimensión cultural
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <p>
+                            Invita a reconocer la importancia
+                            de proteger los conocimientos
+                            ancestrales, las tradiciones,
+                            la memoria y las expresiones
+                            culturales de las comunidades.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🌿 Dimensión territorial
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <p>
+                            Permite comprender que el
+                            territorio representa un
+                            espacio de vida, identidad,
+                            organización y construcción
+                            colectiva de paz.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        📚 Dimensión educativa
+                    </summary>
+
+                    <div class="contenido-problema">
+
+                        <p>
+                            Reconoce la educación como una
+                            herramienta para transformar
+                            prácticas discriminatorias,
+                            promover el pensamiento crítico
+                            y fortalecer el respeto por
+                            las diferencias.
+                        </p>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>
+                Alternativas para fortalecer la convivencia
+            </h3>
+
+            <div class="caminos-paz">
+
+                <div>
+                    <span>01</span>
+                    Promover espacios de diálogo y escucha.
+                </div>
+
+                <div>
+                    <span>02</span>
+                    Fortalecer la identidad cultural.
+                </div>
+
+                <div>
+                    <span>03</span>
+                    Reconocer y respetar la diversidad.
+                </div>
+
+                <div>
+                    <span>04</span>
+                    Impulsar la participación comunitaria.
+                </div>
+
+                <div>
+                    <span>05</span>
+                    Proteger el territorio y la memoria.
+                </div>
+
+                <div>
+                    <span>06</span>
+                    Promover una educación inclusiva.
+                </div>
+
+                <div>
+                    <span>07</span>
+                    Fortalecer la resolución pacífica
+                    de conflictos.
+                </div>
+
+            </div>
+
+            <h3>Nuestra reflexión académica</h3>
+
+            <p>
+                Como estudiantes de Licenciatura en
+                Matemáticas de la Universidad Popular
+                del Cesar, reconocemos que nuestra
+                formación profesional también implica
+                una responsabilidad social frente a
+                las problemáticas que afectan la
+                convivencia y los derechos humanos.
+            </p>
+
+            <p>
+                Desde las aulas podemos promover
+                estrategias de aprendizaje colaborativo,
+                respeto por la diversidad, participación
+                equitativa y resolución de desacuerdos
+                mediante el diálogo.
+            </p>
+
+            <p>
+                Consideramos que la construcción de paz
+                requiere reconocer las realidades
+                particulares de las comunidades y
+                fortalecer sus capacidades para
+                participar en la transformación
+                de su entorno.
+            </p>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Sembrando paz desde nuestra profesión
+                </strong>
+
+                <p>
+                    Educar para la paz significa formar
+                    personas capaces de pensar críticamente,
+                    reconocer las diferencias, actuar
+                    con responsabilidad y construir
+                    soluciones que favorezcan el
+                    bienestar colectivo.
+                </p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Los conflictos pueden convertirse
+                en oportunidades de transformación
+                cuando elegimos el diálogo,
+                el respeto y la unidad.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
 
     {
         titulo: "Instituciones que construyen paz",
@@ -2104,7 +2948,10 @@ function generarPagina(indice, posicion = "") {
     ${indice === 3 ? 'pagina-paz-territorial' : ''}
     ${indice === 4 ? 'pagina-paz-comunitaria' : ''}
     ${indice === 5 ? 'pagina-conociendo-territorio' : ''}
-    ${indice === 6 ? 'pagina-identidad-territorio' : ''}">
+    ${indice === 6 ? 'pagina-identidad-territorio' : ''}
+    ${indice === 7 ? 'pagina-conflictos-territorio' : ''}
+    ${indice === 8 ? 'pagina-testimonios-territorio' : ''}
+    ${indice === 9 ? 'pagina-analisis-conflictos' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
