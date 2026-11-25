@@ -2292,3 +2292,81 @@ footer {
     }
 
 }
+
+/* ==========================================
+   PÁGINA 5 - VIDEO COMUNITARIO
+========================================== */
+
+.video-entrevista {
+    width: 100%;
+    background: rgba(10, 20, 12, 0.90);
+    overflow: hidden;
+}
+
+.video-entrevista iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    background: #000000;
+}
+
+.informacion-video {
+    padding: 20px;
+    text-align: center;
+}
+
+.informacion-video strong {
+    color: #E9CD91;
+    font-family: Georgia, serif;
+    font-size: 19px;
+}
+
+.mirada-comunidad .informacion-video p {
+    color: #F5E6C9;
+    font-size: 13px;
+    text-align: center;
+}
+
+.boton-youtube {
+    display: block;
+    padding: 13px 18px;
+    margin: 15px 0;
+
+    background: #B32626;
+    color: #FFFFFF;
+
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: background 0.3s;
+}
+
+.boton-youtube:hover {
+    background: #D32F2F;
+    color: #FFFFFF;
+}
+
+.enlace-video {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid #E9CD9155;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.enlace-video small {
+    display: block;
+    color: #E9CD91;
+    margin-bottom: 8px;
+}
+
+.enlace-video a {
+    color: #FFFFFF;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+    text-decoration: underline;
+}
