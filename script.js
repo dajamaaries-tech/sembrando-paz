@@ -649,199 +649,262 @@ const paginas = [
 
 </div>            
 
-            <!-- COMPARACIÓN TEÓRICA Y COMUNITARIA -->
-
-            <h3>Teoría y percepción comunitaria</h3>
-
-            <p>
-
-                La siguiente matriz permitirá establecer
-                una comparación entre los fundamentos
-                teóricos de la paz territorial y las
-                percepciones obtenidas mediante
-                la entrevista comunitaria.
-
-            </p>
-
-            <div class="tabla-comparativa-paz">
-
-                <table>
-
-                    <thead>
-
-                        <tr>
-
-                            <th>Categoría</th>
-
-                            <th>Perspectiva teórica</th>
-
-                            <th>Percepción comunitaria</th>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody>
-
-                        <tr>
-
-                            <td>Paz territorial</td>
-
-                            <td>
-                                Construcción colectiva de paz.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Participación</td>
-
-                            <td>
-                                Protagonismo comunitario
-                                en las decisiones.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Identidad cultural</td>
-
-                            <td>
-                                Reconocimiento y respeto
-                                de la diversidad cultural.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Territorio</td>
-
-                            <td>
-                                Espacio de vida,
-                                identidad y construcción social.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Convivencia</td>
-
-                            <td>
-                                Diálogo y resolución
-                                pacífica de conflictos.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Memoria</td>
-
-                            <td>
-                                Reconciliación y garantías
-                                de no repetición.
-                            </td>
-
-                            <td>
-                                Pendiente de entrevista.
-                            </td>
-
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-
-            <!-- ANÁLISIS DE RESULTADOS -->
-
-            <h3>Análisis de la entrevista</h3>
-
-            <div class="analisis-comunitario">
-
-                <details>
-
-                    <summary>
-
-                        Semejanzas entre las perspectivas
-
-                    </summary>
-
-                    <p>
-
-                        Espacio reservado para identificar
-                        los puntos de encuentro entre
-                        los fundamentos teóricos y las
-                        percepciones de la comunidad.
-
-                    </p>
-
-                </details>
-
-                <details>
-
-                    <summary>
-
-                        Diferencias entre las perspectivas
-
-                    </summary>
-
-                    <p>
-
-                        Espacio reservado para reconocer
-                        las particularidades culturales,
-                        territoriales y sociales que se
-                        identifiquen durante la entrevista.
-
-                    </p>
-
-                </details>
-
-                <details>
-
-                    <summary>
-
-                        Nuestra reflexión académica
-
-                    </summary>
-
-                    <p>
-
-                        Espacio reservado para presentar
-                        nuestra interpretación, los
-                        aprendizajes y las reflexiones
-                        derivados del trabajo de campo.
-
-                    </p>
-
-                </details>
-
-            </div>
+            
+<!-- PERSPECTIVA COMUNITARIA -->
+
+<h3>La paz desde el contexto Kankuamo</h3>
+
+<p>
+    Desde una lectura contextual del territorio Kankuamo,
+    la construcción de paz puede comprenderse como un proceso
+    que involucra la convivencia comunitaria, el fortalecimiento
+    de la identidad cultural, el respeto por los conocimientos
+    ancestrales y la protección del territorio.
+</p>
+
+<p>
+    La paz no se limita a la ausencia de conflictos o
+    enfrentamientos, sino que también implica generar
+    condiciones que permitan a las comunidades vivir
+    dignamente, conservar sus tradiciones, fortalecer
+    su autonomía y transmitir sus conocimientos a las
+    nuevas generaciones.
+</p>
+
+<p>
+    El territorio constituye un elemento fundamental
+    para comprender esta perspectiva, pues representa
+    un espacio de vida, memoria, identidad y encuentro
+    comunitario.
+</p>
+
+<!-- COMPARACIÓN DE PERSPECTIVAS -->
+
+<h3>Teoría y perspectiva territorial</h3>
+
+<div class="tabla-comparativa-paz">
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Perspectiva teórica</th>
+                <th>Contexto Kankuamo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Paz territorial</td>
+                <td>
+                    Proceso colectivo de transformación social.
+                </td>
+                <td>
+                    Construcción de unidad, armonía
+                    y bienestar comunitario.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Participación</td>
+                <td>
+                    Participación activa de las comunidades
+                    en la toma de decisiones.
+                </td>
+                <td>
+                    Fortalecimiento de la organización
+                    propia y el trabajo colectivo.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Identidad cultural</td>
+                <td>
+                    Reconocimiento y respeto
+                    de la diversidad cultural.
+                </td>
+                <td>
+                    Protección de los conocimientos
+                    ancestrales, usos y costumbres.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Territorio</td>
+                <td>
+                    Espacio de vida, identidad
+                    y construcción social.
+                </td>
+                <td>
+                    Espacio de importancia cultural,
+                    natural y espiritual.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Convivencia</td>
+                <td>
+                    Diálogo, respeto y resolución
+                    pacífica de conflictos.
+                </td>
+                <td>
+                    Fortalecimiento de la unidad
+                    y las relaciones comunitarias.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Memoria</td>
+                <td>
+                    Reconciliación y garantías
+                    de no repetición.
+                </td>
+                <td>
+                    Reconocimiento de la historia
+                    y preservación de la memoria colectiva.
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<!-- ANÁLISIS COMPARATIVO -->
+
+<h3>Análisis de las perspectivas</h3>
+
+<div class="analisis-comunitario">
+
+    <details>
+
+        <summary>
+            Semejanzas entre las perspectivas
+        </summary>
+
+        <p>
+            Ambas perspectivas pueden relacionarse mediante
+            el reconocimiento de la paz como una construcción
+            colectiva que requiere participación, respeto,
+            diálogo y compromiso social.
+        </p>
+
+        <p>
+            Asimismo, coinciden en la importancia de reconocer
+            las particularidades de los territorios, fortalecer
+            las relaciones comunitarias y promover condiciones
+            que permitan una vida digna.
+        </p>
+
+        <p>
+            La protección de la identidad cultural y el
+            reconocimiento de la diversidad también constituyen
+            elementos importantes para construir una convivencia
+            pacífica y prevenir nuevas formas de violencia
+            y exclusión.
+        </p>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Diferencias entre las perspectivas
+        </summary>
+
+        <p>
+            La perspectiva teórica aborda la paz territorial
+            desde conceptos como la justicia social,
+            los derechos humanos, la participación ciudadana,
+            la reconciliación y la transformación de las
+            condiciones que generan violencia.
+        </p>
+
+        <p>
+            Por su parte, una interpretación desde el contexto
+            indígena Kankuamo permite incorporar dimensiones
+            culturales, espirituales y ancestrales, relacionadas
+            con la protección del territorio, la organización
+            propia y la conservación de los conocimientos
+            tradicionales.
+        </p>
+
+        <p>
+            Estas diferencias no necesariamente representan
+            una contradicción, sino una oportunidad para
+            ampliar la comprensión de la paz desde la
+            diversidad cultural.
+        </p>
+
+    </details>
+
+    <details>
+
+        <summary>
+            Nuestra reflexión académica
+        </summary>
+
+        <p>
+            Como estudiantes de Licenciatura en Matemáticas
+            de la Universidad Popular del Cesar, consideramos
+            que la construcción de paz debe partir del
+            reconocimiento de las realidades, necesidades
+            y particularidades culturales de cada comunidad.
+        </p>
+
+        <p>
+            El acercamiento al territorio Kankuamo nos invita
+            a reflexionar sobre la importancia de respetar
+            la diversidad, fortalecer la memoria colectiva
+            y reconocer el papel de las comunidades en la
+            transformación de sus propias realidades.
+        </p>
+
+        <p>
+            Como futuros docentes, tenemos la responsabilidad
+            de promover espacios educativos fundamentados
+            en el diálogo, la inclusión, el respeto
+            y el aprendizaje colaborativo.
+        </p>
+
+        <p>
+            Comprendemos que sembrar paz no es únicamente
+            evitar los conflictos, sino aprender a resolverlos
+            de manera pacífica, reconocer las diferencias
+            y contribuir al bienestar colectivo desde
+            nuestras acciones cotidianas.
+        </p>
+
+    </details>
+
+</div>
+
+<!-- REFLEXIÓN FINAL -->
+
+<div class="reflexion-territorial">
+
+    <strong>Construir la paz es caminar en unidad</strong>
+
+    <p>
+        La paz se fortalece cuando reconocemos nuestras
+        diferencias, valoramos nuestra identidad y trabajamos
+        colectivamente por el bienestar de las comunidades
+        y sus territorios.
+    </p>
+
+</div>
+
+<div class="nota-etica">
+    <p>
+        Nota metodológica: este análisis corresponde a una
+        interpretación académica del contexto territorial.
+        Las percepciones específicas de los participantes
+        deberán contrastarse con el contenido de la entrevista.
+    </p>
+</div>
 
             <div class="nota-etica">
 
