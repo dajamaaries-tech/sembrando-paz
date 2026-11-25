@@ -3067,3 +3067,392 @@ footer {
 
 }
 
+/* ==========================================
+   PÁGINAS 8, 9 Y 10
+   CONFLICTOS, TESTIMONIOS Y ANÁLISIS
+========================================== */
+
+/* FONDO PÁGINA 8 */
+
+#libro .pagina.pagina-conflictos-territorio {
+
+    background-color: #292820 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(20, 23, 18, 0.72),
+            rgba(20, 23, 18, 0.82)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* FONDO PÁGINA 9 */
+
+#libro .pagina.pagina-testimonios-territorio {
+
+    background-color: #243821 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15, 25, 20, 0.65),
+            rgba(15, 25, 20, 0.80)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* FONDO PÁGINA 10 */
+
+#libro .pagina.pagina-analisis-conflictos {
+
+    background-color: #26352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15, 25, 20, 0.70),
+            rgba(15, 25, 20, 0.82)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* TÍTULOS PRINCIPALES */
+
+.pagina-conflictos-territorio h2,
+.pagina-testimonios-territorio h2,
+.pagina-analisis-conflictos h2 {
+
+    color: #FFF4D8;
+
+    border-bottom: 2px solid #E9CD91;
+
+    font-family: Georgia, serif;
+
+    text-shadow: 0 2px 6px #00000088;
+
+}
+
+/* SUBTÍTULOS */
+
+.pagina-conflictos-territorio h3,
+.pagina-testimonios-territorio h3,
+.pagina-analisis-conflictos h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    line-height: 1.4;
+
+    margin-top: 25px;
+
+}
+
+/* ENCABEZADOS Y NUMERACIÓN */
+
+.pagina-conflictos-territorio small,
+.pagina-testimonios-territorio small,
+.pagina-analisis-conflictos small,
+.pagina-conflictos-territorio .numero-pagina,
+.pagina-testimonios-territorio .numero-pagina,
+.pagina-analisis-conflictos .numero-pagina {
+
+    color: #E9CD91;
+
+}
+
+/* TEXTO PRINCIPAL */
+
+.conflictos-territorio p,
+.testimonios-territorio p,
+.analisis-conflictos p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    text-shadow: 0 1px 3px #000000AA;
+
+}
+
+/* PROBLEMÁTICAS INTERACTIVAS */
+
+.problemas-interactivos {
+
+    display: grid;
+
+    gap: 12px;
+
+    margin: 25px 0;
+
+}
+
+.problemas-interactivos details {
+
+    background: rgba(15, 25, 18, 0.85);
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+}
+
+.problemas-interactivos summary {
+
+    position: relative;
+
+    padding: 17px 35px 17px 15px;
+
+    color: #FFF4D8;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    list-style: none;
+
+}
+
+.problemas-interactivos
+summary::-webkit-details-marker {
+
+    display: none;
+
+}
+
+.problemas-interactivos summary::after {
+
+    content: "+";
+
+    position: absolute;
+
+    right: 15px;
+
+    color: #E9CD91;
+
+}
+
+.problemas-interactivos
+details[open] summary::after {
+
+    content: "−";
+
+}
+
+.problemas-interactivos
+details[open] summary {
+
+    background: #495126;
+
+    color: #FFFFFF;
+
+}
+
+.problemas-interactivos summary:hover {
+
+    background: rgba(189, 150, 94, 0.30);
+
+}
+
+.problemas-interactivos summary:focus-visible {
+
+    outline: 2px solid #E9CD91;
+
+    outline-offset: -3px;
+
+}
+
+.contenido-problema {
+
+    padding: 18px;
+
+    border-top: 1px solid #E9CD9155;
+
+}
+
+.contenido-problema h4 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    margin: 10px 0;
+
+}
+
+.contenido-problema p {
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: left;
+
+    margin: 8px 0 20px;
+
+}
+
+/* REPRODUCTORES DE VIDEO */
+
+.pagina-testimonios-territorio
+.entrevista-comunidad {
+
+    margin: 30px 0;
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    background: rgba(15, 25, 18, 0.90);
+
+}
+
+.pagina-testimonios-territorio
+.video-entrevista iframe {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    border: none;
+
+    margin: 0;
+
+    border-radius: 0;
+
+    background: #000000;
+
+}
+
+.testimonios-territorio
+.informacion-video p {
+
+    color: #F5E6C9;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    text-shadow: none;
+
+}
+
+.testimonios-territorio
+.informacion-video strong {
+
+    color: #E9CD91;
+
+}
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .conflictos-territorio p,
+    .testimonios-territorio p,
+    .analisis-conflictos p {
+
+        font-size: 15px;
+
+        text-align: left;
+
+    }
+
+    .pagina-conflictos-territorio h3,
+    .pagina-testimonios-territorio h3,
+    .pagina-analisis-conflictos h3 {
+
+        font-size: 21px;
+
+    }
+
+    .problemas-interactivos summary {
+
+        font-size: 13px;
+
+    }
+
+    .contenido-problema {
+
+        padding: 14px;
+
+    }
+
+}
+```
+
+Los reproductores reutilizan los estilos que creamos para la entrevista de la página 5, por lo que tendrán la misma presentación.
+
+## 7. Actualizar `index.html`
+
+Cambia las versiones de los archivos a la número 17:
+
+```html
+<link rel="stylesheet" href="./estilos.css?v=17">
+
+<script src="./script.js?v=17" defer></script>
+```
+
+Confirma todos los cambios.
+
+<button block onClick={()=>GenUI.openUrl("https://dajamaaries-tech.github.io/sembrando-paz/?v=17")}>Visualizar páginas 8, 9 y 10 <icon name="external-link"/></button>
+
+Presiona **Ctrl + F5** cuando GitHub haya publicado los cambios.
+
+## 8. Verificación de los requisitos de la guía
+
+| Requisito | Estado |
+|---|---|
+| Identificación de problemáticas | <icon name="check-circle" color="success"/> Contextualizada |
+| Descripción de problemáticas | <icon name="check-circle" color="success"/> Elaborada |
+| Primer testimonio en video | <icon name="check-circle" color="success"/> Código preparado |
+| Segundo testimonio en video | <icon name="check-circle" color="success"/> Código preparado |
+| Enlaces individuales | <icon name="check-circle" color="success"/> Incorporados |
+| Reproductores de YouTube | <icon name="check-circle" color="success"/> Programados |
+| Análisis contextual | <icon name="check-circle" color="success"/> Elaborado |
+| Análisis específico de las entrevistas | <icon name="clock" color="warning"/> Pendiente de verificar el audio |
+| Alternativas de solución | <icon name="check-circle" color="success"/> Elaboradas |
+| Reflexión académica | <icon name="check-circle" color="success"/> Elaborada |
+| Fotografías de fondo definitivas | <icon name="clock" color="warning"/> Pendientes |
+| Referencias bibliográficas | <icon name="clock" color="warning"/> Página 20 |
+
+**Envíame las fotografías que deseas utilizar como fondo de las páginas 8, 9 y 10.** Mantendremos el estilo personalizado de las hojas anteriores. También podremos ajustar el análisis específico de cada testimonio cuando dispongamos de sus transcripciones, sin modificar nuevamente todo el diseño.
+
