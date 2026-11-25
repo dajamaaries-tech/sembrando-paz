@@ -897,40 +897,27 @@ const paginas = [
 
 </div>
 
-<div class="nota-etica">
-    <p>
-        Nota metodológica: este análisis corresponde a una
-        interpretación académica del contexto territorial.
-        Las percepciones específicas de los participantes
-        deberán contrastarse con el contenido de la entrevista.
+
+<div class="nota-etica"
+     style="text-align: center;">
+
+    <p style="
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.8;
+        color: #FFF4D8;
+        margin: 0;
+    ">
+
+        «Escuchar las voces del territorio es
+        reconocer su dignidad, valorar su identidad
+        y construir caminos de paz desde el respeto
+        y la memoria colectiva».
+
     </p>
+
 </div>
-
-            <div class="nota-etica">
-
-                <strong>
-
-                    Respeto por las voces del territorio
-
-                </strong>
-
-                <p>
-
-                    Las entrevistas serán incorporadas
-                    respetando el consentimiento informado,
-                    la dignidad, la identidad cultural
-                    y la privacidad de las personas
-                    participantes.
-
-                    La información será utilizada
-                    con fines académicos y únicamente
-                    conforme a las autorizaciones obtenidas.
-
-                </p>
-
-            </div>
-
-        </div>
 
     `
 },
