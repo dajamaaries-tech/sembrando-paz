@@ -596,66 +596,58 @@ const paginas = [
 
                 <!-- AQUÍ COLOCAREMOS EL VIDEO -->
 
-                <div id="video-paz-territorial"
-                     class="video-reservado">
+                
+<div class="video-entrevista">
 
-                    <span class="icono-video">▶</span>
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/VRWk0ElQdQE"
+        title="Paz territorial - Resguardo Indígena Kankuamo"
+        allow="accelerometer; autoplay; clipboard-write;
+               encrypted-media; gyroscope; picture-in-picture;
+               web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        loading="lazy">
+    </iframe>
 
-                    <strong>
-                        Entrevista comunitaria
-                    </strong>
+    <div class="informacion-video">
 
-                    <p>
+        <strong>
+            Voces del territorio Kankuamo
+        </strong>
 
-                        Resguardo Indígena Kankuamo
+        <p>
+            Duración: 4 minutos y 39 segundos.
+        </p>
 
-                    </p>
+        <a
+            class="boton-youtube"
+            href="https://youtu.be/VRWk0ElQdQE"
+            target="_blank"
+            rel="noopener noreferrer">
 
-                    <small>
+            ▶ Ver video en YouTube
 
-                        Video pendiente de incorporar
+        </a>
 
-                    </small>
+        <div class="enlace-video">
 
-                </div>
+            <small>Enlace del video:</small>
 
-                <!-- DATOS DE LA ENTREVISTA -->
+            <a
+                href="https://youtu.be/VRWk0ElQdQE"
+                target="_blank"
+                rel="noopener noreferrer">
 
-                <div class="datos-entrevista">
+                https://youtu.be/VRWk0ElQdQE
 
-                    <p>
+            </a>
 
-                        <strong>Población:</strong>
-                        Resguardo Indígena Kankuamo.
+        </div>
 
-                    </p>
+    </div>
 
-                    <p>
-
-                        <strong>Técnica:</strong>
-                        Entrevista comunitaria.
-
-                    </p>
-
-                    <p>
-
-                        <strong>Participante:</strong>
-                        Pendiente de registrar según
-                        autorización.
-
-                    </p>
-
-                    <p>
-
-                        <strong>Fecha:</strong>
-                        Pendiente de registrar.
-
-                    </p>
-
-                </div>
-
-            </div>
-            
+</div>            
 
             <!-- COMPARACIÓN TEÓRICA Y COMUNITARIA -->
 
