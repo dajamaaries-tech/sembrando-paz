@@ -2546,25 +2546,795 @@ const paginas = [
     `
 },
 
-    {
-        titulo: "Instituciones que construyen paz",
-        contenido: `
-            <p>
-                Aquí presentaremos las funciones,
-                programas y aportes de la entidad visitada.
-            </p>
-        `
-    },
+    
+{
+    titulo: "Instituciones que construyen paz",
 
-    {
-        titulo: "Nuestra experiencia institucional",
-        contenido: `
+    contenido: `
+
+        <div class="institucion-paz">
+
+            <div class="etiqueta-tematica">
+                JUSTICIA, REPARACIÓN Y TERRITORIO
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Restituir los derechos de las víctimas
+                es contribuir a sanar las heridas del
+                pasado y construir nuevas oportunidades
+                para la paz.
+
+            </blockquote>
+
+            <div class="presentacion-urt">
+
+                <div class="sigla-urt">URT</div>
+
+                <h3>Unidad de Restitución de Tierras</h3>
+
+                <p>
+                    Ministerio de Agricultura y Desarrollo Rural
+                </p>
+
+                <small>
+                    República de Colombia
+                </small>
+
+            </div>
+
+            <h3>¿Qué es la Unidad de Restitución de Tierras?</h3>
+
             <p>
-                Espacio destinado al video de la visita
-                institucional y la reflexión académica.
+                La Unidad de Restitución de Tierras es una
+                entidad del Gobierno colombiano, adscrita
+                al Ministerio de Agricultura y Desarrollo
+                Rural, creada mediante la Ley 1448 de 2011,
+                conocida como Ley de Víctimas y Restitución
+                de Tierras.
             </p>
-        `
-    },
+
+            <p>
+                Su objetivo principal consiste en gestionar
+                la restitución de tierras y derechos
+                territoriales de las víctimas que sufrieron
+                despojo o abandono forzado en el contexto
+                del conflicto armado colombiano.
+            </p>
+
+            <p>
+                Su labor contribuye a la reparación integral,
+                al restablecimiento de los derechos de las
+                víctimas y a la reconstrucción de sus
+                proyectos de vida.
+            </p>
+
+            <h3>Principales funciones de la entidad</h3>
+
+            <div class="caracteristicas-territorio">
+
+                <details>
+                    <summary>
+                        🤝 Atención y orientación a las víctimas
+                    </summary>
+
+                    <p>
+                        Brindar información y acompañamiento
+                        a las personas y comunidades sobre
+                        las rutas de restitución de tierras
+                        y derechos territoriales.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        📋 Investigación administrativa
+                    </summary>
+
+                    <p>
+                        Recopilar información, estudiar las
+                        solicitudes y analizar las circunstancias
+                        relacionadas con el despojo y el
+                        abandono forzado de tierras.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        ⚖️ Representación judicial
+                    </summary>
+
+                    <p>
+                        Presentar las solicitudes de
+                        restitución ante los jueces
+                        especializados, cuando corresponda,
+                        para que estos adopten las decisiones
+                        judiciales respectivas.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        🌿 Restitución de derechos territoriales
+                    </summary>
+
+                    <p>
+                        Gestionar los procesos de restitución
+                        de derechos territoriales de los pueblos
+                        y comunidades étnicas afectados por el
+                        conflicto armado, respetando sus
+                        características culturales.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        🏛 Articulación institucional
+                    </summary>
+
+                    <p>
+                        Coordinar acciones con otras entidades
+                        del Estado para contribuir al
+                        restablecimiento de derechos y al
+                        cumplimiento de las decisiones judiciales.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        🌱 Acompañamiento posterior
+                    </summary>
+
+                    <p>
+                        Apoyar los procesos que favorecen
+                        la sostenibilidad de la restitución,
+                        incluyendo el acompañamiento a
+                        proyectos productivos cuando corresponda.
+                    </p>
+                </details>
+
+            </div>
+
+            <h3>Programas y líneas de acción</h3>
+
+            <div class="programas-urt">
+
+                <div class="programa-urt">
+
+                    <span>01</span>
+
+                    <h4>Restitución individual de tierras</h4>
+
+                    <p>
+                        Gestión de las solicitudes de personas
+                        y familias víctimas del despojo o
+                        abandono forzado.
+                    </p>
+
+                </div>
+
+                <div class="programa-urt">
+
+                    <span>02</span>
+
+                    <h4>Restitución de derechos territoriales étnicos</h4>
+
+                    <p>
+                        Atención diferencial a pueblos indígenas
+                        y comunidades negras, afrocolombianas,
+                        raizales y palenqueras.
+                    </p>
+
+                </div>
+
+                <div class="programa-urt">
+
+                    <span>03</span>
+
+                    <h4>Protección territorial</h4>
+
+                    <p>
+                        Gestión de medidas orientadas a proteger
+                        los derechos sobre tierras y territorios
+                        afectados por el abandono forzado
+                        y otras situaciones de riesgo.
+                    </p>
+
+                </div>
+
+                <div class="programa-urt">
+
+                    <span>04</span>
+
+                    <h4>Proyectos productivos</h4>
+
+                    <p>
+                        Acompañamiento a iniciativas productivas
+                        que contribuyan a la recuperación
+                        económica y a la sostenibilidad
+                        de los procesos de restitución.
+                    </p>
+
+                </div>
+
+                <div class="programa-urt">
+
+                    <span>05</span>
+
+                    <h4>Participación social</h4>
+
+                    <p>
+                        Promoción de espacios de información,
+                        participación y acompañamiento
+                        a las víctimas y comunidades.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <h3>¿Cómo funciona la restitución de tierras?</h3>
+
+            <p>
+                Explora las etapas generales del proceso
+                de restitución seleccionando cada recuadro.
+            </p>
+
+            <div class="ruta-restitucion">
+
+                <details>
+                    <summary>01. Solicitud de restitución</summary>
+
+                    <p>
+                        La víctima o comunidad inicia el trámite
+                        y recibe orientación institucional.
+                    </p>
+                </details>
+
+                <div class="flecha-ruta">↓</div>
+
+                <details>
+                    <summary>02. Estudio administrativo</summary>
+
+                    <p>
+                        La URT analiza la solicitud, recopila
+                        información y determina si procede
+                        la inscripción en el registro
+                        correspondiente.
+                    </p>
+                </details>
+
+                <div class="flecha-ruta">↓</div>
+
+                <details>
+                    <summary>03. Etapa judicial</summary>
+
+                    <p>
+                        Los jueces especializados estudian
+                        las solicitudes, las pruebas y
+                        los derechos involucrados.
+                    </p>
+                </details>
+
+                <div class="flecha-ruta">↓</div>
+
+                <details>
+                    <summary>04. Sentencia judicial</summary>
+
+                    <p>
+                        La autoridad judicial decide sobre
+                        la restitución y las medidas
+                        de reparación correspondientes.
+                    </p>
+                </details>
+
+                <div class="flecha-ruta">↓</div>
+
+                <details>
+                    <summary>05. Cumplimiento de las órdenes</summary>
+
+                    <p>
+                        Las entidades responsables desarrollan
+                        las acciones ordenadas judicialmente
+                        para restablecer los derechos
+                        y contribuir a una restitución sostenible.
+                    </p>
+                </details>
+
+                <small>
+                    Esquema pedagógico general.
+                    Los procesos de restitución étnica
+                    cuentan con procedimientos diferenciales.
+                </small>
+
+            </div>
+
+            <h3>La restitución y el pueblo Kankuamo</h3>
+
+            <p>
+                El Decreto Ley 4633 de 2011 establece
+                medidas especiales de atención,
+                reparación integral y restitución
+                de derechos territoriales para los
+                pueblos y comunidades indígenas
+                víctimas del conflicto armado.
+            </p>
+
+            <p>
+                En el contexto del pueblo Kankuamo,
+                la restitución territorial constituye
+                una herramienta importante para
+                la recuperación de los derechos
+                colectivos afectados por la violencia.
+            </p>
+
+            <p>
+                El territorio no representa únicamente
+                un espacio físico, sino también el
+                fundamento de la identidad cultural,
+                la memoria colectiva, la espiritualidad,
+                la autonomía y la continuidad de
+                los conocimientos ancestrales.
+            </p>
+
+            <h3>Promoción de los derechos humanos</h3>
+
+            <div class="caminos-paz">
+
+                <div>
+                    <span>01</span>
+                    Reconocimiento de la dignidad
+                    de las víctimas.
+                </div>
+
+                <div>
+                    <span>02</span>
+                    Protección y recuperación
+                    de derechos territoriales.
+                </div>
+
+                <div>
+                    <span>03</span>
+                    Acceso a la justicia.
+                </div>
+
+                <div>
+                    <span>04</span>
+                    Reparación integral.
+                </div>
+
+                <div>
+                    <span>05</span>
+                    Respeto por la diversidad
+                    étnica y cultural.
+                </div>
+
+                <div>
+                    <span>06</span>
+                    Contribución a las garantías
+                    de no repetición.
+                </div>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Restituir derechos para construir paz
+                </strong>
+
+                <p>
+                    La restitución de tierras contribuye
+                    a enfrentar las consecuencias del
+                    conflicto armado, recuperar la
+                    confianza institucional y generar
+                    condiciones para una convivencia
+                    fundamentada en la justicia,
+                    la dignidad y el respeto.
+                </p>
+
+            </div>
+
+            <a class="boton-institucional"
+               href="https://www.urt.gov.co/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                🌐 Conoce la página oficial de la URT
+
+            </a>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Nuestra experiencia institucional",
+
+    contenido: `
+
+        <div class="experiencia-institucional">
+
+            <div class="etiqueta-tematica">
+                EXPERIENCIA Y APRENDIZAJE
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                La paz se fortalece cuando las
+                instituciones y las comunidades
+                trabajan juntas para recuperar
+                derechos y transformar realidades.
+
+            </blockquote>
+
+            <h3>Descripción de la visita institucional</h3>
+
+            <p>
+                Como parte de las actividades académicas
+                de la asignatura Cátedra de la Paz,
+                seleccionamos la Unidad de Restitución
+                de Tierras como entidad de interés para
+                comprender el papel de las instituciones
+                públicas en la construcción de paz.
+            </p>
+
+            <p>
+                Nuestro acercamiento institucional tiene
+                como propósito conocer sus funciones,
+                las rutas de atención a las víctimas,
+                los procesos de restitución de tierras
+                y su relación con la reparación integral
+                y la recuperación de derechos territoriales.
+            </p>
+
+            <p>
+                Esta experiencia se relaciona con
+                nuestra investigación sobre el
+                Resguardo Indígena Kankuamo, debido
+                a la importancia del territorio,
+                la memoria, la identidad cultural
+                y los derechos colectivos en la
+                construcción de una paz duradera.
+            </p>
+
+            <!-- VIDEO DE LA VISITA INSTITUCIONAL -->
+
+            <div class="entrevista-comunidad">
+
+                <div class="encabezado-entrevista">
+
+                    <span>VISITA INSTITUCIONAL</span>
+
+                    <h3>
+                        Unidad de Restitución de Tierras
+                    </h3>
+
+                </div>
+
+                <div class="video-entrevista">
+
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/TeX0XX9kQkw"
+                        title="Visita institucional a la Unidad de Restitución de Tierras"
+                        allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture;
+                        web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+
+                    <div class="informacion-video">
+
+                        <strong>
+                            Experiencia institucional — URT
+                        </strong>
+
+                        <p>
+                            Cátedra de la Paz · 2026
+                        </p>
+
+                        <p>
+                            Universidad Popular del Cesar
+                        </p>
+
+                        <a
+                            class="boton-youtube"
+                            href="https://youtu.be/TeX0XX9kQkw"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            ▶ Ver video en YouTube
+
+                        </a>
+
+                        <div class="enlace-video">
+
+                            <small>Enlace del video:</small>
+
+                            <a
+                                href="https://youtu.be/TeX0XX9kQkw"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                https://youtu.be/TeX0XX9kQkw
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="datos-entrevista">
+
+                    <p>
+                        <strong>Entidad:</strong>
+                        Unidad de Restitución de Tierras.
+                    </p>
+
+                    <p>
+                        <strong>Actividad:</strong>
+                        Visita y entrevista institucional.
+                    </p>
+
+                    <p>
+                        <strong>Propósito:</strong>
+                        Comprender su contribución a
+                        la construcción de paz.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <h3>Aprendizajes y reflexiones sobre la URT</h3>
+
+            <p>
+                El estudio de las funciones de la Unidad
+                de Restitución de Tierras nos permite
+                comprender que la construcción de paz
+                requiere acciones institucionales
+                orientadas a garantizar los derechos
+                humanos y atender las consecuencias
+                del conflicto armado.
+            </p>
+
+            <div class="caracteristicas-territorio">
+
+                <details>
+
+                    <summary>
+                        ⚖️ La importancia de la justicia
+                    </summary>
+
+                    <p>
+                        La construcción de paz requiere
+                        mecanismos que permitan reconocer
+                        las afectaciones sufridas por
+                        las víctimas y promover el
+                        restablecimiento de sus derechos.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🌿 El valor del territorio
+                    </summary>
+
+                    <p>
+                        La recuperación de los derechos
+                        territoriales contribuye a la
+                        protección de los proyectos de vida,
+                        la identidad cultural y las
+                        relaciones comunitarias.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🤝 La reparación de las víctimas
+                    </summary>
+
+                    <p>
+                        La reparación integral busca
+                        responder a los daños ocasionados
+                        por la violencia y contribuir
+                        a recuperar condiciones de
+                        dignidad y bienestar.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        👥 La participación comunitaria
+                    </summary>
+
+                    <p>
+                        La participación de las comunidades
+                        resulta fundamental para reconocer
+                        sus necesidades y orientar las
+                        acciones institucionales desde
+                        sus realidades territoriales.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🕊 Las garantías de no repetición
+                    </summary>
+
+                    <p>
+                        La construcción de una paz duradera
+                        implica transformar las condiciones
+                        que han favorecido la violencia
+                        y fortalecer la protección
+                        de los derechos humanos.
+                    </p>
+
+                </details>
+
+            </div>
+
+            <h3>¿Cómo contribuye la URT a la paz?</h3>
+
+            <div class="tabla-comparativa-paz">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Acción institucional</th>
+                            <th>Aporte a la construcción de paz</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Restitución de tierras</td>
+                            <td>
+                                Recuperación de derechos
+                                afectados por el despojo
+                                y el abandono forzado.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Atención a las víctimas</td>
+                            <td>
+                                Reconocimiento de la dignidad
+                                y acceso a mecanismos
+                                de reparación.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Enfoque diferencial étnico</td>
+                            <td>
+                                Protección de la identidad
+                                cultural, la autonomía y
+                                los derechos territoriales.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Proyectos productivos</td>
+                            <td>
+                                Apoyo a la recuperación
+                                económica y a la
+                                sostenibilidad de la restitución.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Articulación institucional</td>
+                            <td>
+                                Coordinación para
+                                el restablecimiento
+                                efectivo de derechos.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <h3>Relación con la convivencia comunitaria</h3>
+
+            <p>
+                El acceso a la justicia y la recuperación
+                de los derechos territoriales pueden
+                contribuir a fortalecer la confianza,
+                reconstruir el tejido social y generar
+                condiciones favorables para la
+                convivencia pacífica.
+            </p>
+
+            <p>
+                En los pueblos indígenas, estos procesos
+                deben reconocer las particularidades
+                culturales, las autoridades propias,
+                la memoria colectiva y la relación
+                ancestral con el territorio.
+            </p>
+
+            <h3>Nuestra reflexión como futuros docentes</h3>
+
+            <p>
+                Como estudiantes de Licenciatura en
+                Matemáticas de la Universidad Popular
+                del Cesar, consideramos que conocer
+                las instituciones que trabajan por
+                la garantía de derechos permite
+                ampliar nuestra comprensión de
+                la realidad social colombiana.
+            </p>
+
+            <p>
+                Nuestra formación profesional también
+                implica una responsabilidad frente
+                a la promoción de la justicia,
+                el respeto por la diversidad,
+                la inclusión y la convivencia pacífica.
+            </p>
+
+            <p>
+                Desde las aulas podemos contribuir
+                a formar ciudadanos conscientes de
+                sus derechos y responsabilidades,
+                capaces de reconocer las realidades
+                de sus territorios y participar
+                en su transformación.
+            </p>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Educar para la justicia y la paz
+                </strong>
+
+                <p>
+                    La educación nos permite comprender
+                    nuestra historia, reconocer las
+                    consecuencias de la violencia
+                    y fortalecer una sociedad
+                    fundamentada en el respeto,
+                    la solidaridad y la garantía
+                    de los derechos humanos.
+                </p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Recuperar un territorio es también
+                recuperar la esperanza, fortalecer
+                la memoria y abrir nuevos caminos
+                para la construcción de paz.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
 
     {
         titulo: "Derechos humanos y cultura de paz",
@@ -2951,7 +3721,9 @@ function generarPagina(indice, posicion = "") {
     ${indice === 6 ? 'pagina-identidad-territorio' : ''}
     ${indice === 7 ? 'pagina-conflictos-territorio' : ''}
     ${indice === 8 ? 'pagina-testimonios-territorio' : ''}
-    ${indice === 9 ? 'pagina-analisis-conflictos' : ''}">
+    ${indice === 9 ? 'pagina-analisis-conflictos' : ''}
+    ${indice === 10 ? 'pagina-institucion-paz' : ''}
+    ${indice === 11 ? 'pagina-experiencia-institucional' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
