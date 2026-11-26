@@ -4511,3 +4511,151 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   APRENDIZAJES Y REFLEXIONES SOBRE LA URT
+   BOTÓN ÚNICO - PÁGINA 12
+========================================== */
+
+.aprendizajes-urt {
+
+    display: grid;
+
+    gap: 15px;
+
+    padding: 18px;
+
+    background: transparent;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+
+/* INTRODUCCIÓN DE LOS APRENDIZAJES */
+
+.programas-urt-interactivos
+.introduccion-aprendizajes {
+
+    padding: 0;
+
+    margin: 0 0 8px;
+
+    border: none;
+
+    color: #FFFFFF;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    animation: none;
+
+}
+
+
+/* RECUADROS DE CADA APRENDIZAJE */
+
+.aprendizaje-urt {
+
+    background: rgba(53, 73, 50, 0.90);
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    padding: 18px;
+
+}
+
+
+/* TÍTULOS DORADOS */
+
+.aprendizaje-urt h4 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+
+    margin: 0 0 12px;
+
+}
+
+
+/* DESCRIPCIONES */
+
+.programas-urt-interactivos
+.aprendizaje-urt p {
+
+    padding: 0;
+
+    margin: 0;
+
+    border: none;
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    text-align: left;
+
+    animation: none;
+
+}
+
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .aprendizajes-urt {
+
+        padding: 12px;
+
+        gap: 10px;
+
+    }
+
+    .aprendizaje-urt {
+
+        padding: 14px;
+
+    }
+
+    .aprendizaje-urt h4 {
+
+        font-size: 16px;
+
+    }
+
+    .programas-urt-interactivos
+    .introduccion-aprendizajes {
+
+        text-align: left;
+
+    }
+
+}
+
+
+/* ACCESIBILIDAD */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .aprendizajes-urt {
+
+        animation: none;
+
+    }
+
+}
+
