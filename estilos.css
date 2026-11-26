@@ -4355,3 +4355,159 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   RUTA DE RESTITUCIÓN - BOTÓN ÚNICO
+   PÁGINA 11
+========================================== */
+
+.ruta-restitucion.ruta-completa {
+
+    margin: 0;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 0;
+
+    background: transparent;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+
+/* RECUADROS DE CADA ETAPA */
+
+.etapa-restitucion {
+
+    background: rgba(53, 73, 50, 0.90);
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    padding: 15px;
+
+}
+
+
+/* TÍTULOS DE LAS ETAPAS */
+
+.etapa-restitucion h4 {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 17px;
+
+    line-height: 1.5;
+
+    margin: 0 0 12px;
+
+}
+
+
+/* NUMERACIÓN DORADA */
+
+.etapa-restitucion h4 span {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 34px;
+
+    height: 34px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: #E9CD91;
+
+    color: #20251C;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+/* DESCRIPCIÓN DE CADA ETAPA */
+
+.programas-urt-interactivos
+.etapa-restitucion p {
+
+    padding: 0;
+
+    margin: 0;
+
+    color: #FFFFFF;
+
+    border: none;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: left;
+
+    animation: none;
+
+}
+
+
+/* FLECHAS ENTRE LAS ETAPAS */
+
+.ruta-completa .flecha-ruta {
+
+    color: #E9CD91;
+
+    font-size: 28px;
+
+    text-align: center;
+
+    padding: 8px;
+
+}
+
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .ruta-restitucion.ruta-completa {
+
+        padding: 12px;
+
+    }
+
+    .etapa-restitucion h4 {
+
+        font-size: 15px;
+
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .ruta-restitucion.ruta-completa {
+
+        animation: none;
+
+    }
+
+}
+
