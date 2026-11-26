@@ -2895,45 +2895,61 @@ const paginas = [
                 los conocimientos ancestrales.
             </p>
 
-            <h3>Promoción de los derechos humanos</h3>
+            
+<!-- PROMOCIÓN DE LOS DERECHOS HUMANOS -->
 
-            <div class="caminos-paz">
+<div class="programas-urt-interactivos">
 
-                <div>
-                    <span>01</span>
-                    Reconocimiento de la dignidad
-                    de las víctimas.
-                </div>
+    <details>
 
-                <div>
-                    <span>02</span>
-                    Protección y recuperación
-                    de derechos territoriales.
-                </div>
+        <summary>
 
-                <div>
-                    <span>03</span>
-                    Acceso a la justicia.
-                </div>
+            ⚖️ Promoción de los derechos humanos
 
-                <div>
-                    <span>04</span>
-                    Reparación integral.
-                </div>
+        </summary>
 
-                <div>
-                    <span>05</span>
-                    Respeto por la diversidad
-                    étnica y cultural.
-                </div>
+        <div class="caminos-paz derechos-urt">
 
-                <div>
-                    <span>06</span>
-                    Contribución a las garantías
-                    de no repetición.
-                </div>
-
+            <div>
+                <span>01</span>
+                Reconocimiento de la dignidad
+                de las víctimas.
             </div>
+
+            <div>
+                <span>02</span>
+                Protección y recuperación
+                de derechos territoriales.
+            </div>
+
+            <div>
+                <span>03</span>
+                Acceso a la justicia.
+            </div>
+
+            <div>
+                <span>04</span>
+                Reparación integral.
+            </div>
+
+            <div>
+                <span>05</span>
+                Respeto por la diversidad
+                étnica y cultural.
+            </div>
+
+            <div>
+                <span>06</span>
+                Contribución a las garantías
+                de no repetición.
+            </div>
+
+        </div>
+
+    </details>
+
+</div>
+
 
             <div class="reflexion-territorial">
 
