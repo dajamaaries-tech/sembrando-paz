@@ -2791,81 +2791,116 @@ const paginas = [
     </details>
 
 </div>
-            <h3>¿Cómo funciona la restitución de tierras?</h3>
+            
+<!-- RUTA DE RESTITUCIÓN DESPLEGABLE -->
 
-            <p>
-                Explora las etapas generales del proceso
-                de restitución seleccionando cada recuadro.
-            </p>
+<div class="programas-urt-interactivos">
 
-            <div class="ruta-restitucion">
+    <details>
 
-                <details>
-                    <summary>01. Solicitud de restitución</summary>
+        <summary>
 
-                    <p>
-                        La víctima o comunidad inicia el trámite
-                        y recibe orientación institucional.
-                    </p>
-                </details>
+            🏛️ ¿Cómo funciona la restitución de tierras?
 
-                <div class="flecha-ruta">↓</div>
+        </summary>
 
-                <details>
-                    <summary>02. Estudio administrativo</summary>
+        <div class="ruta-restitucion ruta-completa">
 
-                    <p>
-                        La URT analiza la solicitud, recopila
-                        información y determina si procede
-                        la inscripción en el registro
-                        correspondiente.
-                    </p>
-                </details>
+            <div class="etapa-restitucion">
 
-                <div class="flecha-ruta">↓</div>
+                <h4>
+                    <span>01</span>
+                    Solicitud de restitución
+                </h4>
 
-                <details>
-                    <summary>03. Etapa judicial</summary>
-
-                    <p>
-                        Los jueces especializados estudian
-                        las solicitudes, las pruebas y
-                        los derechos involucrados.
-                    </p>
-                </details>
-
-                <div class="flecha-ruta">↓</div>
-
-                <details>
-                    <summary>04. Sentencia judicial</summary>
-
-                    <p>
-                        La autoridad judicial decide sobre
-                        la restitución y las medidas
-                        de reparación correspondientes.
-                    </p>
-                </details>
-
-                <div class="flecha-ruta">↓</div>
-
-                <details>
-                    <summary>05. Cumplimiento de las órdenes</summary>
-
-                    <p>
-                        Las entidades responsables desarrollan
-                        las acciones ordenadas judicialmente
-                        para restablecer los derechos
-                        y contribuir a una restitución sostenible.
-                    </p>
-                </details>
-
-                <small>
-                    Esquema pedagógico general.
-                    Los procesos de restitución étnica
-                    cuentan con procedimientos diferenciales.
-                </small>
+                <p>
+                    La víctima o comunidad inicia el trámite
+                    y recibe orientación institucional.
+                </p>
 
             </div>
+
+            <div class="flecha-ruta">↓</div>
+
+            <div class="etapa-restitucion">
+
+                <h4>
+                    <span>02</span>
+                    Estudio administrativo
+                </h4>
+
+                <p>
+                    La URT analiza la solicitud, recopila
+                    información y determina si procede
+                    la inscripción en el registro
+                    correspondiente.
+                </p>
+
+            </div>
+
+            <div class="flecha-ruta">↓</div>
+
+            <div class="etapa-restitucion">
+
+                <h4>
+                    <span>03</span>
+                    Etapa judicial
+                </h4>
+
+                <p>
+                    Los jueces especializados estudian
+                    las solicitudes, las pruebas y
+                    los derechos involucrados.
+                </p>
+
+            </div>
+
+            <div class="flecha-ruta">↓</div>
+
+            <div class="etapa-restitucion">
+
+                <h4>
+                    <span>04</span>
+                    Sentencia judicial
+                </h4>
+
+                <p>
+                    La autoridad judicial decide sobre
+                    la restitución y las medidas
+                    de reparación correspondientes.
+                </p>
+
+            </div>
+
+            <div class="flecha-ruta">↓</div>
+
+            <div class="etapa-restitucion">
+
+                <h4>
+                    <span>05</span>
+                    Cumplimiento de las órdenes
+                </h4>
+
+                <p>
+                    Las entidades responsables desarrollan
+                    las acciones ordenadas judicialmente
+                    para restablecer los derechos
+                    y contribuir a una restitución sostenible.
+                </p>
+
+            </div>
+
+            <small>
+                Esquema pedagógico general.
+                Los procesos de restitución étnica
+                cuentan con procedimientos diferenciales.
+            </small>
+
+        </div>
+
+    </details>
+
+</div>
 
             <h3>La restitución y el pueblo Kankuamo</h3>
 
