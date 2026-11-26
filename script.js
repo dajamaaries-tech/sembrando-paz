@@ -2695,84 +2695,102 @@ const paginas = [
 
             </div>
 
-            <h3>Programas y líneas de acción</h3>
+            
+<!-- PROGRAMAS INTERACTIVOS DE LA URT -->
 
-            <div class="programas-urt">
+<h3>Programas y líneas de acción</h3>
 
-                <div class="programa-urt">
+<p>
+    Selecciona cada programa para conocer
+    su contribución a la restitución de tierras
+    y la construcción de paz.
+</p>
 
-                    <span>01</span>
+<div class="programas-urt-interactivos">
 
-                    <h4>Restitución individual de tierras</h4>
+    <details>
 
-                    <p>
-                        Gestión de las solicitudes de personas
-                        y familias víctimas del despojo o
-                        abandono forzado.
-                    </p>
+        <summary>
+            <span class="numero-programa">01</span>
 
-                </div>
+            Restitución individual de tierras
+        </summary>
 
-                <div class="programa-urt">
+        <p>
+            Gestión de las solicitudes de personas
+            y familias víctimas del despojo o
+            abandono forzado.
+        </p>
 
-                    <span>02</span>
+    </details>
 
-                    <h4>Restitución de derechos territoriales étnicos</h4>
+    <details>
 
-                    <p>
-                        Atención diferencial a pueblos indígenas
-                        y comunidades negras, afrocolombianas,
-                        raizales y palenqueras.
-                    </p>
+        <summary>
+            <span class="numero-programa">02</span>
 
-                </div>
+            Restitución de derechos territoriales étnicos
+        </summary>
 
-                <div class="programa-urt">
+        <p>
+            Atención diferencial a pueblos indígenas
+            y comunidades negras, afrocolombianas,
+            raizales y palenqueras.
+        </p>
 
-                    <span>03</span>
+    </details>
 
-                    <h4>Protección territorial</h4>
+    <details>
 
-                    <p>
-                        Gestión de medidas orientadas a proteger
-                        los derechos sobre tierras y territorios
-                        afectados por el abandono forzado
-                        y otras situaciones de riesgo.
-                    </p>
+        <summary>
+            <span class="numero-programa">03</span>
 
-                </div>
+            Protección territorial
+        </summary>
 
-                <div class="programa-urt">
+        <p>
+            Gestión de medidas orientadas a proteger
+            los derechos sobre tierras y territorios
+            afectados por el abandono forzado
+            y otras situaciones de riesgo.
+        </p>
 
-                    <span>04</span>
+    </details>
 
-                    <h4>Proyectos productivos</h4>
+    <details>
 
-                    <p>
-                        Acompañamiento a iniciativas productivas
-                        que contribuyan a la recuperación
-                        económica y a la sostenibilidad
-                        de los procesos de restitución.
-                    </p>
+        <summary>
+            <span class="numero-programa">04</span>
 
-                </div>
+            Proyectos productivos
+        </summary>
 
-                <div class="programa-urt">
+        <p>
+            Acompañamiento a iniciativas productivas
+            que contribuyan a la recuperación
+            económica y a la sostenibilidad
+            de los procesos de restitución.
+        </p>
 
-                    <span>05</span>
+    </details>
 
-                    <h4>Participación social</h4>
+    <details>
 
-                    <p>
-                        Promoción de espacios de información,
-                        participación y acompañamiento
-                        a las víctimas y comunidades.
-                    </p>
+        <summary>
+            <span class="numero-programa">05</span>
 
-                </div>
+            Participación social
+        </summary>
 
-            </div>
+        <p>
+            Promoción de espacios de información,
+            participación y acompañamiento
+            a las víctimas y comunidades.
+        </p>
 
+    </details>
+
+</div>
             <h3>¿Cómo funciona la restitución de tierras?</h3>
 
             <p>
