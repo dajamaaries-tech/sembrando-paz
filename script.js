@@ -4663,64 +4663,577 @@ const paginas = [
     `
 },
 
-    {
-        titulo: "Aprendamos jugando",
-        contenido: `
-            <h3>Actividades educativas</h3>
 
-            <div class="tarjetas">
+{
+    titulo: "Actividades interactivas para construir paz",
 
-                <div class="tarjeta">
-                    <h3>Sopa de letras</h3>
-                    <p>Actividad pendiente de desarrollar.</p>
-                </div>
+    contenido: `
 
-                <div class="tarjeta">
-                    <h3>Crucigrama</h3>
-                    <p>Actividad pendiente de desarrollar.</p>
-                </div>
+        <div class="actividades-paz">
 
+            <div class="etiqueta-tematica">
+                APRENDER JUGANDO
             </div>
-        `
-    },
 
-    {
-        titulo: "Retos para construir paz",
-        contenido: `
-            <div class="actividad">
+            <blockquote class="frase-territorial">
 
-                <h3>Reto interactivo de demostración</h3>
+                Cada aprendizaje es una semilla
+                que nos permite construir una sociedad
+                más justa, respetuosa y solidaria.
+
+            </blockquote>
+
+            <h3>Juega, aprende y construye paz</h3>
+
+            <p>
+                Te invitamos a participar en diferentes
+                actividades pedagógicas que te permitirán
+                fortalecer tus conocimientos sobre los
+                derechos humanos, la convivencia,
+                la identidad cultural y la paz territorial.
+            </p>
+
+            <p>
+                Puedes ingresar a cada actividad presionando
+                el botón de jugar o escaneando su código QR
+                desde otro dispositivo.
+            </p>
+
+            <!-- ACTIVIDAD 1 -->
+
+            <div class="tarjeta-juego-paz">
+
+                <div class="icono-juego-paz">
+                    🔎
+                </div>
+
+                <small>ACTIVIDAD 01</small>
+
+                <h3>Encontrando las semillas de la paz</h3>
+
+                <span class="tipo-juego-paz">
+                    SOPA DE LETRAS
+                </span>
 
                 <p>
-                    Dos integrantes de una comunidad
-                    tienen opiniones diferentes sobre
-                    el uso de un espacio colectivo.
-                    ¿Qué deberían hacer?
+                    Encuentra diez palabras relacionadas
+                    con la cultura de paz, los derechos
+                    humanos y la convivencia.
                 </p>
 
-                <div class="opciones">
+                <div class="datos-juego-paz">
 
-                    <button onclick="evaluarRespuesta(this, false)">
-                        Imponer su opinión.
-                    </button>
+                    <span>🧩 10 palabras</span>
 
-                    <button onclick="evaluarRespuesta(this, true)">
-                        Dialogar y construir un acuerdo.
-                    </button>
-
-                    <button onclick="evaluarRespuesta(this, false)">
-                        Evitar hablar del problema.
-                    </button>
+                    <span>🎯 Atención y concentración</span>
 
                 </div>
 
-                <p class="retroalimentacion"
-                   aria-live="polite"></p>
+                <details class="instrucciones-juego">
+
+                    <summary>
+                        ¿Cómo jugar?
+                    </summary>
+
+                    <p>
+                        Selecciona la primera y la última
+                        letra de cada palabra. Las palabras
+                        pueden encontrarse en sentido
+                        horizontal, vertical o diagonal.
+
+                        Completa las diez palabras
+                        y conviértete en un explorador
+                        de la cultura de paz.
+                    </p>
+
+                </details>
+
+                <img
+                    class="qr-juego-paz"
+                    src="qr-paz-1.png"
+                    alt="Código QR de la sopa de letras"
+                    loading="lazy">
+
+                <small>
+                    Escanea el código para jugar
+                </small>
+
+                <a
+                    class="boton-jugar-paz"
+                    href="juegos-paz.html?j=1"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ▶ Comenzar actividad
+
+                </a>
 
             </div>
-        `
-    },
 
+
+            <!-- ACTIVIDAD 2 -->
+
+            <div class="tarjeta-juego-paz">
+
+                <div class="icono-juego-paz">
+                    🧩
+                </div>
+
+                <small>ACTIVIDAD 02</small>
+
+                <h3>Palabras que construyen paz</h3>
+
+                <span class="tipo-juego-paz">
+                    CRUCIGRAMA
+                </span>
+
+                <p>
+                    Resuelve diferentes pistas
+                    relacionadas con los derechos humanos,
+                    la memoria, la convivencia
+                    y la resolución pacífica de conflictos.
+                </p>
+
+                <div class="datos-juego-paz">
+
+                    <span>✏️ 8 palabras</span>
+
+                    <span>🧠 Pensamiento y comprensión</span>
+
+                </div>
+
+                <details class="instrucciones-juego">
+
+                    <summary>
+                        ¿Cómo jugar?
+                    </summary>
+
+                    <p>
+                        Lee las pistas horizontales
+                        y verticales. Escribe una letra
+                        en cada casilla y utiliza el botón
+                        Comprobar para verificar
+                        tus respuestas.
+
+                        Puedes volver a intentarlo
+                        hasta completar el crucigrama.
+                    </p>
+
+                </details>
+
+                <img
+                    class="qr-juego-paz"
+                    src="qr-paz-2.png"
+                    alt="Código QR del crucigrama"
+                    loading="lazy">
+
+                <small>
+                    Escanea el código para jugar
+                </small>
+
+                <a
+                    class="boton-jugar-paz"
+                    href="juegos-paz.html?j=2"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ▶ Comenzar actividad
+
+                </a>
+
+            </div>
+
+
+            <!-- ACTIVIDAD 3 -->
+
+            <div class="tarjeta-juego-paz">
+
+                <div class="icono-juego-paz">
+                    🔗
+                </div>
+
+                <small>ACTIVIDAD 03</small>
+
+                <h3>Conectando saberes</h3>
+
+                <span class="tipo-juego-paz">
+                    JUEGO DE ASOCIACIÓN
+                </span>
+
+                <p>
+                    Relaciona los conceptos fundamentales
+                    de la cultura de paz con sus
+                    respectivas definiciones.
+                </p>
+
+                <div class="datos-juego-paz">
+
+                    <span>🎯 6 parejas</span>
+
+                    <span>💡 Comprensión de conceptos</span>
+
+                </div>
+
+                <details class="instrucciones-juego">
+
+                    <summary>
+                        ¿Cómo jugar?
+                    </summary>
+
+                    <p>
+                        Selecciona un concepto de la
+                        columna izquierda y luego
+                        su definición correspondiente
+                        en la columna derecha.
+
+                        Las asociaciones correctas
+                        se marcarán en verde.
+                    </p>
+
+                </details>
+
+                <img
+                    class="qr-juego-paz"
+                    src="qr-paz-3.png"
+                    alt="Código QR del juego de asociación"
+                    loading="lazy">
+
+                <small>
+                    Escanea el código para jugar
+                </small>
+
+                <a
+                    class="boton-jugar-paz"
+                    href="juegos-paz.html?j=3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ▶ Comenzar actividad
+
+                </a>
+
+            </div>
+
+
+            <blockquote class="cierre-territorio">
+
+                Aprender sobre la paz es descubrir
+                nuevas formas de convivir,
+                comprendernos y trabajar juntos.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Aprendiendo a convivir en paz",
+
+    contenido: `
+
+        <div class="actividades-paz">
+
+            <div class="etiqueta-tematica">
+                REFLEXIÓN, DECISIONES Y CONVIVENCIA
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                La paz no solamente se aprende,
+                también se practica mediante
+                nuestras decisiones y acciones cotidianas.
+
+            </blockquote>
+
+            <h3>Construyendo soluciones</h3>
+
+            <p>
+                Las siguientes actividades permiten
+                aplicar los conocimientos adquiridos
+                durante el recorrido por la cartilla,
+                reflexionando sobre situaciones de
+                convivencia escolar y comunitaria.
+            </p>
+
+
+            <!-- ACTIVIDAD 4 -->
+
+            <div class="tarjeta-juego-paz">
+
+                <div class="icono-juego-paz">
+                    ⚖️
+                </div>
+
+                <small>ACTIVIDAD 04</small>
+
+                <h3>Decisiones que transforman</h3>
+
+                <span class="tipo-juego-paz">
+                    SIMULADOR DE CONFLICTOS
+                </span>
+
+                <p>
+                    Enfrenta diferentes situaciones
+                    hipotéticas de conflicto y selecciona
+                    las alternativas que mejor protejan
+                    los derechos humanos y favorezcan
+                    la convivencia pacífica.
+                </p>
+
+                <div class="datos-juego-paz">
+
+                    <span>💬 5 situaciones</span>
+
+                    <span>🏆 Puntuación final</span>
+
+                    <span>🤝 Toma de decisiones</span>
+
+                </div>
+
+                <details class="instrucciones-juego">
+
+                    <summary>
+                        ¿Cómo jugar?
+                    </summary>
+
+                    <p>
+                        Lee cuidadosamente cada situación
+                        y selecciona una de las tres
+                        alternativas de solución.
+
+                        Recibirás una explicación
+                        de cada respuesta y podrás
+                        conocer tu resultado final.
+                    </p>
+
+                </details>
+
+                <img
+                    class="qr-juego-paz"
+                    src="qr-paz-4.png"
+                    alt="Código QR del simulador de conflictos"
+                    loading="lazy">
+
+                <small>
+                    Escanea el código para jugar
+                </small>
+
+                <a
+                    class="boton-jugar-paz"
+                    href="juegos-paz.html?j=4"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ▶ Comenzar actividad
+
+                </a>
+
+            </div>
+
+
+            <!-- ACTIVIDAD 5 -->
+
+            <div class="tarjeta-juego-paz">
+
+                <div class="icono-juego-paz">
+                    📖
+                </div>
+
+                <small>ACTIVIDAD 05</small>
+
+                <h3>Piensa, reflexiona y siembra paz</h3>
+
+                <span class="tipo-juego-paz">
+                    DIARIO INTERACTIVO DE REFLEXIÓN
+                </span>
+
+                <p>
+                    Expresa tus ideas y experiencias
+                    acerca de los derechos humanos,
+                    la identidad cultural, el territorio
+                    y la construcción de paz.
+                </p>
+
+                <div class="datos-juego-paz">
+
+                    <span>✍️ 5 preguntas abiertas</span>
+
+                    <span>📥 Descarga de respuestas</span>
+
+                    <span>🌱 Reflexión personal</span>
+
+                </div>
+
+                <details class="instrucciones-juego">
+
+                    <summary>
+                        ¿Cómo realizar la actividad?
+                    </summary>
+
+                    <p>
+                        Lee cada pregunta y escribe
+                        una reflexión personal.
+
+                        No existen respuestas únicas.
+
+                        Al finalizar, podrás descargar
+                        tus reflexiones en un archivo
+                        de texto y conservarlas
+                        como evidencia de aprendizaje.
+                    </p>
+
+                </details>
+
+                <img
+                    class="qr-juego-paz"
+                    src="qr-paz-5.png"
+                    alt="Código QR del diario de reflexión"
+                    loading="lazy">
+
+                <small>
+                    Escanea el código para participar
+                </small>
+
+                <a
+                    class="boton-jugar-paz"
+                    href="juegos-paz.html?j=5"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ▶ Comenzar actividad
+
+                </a>
+
+            </div>
+
+
+            <!-- REFLEXIÓN PEDAGÓGICA -->
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        📚 ¿Qué aprendemos con estas actividades?
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Pensamiento crítico</h4>
+
+                            <p>
+                                Analizar situaciones,
+                                identificar problemas
+                                y construir alternativas
+                                de solución.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Competencias ciudadanas</h4>
+
+                            <p>
+                                Fortalecer el respeto,
+                                la participación,
+                                la responsabilidad
+                                y la convivencia.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Reconocimiento cultural</h4>
+
+                            <p>
+                                Valorar la identidad,
+                                la diversidad y las
+                                experiencias de las
+                                comunidades indígenas.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Resolución pacífica</h4>
+
+                            <p>
+                                Aplicar estrategias de
+                                diálogo, mediación,
+                                negociación y construcción
+                                de acuerdos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+
+            <div class="reflexion-territorial">
+
+                <strong>
+
+                    Nuestra propuesta pedagógica
+
+                </strong>
+
+                <p>
+                    Como estudiantes de Licenciatura
+                    en Matemáticas, consideramos que
+                    el aprendizaje interactivo permite
+                    fortalecer la participación,
+                    la motivación y el pensamiento crítico.
+                </p>
+
+                <p>
+                    Mediante estas actividades buscamos
+                    integrar la tecnología, la creatividad
+                    y la educación para promover
+                    una cultura de paz desde las aulas
+                    y los territorios.
+                </p>
+
+            </div>
+
+
+            <a
+                class="boton-jugar-paz"
+                href="juegos-paz.html?j=1"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                🎮 Explorar todos los juegos de paz
+
+            </a>
+
+
+            <blockquote class="cierre-territorio">
+
+                Cada palabra aprendida,
+                cada decisión respetuosa
+                y cada reflexión compartida
+                son semillas de una paz duradera.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
     {
         titulo: "Nuestros compromisos con la paz",
         contenido: `
@@ -5020,7 +5533,9 @@ function generarPagina(indice, posicion = "") {
     ${indice === 11 ? 'pagina-experiencia-institucional' : ''}
     ${indice === 12 ? 'pagina-derechos-humanos' : ''}
     ${indice === 13 ? 'pagina-resolucion-conflictos' : ''}
-    ${indice === 14 ? 'pagina-voces-territorio' : ''}">
+    ${indice === 14 ? 'pagina-voces-territorio' : ''}
+    ${indice === 15 ? 'pagina-actividades-paz' : ''}
+    ${indice === 16 ? 'pagina-juegos-convivencia' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
