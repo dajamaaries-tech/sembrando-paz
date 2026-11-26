@@ -5475,3 +5475,637 @@ summary::-webkit-details-marker {
 
 }
 
+/* ==========================================
+   PÁGINAS 18, 19 Y 20
+   COMPROMISOS, CONCLUSIONES Y REFERENCIAS
+========================================== */
+
+
+/* PÁGINA 18 - COLIBRÍ Y FLORES AMARILLAS */
+
+#libro .pagina.pagina-compromisos-paz {
+
+    background-color: #354932 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(10,25,15,0.48),
+            rgba(10,25,15,0.72)
+        ),
+        url("./fondo-compromisos.jpeg") !important;
+
+    background-size: cover !important;
+
+    background-position: center center !important;
+
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+/* PÁGINA 19 - MARIPOSA */
+
+#libro .pagina.pagina-conclusiones-paz {
+
+    background-color: #354932 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(10,25,15,0.48),
+            rgba(10,25,15,0.72)
+        ),
+        url("./fondo-conclusiones.jpeg") !important;
+
+    background-size: cover !important;
+
+    background-position: center center !important;
+
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+/* PÁGINA 20 - AVE MULTICOLOR */
+
+#libro .pagina.pagina-referencias-paz {
+
+    background-color: #163B55 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(10,24,35,0.45),
+            rgba(10,24,35,0.72)
+        ),
+        url("./fondo-referencias.jpeg") !important;
+
+    background-size: cover !important;
+
+    background-position: center center !important;
+
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+/* ==========================================
+   TÍTULOS Y TEXTOS
+========================================== */
+
+.pagina-compromisos-paz h2,
+.pagina-conclusiones-paz h2,
+.pagina-referencias-paz h2 {
+
+    color: #FFF4D8;
+
+    border-bottom: 2px solid #E9CD91;
+
+    font-family: Georgia, serif;
+
+    text-shadow: 0 2px 6px #000000AA;
+
+}
+
+
+.pagina-compromisos-paz h3,
+.pagina-conclusiones-paz h3,
+.pagina-referencias-paz h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    line-height: 1.4;
+
+    margin-top: 25px;
+
+    text-shadow: 0 2px 5px #000000AA;
+
+}
+
+
+.compromisos-paz p,
+.conclusiones-paz p,
+.referencias-paz p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    text-shadow: 0 1px 4px #000000AA;
+
+}
+
+
+.pagina-compromisos-paz .numero-pagina,
+.pagina-conclusiones-paz .numero-pagina,
+.pagina-referencias-paz .numero-pagina {
+
+    color: #E9CD91;
+
+}
+
+
+/* ==========================================
+   COMPROMISOS DE LOS INTEGRANTES
+========================================== */
+
+.compromiso-integrante {
+
+    padding: 20px;
+
+    background: rgba(15,30,20,0.85);
+
+    border-top: 1px solid #E9CD9155;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+
+.compromiso-integrante h4 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 19px;
+
+    line-height: 1.5;
+
+    margin: 0 0 12px;
+
+}
+
+
+.programas-urt-interactivos
+.compromiso-integrante p {
+
+    padding: 0;
+
+    margin: 0;
+
+    border: none;
+
+    color: #FFF4D8;
+
+    font-size: 15px;
+
+    font-style: italic;
+
+    line-height: 1.9;
+
+    text-align: left;
+
+}
+
+
+/* ==========================================
+   COMPROMISO INTERACTIVO DEL LECTOR
+========================================== */
+
+.semilla-paz {
+
+    padding: 25px 20px;
+
+    margin: 30px 0;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(32,58,37,0.96),
+            rgba(13,29,20,0.94)
+        );
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px #00000055;
+
+}
+
+
+.icono-semilla {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 75px;
+
+    height: 75px;
+
+    margin: 0 auto;
+
+    border-radius: 50%;
+
+    background: #E9CD91;
+
+    font-size: 42px;
+
+}
+
+
+.semilla-paz h3 {
+
+    text-align: center;
+
+    color: #E9CD91;
+
+}
+
+
+.semilla-paz p {
+
+    text-align: center;
+
+    color: #FFF4D8;
+
+    font-size: 14px;
+
+}
+
+
+.semilla-paz label {
+
+    display: block;
+
+    color: #E9CD91;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    margin: 20px 0 10px;
+
+}
+
+
+.semilla-paz select,
+.semilla-paz textarea {
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #BD965E;
+
+    border-radius: 7px;
+
+    background: #FFF4E3;
+
+    color: #203329;
+
+    font-family: Georgia, serif;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+}
+
+
+.semilla-paz textarea {
+
+    min-height: 130px;
+
+    resize: vertical;
+
+}
+
+
+.semilla-paz select:focus,
+.semilla-paz textarea:focus {
+
+    outline: 2px solid #E9CD91;
+
+    outline-offset: 2px;
+
+}
+
+
+#mensaje-compromiso {
+
+    color: #E9CD91;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    margin-top: 12px;
+
+}
+
+
+/* ==========================================
+   REFERENCIAS BIBLIOGRÁFICAS APA 7
+========================================== */
+
+.bibliografia-apa {
+
+    padding: 22px 18px;
+
+    margin: 25px 0;
+
+    background: rgba(14,30,27,0.90);
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px #00000033;
+
+}
+
+
+.bibliografia-apa p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 14px;
+
+    line-height: 2;
+
+    text-align: left;
+
+    padding-left: 1.27cm;
+
+    text-indent: -1.27cm;
+
+    margin: 0 0 18px;
+
+    overflow-wrap: anywhere;
+
+}
+
+
+.bibliografia-apa p:last-child {
+
+    margin-bottom: 0;
+
+}
+
+
+.bibliografia-apa em {
+
+    font-style: italic;
+
+}
+
+
+.bibliografia-apa a,
+.enlace-referencia {
+
+    display: inline;
+
+    color: #E9CD91;
+
+    text-decoration: underline;
+
+    text-underline-offset: 3px;
+
+    font-size: 13px;
+
+}
+
+
+.bibliografia-apa a:hover,
+.enlace-referencia:hover {
+
+    color: #FFFFFF;
+
+}
+
+
+/* ==========================================
+   CIERRE FINAL DE LA CARTILLA
+========================================== */
+
+.cierre-final-cartilla {
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    margin: 35px 0;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(25,46,32,0.96),
+            rgba(10,22,15,0.95)
+        );
+
+    border: 2px solid #E9CD91;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 25px #00000055;
+
+}
+
+
+.simbolo-paz {
+
+    font-size: 65px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.cierre-final-cartilla small {
+
+    color: #E9CD91;
+
+    font-size: 11px;
+
+    letter-spacing: 1.5px;
+
+}
+
+
+.cierre-final-cartilla h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+
+    line-height: 1.4;
+
+    margin: 20px 0;
+
+}
+
+
+.linea-final-paz {
+
+    width: 80px;
+
+    height: 2px;
+
+    margin: 20px auto;
+
+    background: #E9CD91;
+
+}
+
+
+.cierre-final-cartilla p {
+
+    color: #FFF4D8;
+
+    font-size: 15px;
+
+    text-align: center;
+
+    margin: 6px 0;
+
+}
+
+
+.cierre-final-cartilla strong {
+
+    display: block;
+
+    color: #E9CD91;
+
+    font-size: 21px;
+
+    margin-top: 18px;
+
+}
+
+
+.cierre-final-cartilla blockquote {
+
+    color: #FFF4D8;
+
+    font-family: Georgia, serif;
+
+    font-size: 17px;
+
+    font-style: italic;
+
+    line-height: 1.9;
+
+    padding: 20px 0;
+
+    margin: 25px 0;
+
+    border-top: 1px solid #E9CD9155;
+
+    border-bottom: 1px solid #E9CD9155;
+
+}
+
+
+.cierre-final-cartilla h4 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 24px;
+
+    margin: 25px 0;
+
+}
+
+
+/* ==========================================
+   ADAPTACIÓN A CELULARES
+========================================== */
+
+@media (max-width: 768px) {
+
+    .compromisos-paz p,
+    .conclusiones-paz p,
+    .referencias-paz p {
+
+        font-size: 15px;
+
+        text-align: left;
+
+    }
+
+    .pagina-compromisos-paz h3,
+    .pagina-conclusiones-paz h3,
+    .pagina-referencias-paz h3 {
+
+        font-size: 21px;
+
+    }
+
+    .bibliografia-apa {
+
+        padding: 18px 12px;
+
+    }
+
+    .bibliografia-apa p {
+
+        font-size: 13px;
+
+        padding-left: 1.27cm;
+
+        text-indent: -1.27cm;
+
+    }
+
+    .semilla-paz {
+
+        padding: 20px 15px;
+
+    }
+
+    .semilla-paz p,
+    .cierre-final-cartilla p {
+
+        text-align: center;
+
+    }
+
+    .cierre-final-cartilla h3 {
+
+        font-size: 25px;
+
+    }
+
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .compromiso-integrante {
+
+        animation: none;
+
+    }
+
+}
+
