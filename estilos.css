@@ -4975,3 +4975,503 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   PÁGINAS 16 Y 17
+   ACTIVIDADES INTERACTIVAS PARA LA PAZ
+========================================== */
+
+
+/* FONDOS PROVISIONALES */
+
+#libro .pagina.pagina-actividades-paz,
+#libro .pagina.pagina-juegos-convivencia {
+
+    background-color: #20352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.60),
+            rgba(15,25,20,0.78)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+
+    background-position: center !important;
+
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+/* TÍTULOS PRINCIPALES */
+
+.pagina-actividades-paz h2,
+.pagina-juegos-convivencia h2 {
+
+    color: #FFF4D8;
+
+    font-family: Georgia, serif;
+
+    border-bottom: 2px solid #E9CD91;
+
+    text-shadow: 0 2px 6px #000000AA;
+
+}
+
+
+/* SUBTÍTULOS */
+
+.actividades-paz h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    line-height: 1.4;
+
+}
+
+
+/* TEXTOS PRINCIPALES */
+
+.actividades-paz p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+}
+
+
+/* ==========================================
+   TARJETAS DE LOS JUEGOS
+========================================== */
+
+.tarjeta-juego-paz {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 25px 20px;
+
+    margin: 28px 0;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(31,58,37,0.96),
+            rgba(13,29,20,0.94)
+        );
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 15px;
+
+    box-shadow: 0 6px 20px #00000044;
+
+    transition: box-shadow 0.3s ease;
+
+}
+
+.tarjeta-juego-paz:hover {
+
+    box-shadow: 0 6px 25px #E9CD9133;
+
+}
+
+
+/* ICONOS */
+
+.icono-juego-paz {
+
+    width: 78px;
+
+    height: 78px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #E9CD91;
+
+    border-radius: 50%;
+
+    font-size: 40px;
+
+    margin-bottom: 8px;
+
+}
+
+
+/* NUMERACIÓN DE LA ACTIVIDAD */
+
+.tarjeta-juego-paz small {
+
+    color: #E9CD91;
+
+    font-size: 11px;
+
+    text-align: center;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* TÍTULOS DE LOS JUEGOS */
+
+.tarjeta-juego-paz h3 {
+
+    margin: 5px 0;
+
+    text-align: center;
+
+    color: #FFF4D8;
+
+    font-size: 24px;
+
+}
+
+
+/* TIPO DE ACTIVIDAD */
+
+.tipo-juego-paz {
+
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 25px;
+
+    color: #E9CD91;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.7px;
+
+    text-align: center;
+
+}
+
+
+.tarjeta-juego-paz p {
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    margin: 5px 0;
+
+    line-height: 1.8;
+
+}
+
+
+/* INFORMACIÓN DE CADA JUEGO */
+
+.datos-juego-paz {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin: 8px 0;
+
+}
+
+.datos-juego-paz span {
+
+    background: rgba(233,205,145,0.12);
+
+    border: 1px solid #E9CD9144;
+
+    border-radius: 6px;
+
+    padding: 8px 10px;
+
+    color: #FFF4D8;
+
+    font-size: 12px;
+
+}
+
+
+/* ==========================================
+   INSTRUCCIONES DESPLEGABLES
+========================================== */
+
+.instrucciones-juego {
+
+    width: 100%;
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    background: rgba(10,20,12,0.55);
+
+    overflow: hidden;
+
+}
+
+.instrucciones-juego summary {
+
+    position: relative;
+
+    padding: 14px 35px 14px 14px;
+
+    color: #E9CD91;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    list-style: none;
+
+}
+
+.instrucciones-juego
+summary::-webkit-details-marker {
+
+    display: none;
+
+}
+
+.instrucciones-juego summary::after {
+
+    content: "+";
+
+    position: absolute;
+
+    right: 14px;
+
+    font-size: 19px;
+
+}
+
+.instrucciones-juego[open] summary::after {
+
+    content: "−";
+
+}
+
+.instrucciones-juego[open] summary {
+
+    background: #495126;
+
+    color: #FFFFFF;
+
+}
+
+.instrucciones-juego p {
+
+    padding: 15px;
+
+    text-align: left;
+
+    font-size: 14px;
+
+}
+
+
+/* ==========================================
+   CÓDIGOS QR
+========================================== */
+
+.qr-juego-paz {
+
+    display: block;
+
+    width: 155px !important;
+
+    max-width: 100% !important;
+
+    height: auto !important;
+
+    padding: 5px;
+
+    background: #FFFFFF;
+
+    border: 2px solid #E9CD91;
+
+    border-radius: 8px;
+
+    margin: 10px auto 0;
+
+    box-shadow: 0 4px 15px #00000055;
+
+}
+
+
+/* ==========================================
+   BOTONES DE ACCESO A LOS JUEGOS
+========================================== */
+
+.boton-jugar-paz {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 15px 20px;
+
+    margin: 12px 0 0;
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 9px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #E9CD91,
+            #BD965E
+        );
+
+    color: #203329 !important;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+.boton-jugar-paz:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 15px #E9CD9144;
+
+    background: #FFF4D8;
+
+}
+
+.boton-jugar-paz:focus-visible {
+
+    outline: 3px solid #FFFFFF;
+
+    outline-offset: 3px;
+
+}
+
+
+/* ==========================================
+   NUMERACIÓN DE LAS PÁGINAS
+========================================== */
+
+.pagina-actividades-paz .numero-pagina,
+.pagina-juegos-convivencia .numero-pagina {
+
+    color: #E9CD91;
+
+}
+
+
+/* ==========================================
+   ADAPTACIÓN A CELULARES
+========================================== */
+
+@media (max-width: 768px) {
+
+    .tarjeta-juego-paz {
+
+        padding: 20px 15px;
+
+    }
+
+    .tarjeta-juego-paz h3 {
+
+        font-size: 21px;
+
+    }
+
+    .actividades-paz p {
+
+        font-size: 15px;
+
+        text-align: left;
+
+    }
+
+    .tarjeta-juego-paz p {
+
+        font-size: 14px;
+
+        text-align: center;
+
+    }
+
+    .qr-juego-paz {
+
+        width: 140px !important;
+
+    }
+
+    .boton-jugar-paz {
+
+        font-size: 14px;
+
+    }
+
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .boton-jugar-paz,
+    .tarjeta-juego-paz {
+
+        transition: none;
+
+    }
+
+    .boton-jugar-paz:hover {
+
+        transform: none;
+
+    }
+
+}
+
