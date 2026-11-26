@@ -6109,3 +6109,99 @@ summary::-webkit-details-marker {
 
 }
 
+/* ==========================================
+   CONTROLES DE AJUSTE A PANTALLA
+========================================== */
+
+.panel-ajuste-pantalla {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 10px;
+
+    background: rgba(20, 40, 28, 0.96);
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px #00000055;
+
+    z-index: 9000;
+
+}
+
+.panel-ajuste-pantalla button {
+
+    padding: 10px 13px;
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 7px;
+
+    background: #354932;
+
+    color: #FFF4D8;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.panel-ajuste-pantalla button:hover {
+
+    background: #E9CD91;
+
+    color: #20352A;
+
+}
+
+#porcentaje-pantalla {
+
+    min-width: 45px;
+
+    color: #E9CD91;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .panel-ajuste-pantalla {
+
+        display: none;
+
+    }
+
+}
+
+@media print {
+
+    .panel-ajuste-pantalla {
+
+        display: none !important;
+
+    }
+
+}
+
