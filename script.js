@@ -3442,38 +3442,1226 @@ const paginas = [
     `
 },
 
-    {
-        titulo: "Derechos humanos y cultura de paz",
-        contenido: `
-            <p>
-                Aquí desarrollaremos los conceptos
-                de dignidad, igualdad, respeto,
-                inclusión y justicia social.
-            </p>
-        `
-    },
+    
+{
+    titulo: "Derechos humanos y cultura de paz",
 
-    {
-        titulo: "Resolución pacífica de conflictos",
-        contenido: `
-            <p>
-                Aquí presentaremos estrategias
-                de diálogo, mediación, negociación
-                y construcción de acuerdos.
-            </p>
-        `
-    },
+    contenido: `
 
-    {
-        titulo: "Voces del territorio",
-        contenido: `
+        <div class="derechos-humanos-paz">
+
+            <div class="etiqueta-tematica">
+                DIGNIDAD, IGUALDAD Y JUSTICIA
+            </div>
+
+            <blockquote class="frase-territorial">
+                Reconocer los derechos de los demás
+                es reconocer nuestra humanidad
+                y nuestra responsabilidad de construir paz.
+            </blockquote>
+
+            <h3>¿Qué son los derechos humanos?</h3>
+
             <p>
-                Espacio reservado para las experiencias,
-                fotografías y testimonios autorizados
-                de la comunidad.
+                Los derechos humanos son principios y garantías
+                fundamentales que protegen la dignidad,
+                la libertad, la igualdad y el bienestar
+                de todas las personas, sin distinción
+                de origen, identidad cultural, género,
+                creencias o condición social.
             </p>
-        `
-    },
+
+            <p>
+                En el contexto del pueblo Kankuamo,
+                la construcción de una cultura de paz
+                requiere reconocer tanto los derechos
+                individuales como los derechos colectivos
+                relacionados con el territorio, la autonomía,
+                la identidad cultural y la participación comunitaria.
+            </p>
+
+            <h3>Principios fundamentales</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+                    <summary>🤝 Respeto</summary>
+
+                    <p>
+                        Reconocer y valorar las diferencias
+                        culturales, sociales y personales,
+                        promoviendo relaciones fundamentadas
+                        en la convivencia y la tolerancia.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>❤️ Dignidad humana</summary>
+
+                    <p>
+                        Reconocer el valor inherente
+                        de todas las personas, proteger
+                        su integridad y garantizar
+                        condiciones de vida dignas.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>⚖️ Igualdad</summary>
+
+                    <p>
+                        Garantizar los derechos y las
+                        oportunidades sin discriminación,
+                        reconociendo las necesidades
+                        particulares de cada población.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>👥 Inclusión</summary>
+
+                    <p>
+                        Promover la participación de todas
+                        las personas en la vida social,
+                        educativa, cultural y comunitaria.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>🏛️ Justicia social</summary>
+
+                    <p>
+                        Promover condiciones equitativas,
+                        el acceso efectivo a los derechos
+                        y la transformación de las situaciones
+                        que generan desigualdad y exclusión.
+                    </p>
+                </details>
+
+            </div>
+
+            <h3>Derechos humanos en el contexto Kankuamo</h3>
+
+            <p>
+                La historia del pueblo Kankuamo permite
+                comprender la importancia de proteger
+                los derechos humanos y fortalecer
+                las iniciativas comunitarias de memoria,
+                participación, resistencia y recuperación cultural.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        🌱 Situaciones que promueven
+                        los derechos humanos
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Identidad cultural</h4>
+
+                            <p>
+                                Fortalecimiento de las tradiciones,
+                                los conocimientos ancestrales
+                                y las formas propias de organización.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Participación comunitaria</h4>
+
+                            <p>
+                                Desarrollo de reuniones,
+                                encuentros y actividades
+                                colectivas que favorecen
+                                la participación y la cooperación.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Memoria y reparación</h4>
+
+                            <p>
+                                Procesos de reconocimiento
+                                de las víctimas, recuperación
+                                de la memoria colectiva
+                                y reconstrucción del tejido social.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Protección territorial</h4>
+
+                            <p>
+                                Acciones comunitarias
+                                e institucionales orientadas
+                                a proteger los derechos territoriales,
+                                la identidad y la autonomía.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        ⚠️ Situaciones de vulneración
+                        y riesgo de los derechos humanos
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Conflicto armado</h4>
+
+                            <p>
+                                Las afectaciones históricas
+                                de la violencia han generado
+                                daños individuales, familiares
+                                y colectivos.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Desplazamiento forzado</h4>
+
+                            <p>
+                                El abandono involuntario
+                                del territorio afecta
+                                las relaciones familiares,
+                                culturales y comunitarias.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Discriminación cultural</h4>
+
+                            <p>
+                                Los prejuicios y la
+                                estigmatización pueden
+                                afectar la dignidad
+                                y el reconocimiento
+                                de la identidad indígena.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Desigualdad y exclusión</h4>
+
+                            <p>
+                                Las barreras de acceso
+                                a servicios, oportunidades
+                                y espacios de participación
+                                representan riesgos para
+                                el bienestar colectivo.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>Relación entre derechos humanos y paz</h3>
+
+            <div class="tabla-comparativa-paz">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Derecho</th>
+                            <th>Aporte a la cultura de paz</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Respeto</td>
+                            <td>Convivencia y reconocimiento cultural.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dignidad</td>
+                            <td>Protección y valoración de la vida.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Igualdad</td>
+                            <td>Garantía de derechos sin discriminación.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Inclusión</td>
+                            <td>Participación activa de las comunidades.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Justicia social</td>
+                            <td>Equidad, reparación y oportunidades.</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Nuestra responsabilidad como futuros docentes
+                </strong>
+
+                <p>
+                    Como estudiantes de Licenciatura
+                    en Matemáticas, reconocemos que
+                    la educación constituye una herramienta
+                    fundamental para promover la igualdad,
+                    prevenir la discriminación y fortalecer
+                    una convivencia basada en el respeto.
+                </p>
+
+                <p>
+                    Desde las aulas podemos contribuir
+                    al reconocimiento de la diversidad
+                    cultural, la participación equitativa
+                    y la formación de ciudadanos
+                    conscientes de sus derechos.
+                </p>
+
+            </div>
+
+            <small class="fuente-territorio">
+
+                Fundamentación: Declaración Universal
+                de los Derechos Humanos (1948);
+                Constitución Política de Colombia (1991);
+                Corte Constitucional, Auto 004 de 2009.
+
+            </small>
+
+            <blockquote class="cierre-territorio">
+
+                La paz comienza cuando reconocemos
+                que todas las personas tienen derecho
+                a vivir con dignidad, conservar su identidad
+                y participar en la construcción de su futuro.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Resolución pacífica de conflictos",
+
+    contenido: `
+
+        <div class="resolucion-conflictos-paz">
+
+            <div class="etiqueta-tematica">
+                DIÁLOGO, MEDIACIÓN Y ACUERDOS
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Las diferencias no deben convertirse
+                en barreras, sino en oportunidades
+                para comprendernos y construir soluciones.
+
+            </blockquote>
+
+            <h3>¿Qué es la resolución pacífica de conflictos?</h3>
+
+            <p>
+                Es un proceso mediante el cual las personas
+                y las comunidades buscan transformar
+                sus desacuerdos utilizando el diálogo,
+                el respeto, la cooperación y la construcción
+                de soluciones sin recurrir a la violencia.
+            </p>
+
+            <p>
+                Los conflictos forman parte de las
+                relaciones humanas. La manera en
+                que se enfrentan puede contribuir
+                al fortalecimiento o al debilitamiento
+                de la convivencia.
+            </p>
+
+            <h3>Principales estrategias</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>💬 Diálogo</summary>
+
+                    <p>
+                        Permite expresar ideas,
+                        sentimientos y necesidades,
+                        escuchar diferentes perspectivas
+                        y construir una comprensión mutua
+                        de las situaciones.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>👥 Mediación</summary>
+
+                    <p>
+                        Consiste en el acompañamiento
+                        de una persona o autoridad legítima
+                        que facilita la comunicación
+                        y ayuda a las partes a buscar
+                        soluciones pacíficas.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>🤝 Negociación</summary>
+
+                    <p>
+                        Es el proceso mediante el cual
+                        las partes buscan alternativas
+                        que permitan atender sus intereses
+                        y necesidades, procurando
+                        beneficios compartidos.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>📋 Construcción de acuerdos</summary>
+
+                    <p>
+                        Consiste en establecer compromisos,
+                        responsabilidades y mecanismos
+                        de seguimiento que favorezcan
+                        el cumplimiento de las soluciones
+                        acordadas colectivamente.
+                    </p>
+
+                </details>
+
+            </div>
+
+            <h3>Espacios comunitarios que favorecen la paz</h3>
+
+            <p>
+                En el contexto Kankuamo, los espacios
+                de encuentro comunitario, la participación
+                colectiva y el reconocimiento de las
+                autoridades propias pueden contribuir
+                a prevenir y transformar conflictos.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        🌿 Diálogo desde la comunidad
+
+                    </summary>
+
+                    <div class="caminos-paz derechos-urt">
+
+                        <div>
+                            <span>01</span>
+                            Reuniones y asambleas comunitarias.
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            Escucha y orientación de los mayores.
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            Participación de las autoridades propias.
+                        </div>
+
+                        <div>
+                            <span>04</span>
+                            Encuentros de intercambio de conocimientos.
+                        </div>
+
+                        <div>
+                            <span>05</span>
+                            Trabajo colectivo y cooperación.
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>Propuestas para fortalecer la convivencia</h3>
+
+            <p>
+                A partir de los conceptos trabajados
+                en Cátedra de la Paz, proponemos
+                una ruta comunitaria para abordar
+                los conflictos de manera pacífica,
+                respetando las autoridades propias,
+                la autonomía y los derechos humanos.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        🕊️ Explorar la ruta de resolución
+                        pacífica de conflictos
+                    </summary>
+
+                    <div class="ruta-restitucion ruta-completa">
+
+                        <div class="etapa-restitucion">
+                            <h4><span>01</span> Identificar el conflicto</h4>
+
+                            <p>
+                                Reconocer la situación
+                                y las personas involucradas.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>02</span> Escuchar a las partes</h4>
+
+                            <p>
+                                Permitir que cada persona
+                                exprese su perspectiva
+                                de manera respetuosa.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>03</span> Reconocer las causas</h4>
+
+                            <p>
+                                Analizar las necesidades,
+                                intereses y circunstancias
+                                que originaron el conflicto.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>04</span> Facilitar la mediación</h4>
+
+                            <p>
+                                Buscar el acompañamiento
+                                de una persona o autoridad
+                                legítima cuando sea necesario.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>05</span> Construir acuerdos</h4>
+
+                            <p>
+                                Identificar soluciones
+                                respetuosas y aceptables
+                                para las partes involucradas.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>06</span> Establecer compromisos</h4>
+
+                            <p>
+                                Definir responsabilidades
+                                y acciones concretas
+                                para cumplir los acuerdos.
+                            </p>
+                        </div>
+
+                        <div class="flecha-ruta">↓</div>
+
+                        <div class="etapa-restitucion">
+                            <h4><span>07</span> Realizar seguimiento</h4>
+
+                            <p>
+                                Revisar el cumplimiento
+                                de los compromisos
+                                y fortalecer la convivencia.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>Ejemplos de aplicación</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        📋 Consultar situaciones hipotéticas
+                        y alternativas de solución
+                    </summary>
+
+                    <div class="tabla-comparativa-paz">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                    <th>Situación</th>
+                                    <th>Alternativa propuesta</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Desacuerdos entre vecinos.</td>
+                                    <td>Diálogo y mediación comunitaria.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Conflictos sobre recursos naturales.</td>
+                                    <td>Acuerdos para el cuidado territorial.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Dificultades de convivencia escolar.</td>
+                                    <td>Escucha activa y acuerdos de convivencia.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Discriminación cultural.</td>
+                                    <td>Educación intercultural y acciones restaurativas.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Desacuerdos en actividades colectivas.</td>
+                                    <td>Participación y construcción de compromisos.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>
+                    Resolver conflictos desde la educación
+                </strong>
+
+                <p>
+                    Como futuros docentes, podemos
+                    contribuir a la resolución pacífica
+                    de conflictos mediante actividades
+                    colaborativas, la escucha activa,
+                    el respeto por las diferencias
+                    y la construcción de acuerdos
+                    dentro y fuera del aula.
+                </p>
+
+                <p>
+                    Estas estrategias deben desarrollarse
+                    respetando los derechos humanos.
+                    Las situaciones de violencia grave
+                    requieren protección y atención
+                    de las autoridades competentes,
+                    y no deben reducirse a una negociación.
+                </p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                El conflicto no tiene que dividirnos;
+                puede enseñarnos a escucharnos,
+                comprendernos y caminar juntos.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Voces del territorio",
+
+    contenido: `
+
+        <div class="voces-territorio">
+
+            <div class="etiqueta-tematica">
+                MEMORIA, IDENTIDAD Y EXPRESIONES CULTURALES
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Cada voz, cada paisaje y cada tradición
+                guardan una parte de la historia
+                que nos invita a construir paz.
+
+            </blockquote>
+
+            <h3>El territorio también tiene voz</h3>
+
+            <p>
+                Conocer un territorio implica escuchar
+                a las personas que lo habitan,
+                reconocer sus experiencias y valorar
+                las expresiones culturales que
+                forman parte de su identidad.
+            </p>
+
+            <p>
+                Los paisajes, las tradiciones,
+                los encuentros comunitarios
+                y las manifestaciones artísticas
+                permiten acercarnos a diferentes
+                dimensiones de la vida territorial.
+            </p>
+
+            <h3>Un territorio que cuenta su historia</h3>
+
+            <p>
+                Explora nuestra galería audiovisual.
+                Selecciona cada título para observar
+                los registros del territorio.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <!-- VIDEO 1 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">01</span>
+                        Paisajes y espacios comunitarios
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-01.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Una mirada a los espacios
+                            públicos y al paisaje urbano.
+                        </p>
+
+                        <small>Duración: 24 segundos.</small>
+
+                    </div>
+
+                </details>
+
+                <!-- VIDEO 2 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">02</span>
+                        Nuestro territorio desde las alturas
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-02.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Una perspectiva aérea
+                            del paisaje y los espacios
+                            habitados por la comunidad.
+                        </p>
+
+                        <small>Duración: 18 segundos.</small>
+
+                    </div>
+
+                </details>
+
+                <!-- VIDEO 3 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">03</span>
+                        Caminos y vida cotidiana
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-03.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Los caminos rurales y
+                            las actividades cotidianas
+                            forman parte de las relaciones
+                            entre las personas y el territorio.
+                        </p>
+
+                        <small>Duración: 39 segundos.</small>
+
+                    </div>
+
+                </details>
+
+                <!-- VIDEO 4 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">04</span>
+                        Naturaleza y territorio
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-04.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Las montañas y los paisajes
+                            naturales nos invitan
+                            a reflexionar sobre el valor
+                            de proteger los espacios de vida.
+                        </p>
+
+                        <small>Duración: 25 segundos.</small>
+
+                    </div>
+
+                </details>
+
+                <!-- VIDEO 5 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">05</span>
+                        Encuentros y expresiones culturales
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-05.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Las presentaciones artísticas
+                            y los festivales culturales
+                            constituyen espacios para
+                            compartir expresiones
+                            de identidad y creatividad.
+                        </p>
+
+                        <small>Duración: 36 segundos.</small>
+
+                    </div>
+
+                </details>
+
+                <!-- VIDEO 6 -->
+
+                <details>
+
+                    <summary>
+                        <span class="numero-programa">06</span>
+                        Tradiciones que permanecen vivas
+                    </summary>
+
+                    <div class="video-voz-territorio">
+
+                        <video controls
+                               playsinline
+                               preload="none">
+
+                            <source src="voces-06.mp4"
+                                    type="video/mp4">
+
+                        </video>
+
+                        <p>
+                            Las danzas y manifestaciones
+                            culturales colectivas
+                            representan oportunidades
+                            para compartir conocimientos,
+                            fortalecer la identidad
+                            y valorar las tradiciones.
+                        </p>
+
+                        <small>
+                            Duración: 4 minutos y 26 segundos.
+                        </small>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>Escuchando las voces de la comunidad</h3>
+
+            <p>
+                Los testimonios comunitarios constituyen
+                una oportunidad para conocer directamente
+                las perspectivas de las personas
+                sobre la convivencia, los conflictos
+                y la construcción de paz.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        🎙️ Primer testimonio comunitario
+                    </summary>
+
+                    <div class="video-entrevista">
+
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/W8-KaDt0CCA"
+                            title="Primer testimonio comunitario"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture;
+                            web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+
+                        <div class="informacion-video">
+
+                            <strong>
+                                Primer testimonio comunitario
+                            </strong>
+
+                            <a class="boton-youtube"
+                               href="https://youtu.be/W8-KaDt0CCA"
+                               target="_blank"
+                               rel="noopener noreferrer">
+
+                                ▶ Ver video en YouTube
+
+                            </a>
+
+                            <div class="enlace-video">
+
+                                <a href="https://youtu.be/W8-KaDt0CCA"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+
+                                    https://youtu.be/W8-KaDt0CCA
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🎙️ Segundo testimonio comunitario
+                    </summary>
+
+                    <div class="video-entrevista">
+
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/DogqIDU7XYU"
+                            title="Segundo testimonio comunitario"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture;
+                            web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+
+                        <div class="informacion-video">
+
+                            <strong>
+                                Segundo testimonio comunitario
+                            </strong>
+
+                            <a class="boton-youtube"
+                               href="https://youtu.be/DogqIDU7XYU"
+                               target="_blank"
+                               rel="noopener noreferrer">
+
+                                ▶ Ver video en YouTube
+
+                            </a>
+
+                            <div class="enlace-video">
+
+                                <a href="https://youtu.be/DogqIDU7XYU"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+
+                                    https://youtu.be/DogqIDU7XYU
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🏛️ Voz institucional de la URT
+                    </summary>
+
+                    <div class="video-entrevista">
+
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/TeX0XX9kQkw"
+                            title="Entrevista institucional URT"
+                            allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture;
+                            web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+
+                        <div class="informacion-video">
+
+                            <strong>
+                                Unidad de Restitución de Tierras
+                            </strong>
+
+                            <a class="boton-youtube"
+                               href="https://youtu.be/TeX0XX9kQkw"
+                               target="_blank"
+                               rel="noopener noreferrer">
+
+                                ▶ Ver video en YouTube
+
+                            </a>
+
+                            <div class="enlace-video">
+
+                                <a href="https://youtu.be/TeX0XX9kQkw"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+
+                                    https://youtu.be/TeX0XX9kQkw
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        📖 Nuestros aprendizajes
+                        y reflexiones como estudiantes
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Identidad y cultura</h4>
+
+                            <p>
+                                Reconocemos la importancia
+                                de valorar las expresiones
+                                culturales y los conocimientos
+                                transmitidos entre generaciones.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Territorio y naturaleza</h4>
+
+                            <p>
+                                Comprendemos que la protección
+                                del territorio puede contribuir
+                                a la conservación de la vida,
+                                la identidad y el bienestar colectivo.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Participación y escucha</h4>
+
+                            <p>
+                                Consideramos que escuchar
+                                las experiencias de las comunidades
+                                es fundamental para comprender
+                                sus necesidades y reconocer
+                                la diversidad de perspectivas.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Instituciones y reparación</h4>
+
+                            <p>
+                                El conocimiento de las funciones
+                                de la URT nos permite reflexionar
+                                sobre la importancia de la justicia,
+                                la reparación y el reconocimiento
+                                de los derechos territoriales.
+                            </p>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Educación y cultura de paz</h4>
+
+                            <p>
+                                Como futuros docentes,
+                                debemos promover el respeto,
+                                la inclusión, el diálogo
+                                intercultural y la valoración
+                                de las experiencias comunitarias.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Cuando escuchamos las voces del territorio,
+                comprendemos que la paz también
+                se construye desde la memoria,
+                la cultura y la esperanza colectiva.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
 
     {
         titulo: "Aprendamos jugando",
@@ -3829,7 +5017,10 @@ function generarPagina(indice, posicion = "") {
     ${indice === 8 ? 'pagina-testimonios-territorio' : ''}
     ${indice === 9 ? 'pagina-analisis-conflictos' : ''}
     ${indice === 10 ? 'pagina-institucion-paz' : ''}
-    ${indice === 11 ? 'pagina-experiencia-institucional' : ''}">
+    ${indice === 11 ? 'pagina-experiencia-institucional' : ''}
+    ${indice === 12 ? 'pagina-derechos-humanos' : ''}
+    ${indice === 13 ? 'pagina-resolucion-conflictos' : ''}
+    ${indice === 14 ? 'pagina-voces-territorio' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
