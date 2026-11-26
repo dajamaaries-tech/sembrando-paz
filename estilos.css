@@ -4315,3 +4315,43 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   DERECHOS HUMANOS - BOTÓN DESPLEGABLE
+========================================== */
+
+.derechos-urt {
+
+    margin: 0;
+
+    padding: 15px 20px;
+
+    border: none;
+
+    border-radius: 0;
+
+    background: transparent;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+.derechos-urt div {
+
+    padding: 14px 0;
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .derechos-urt {
+        animation: none;
+    }
+
+}
+
