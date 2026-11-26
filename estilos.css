@@ -3607,3 +3607,489 @@ Presiona **Ctrl + F5** cuando GitHub haya publicado los cambios.
 
 }
 
+/* ==========================================
+   PÁGINAS 11 Y 12
+   UNIDAD DE RESTITUCIÓN DE TIERRAS
+========================================== */
+
+/* FONDO PÁGINA 11 */
+
+#libro .pagina.pagina-institucion-paz {
+
+    background-color: #20352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.62),
+            rgba(15,25,20,0.78)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* FONDO PÁGINA 12 */
+
+#libro .pagina.pagina-experiencia-institucional {
+
+    background-color: #243821 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.58),
+            rgba(15,25,20,0.75)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+}
+
+/* TÍTULOS PRINCIPALES */
+
+.pagina-institucion-paz h2,
+.pagina-experiencia-institucional h2 {
+
+    color: #FFF4D8;
+
+    font-family: Georgia, serif;
+
+    border-bottom: 2px solid #E9CD91;
+
+    text-shadow: 0 2px 6px #00000088;
+}
+
+/* SUBTÍTULOS */
+
+.pagina-institucion-paz h3,
+.pagina-experiencia-institucional h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    line-height: 1.4;
+
+    margin-top: 25px;
+}
+
+/* ENCABEZADOS Y NUMERACIÓN */
+
+.pagina-institucion-paz small,
+.pagina-experiencia-institucional small,
+.pagina-institucion-paz .numero-pagina,
+.pagina-experiencia-institucional .numero-pagina {
+
+    color: #E9CD91;
+}
+
+/* TEXTO PRINCIPAL */
+
+.institucion-paz p,
+.experiencia-institucional p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    text-shadow: 0 1px 4px #000000AA;
+}
+
+/* ==========================================
+   PRESENTACIÓN DE LA URT
+========================================== */
+
+.presentacion-urt {
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    margin: 25px 0;
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 12px;
+
+    background: rgba(15,28,20,0.85);
+
+    box-shadow: 0 5px 20px #00000044;
+}
+
+.sigla-urt {
+
+    font-family: Georgia, serif;
+
+    font-size: 65px;
+
+    font-weight: bold;
+
+    letter-spacing: 7px;
+
+    color: #E9CD91;
+}
+
+.presentacion-urt h3 {
+
+    color: #FFF4D8;
+
+    margin: 15px 0 10px;
+
+    font-size: 26px;
+}
+
+.presentacion-urt p {
+
+    text-align: center;
+
+    color: #F5E6C9;
+
+    font-size: 14px;
+}
+
+/* ==========================================
+   PROGRAMAS Y LÍNEAS DE ACCIÓN
+========================================== */
+
+.programas-urt {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0,1fr));
+
+    gap: 14px;
+
+    margin: 25px 0;
+}
+
+.programa-urt {
+
+    background: rgba(20,35,22,0.85);
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 9px;
+
+    padding: 17px;
+}
+
+.programa-urt:last-child {
+
+    grid-column: 1 / -1;
+}
+
+.programa-urt span {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 50%;
+
+    background: #E9CD91;
+
+    color: #20251C;
+
+    font-weight: bold;
+}
+
+.programa-urt h4 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    margin: 14px 0 10px;
+}
+
+.programa-urt p {
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    text-align: left;
+
+    margin-bottom: 0;
+}
+
+/* ==========================================
+   RUTA INTERACTIVA DE RESTITUCIÓN
+========================================== */
+
+.ruta-restitucion {
+
+    padding: 20px;
+
+    background: rgba(15,28,20,0.85);
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 10px;
+
+    margin: 25px 0;
+}
+
+.ruta-restitucion details {
+
+    background: #354932;
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 7px;
+
+    overflow: hidden;
+}
+
+.ruta-restitucion summary {
+
+    padding: 16px 35px 16px 15px;
+
+    color: #FFF4D8;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    list-style: none;
+
+    position: relative;
+}
+
+.ruta-restitucion
+summary::-webkit-details-marker {
+
+    display: none;
+}
+
+.ruta-restitucion summary::after {
+
+    content: "+";
+
+    position: absolute;
+
+    right: 15px;
+
+    color: #E9CD91;
+}
+
+.ruta-restitucion
+details[open] summary::after {
+
+    content: "−";
+
+    color: #20251C;
+}
+
+.ruta-restitucion
+details[open] summary {
+
+    background: #E9CD91;
+
+    color: #20251C;
+}
+
+.ruta-restitucion
+summary:focus-visible {
+
+    outline: 2px solid #E9CD91;
+
+    outline-offset: -3px;
+}
+
+.ruta-restitucion details p {
+
+    padding: 15px;
+
+    margin: 0;
+
+    text-align: left;
+
+    font-size: 14px;
+}
+
+.flecha-ruta {
+
+    text-align: center;
+
+    color: #E9CD91;
+
+    font-size: 30px;
+
+    padding: 3px;
+}
+
+.ruta-restitucion small {
+
+    display: block;
+
+    margin-top: 15px;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+/* ==========================================
+   BOTÓN PÁGINA OFICIAL DE LA URT
+========================================== */
+
+.boton-institucional {
+
+    display: block;
+
+    background: #E9CD91;
+
+    color: #20251C;
+
+    border-radius: 7px;
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin: 25px 0;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.boton-institucional:hover {
+
+    background: #FFF4D8;
+
+    color: #20251C;
+}
+
+/* ==========================================
+   VIDEO DE LA VISITA INSTITUCIONAL
+========================================== */
+
+.pagina-experiencia-institucional
+.entrevista-comunidad {
+
+    background: rgba(15,25,18,0.92);
+
+    border: 1px solid #E9CD91;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    margin: 25px 0;
+
+    box-shadow: 0 5px 20px #00000055;
+}
+
+.pagina-experiencia-institucional
+.video-entrevista iframe {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    border: none;
+
+    margin: 0;
+
+    border-radius: 0;
+
+    background: #000000;
+}
+
+.experiencia-institucional
+.informacion-video p {
+
+    color: #F5E6C9;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    text-shadow: none;
+}
+
+.experiencia-institucional
+.datos-entrevista p {
+
+    color: #F5E6C9;
+
+    font-size: 13px;
+
+    text-align: left;
+}
+
+/* ==========================================
+   ADAPTACIÓN A CELULARES
+========================================== */
+
+@media (max-width: 768px) {
+
+    .institucion-paz p,
+    .experiencia-institucional p {
+
+        font-size: 15px;
+
+        text-align: left;
+    }
+
+    .pagina-institucion-paz h3,
+    .pagina-experiencia-institucional h3 {
+
+        font-size: 21px;
+    }
+
+    .sigla-urt {
+
+        font-size: 50px;
+    }
+
+    .programas-urt {
+
+        grid-template-columns: 1fr;
+    }
+
+    .ruta-restitucion {
+
+        padding: 12px;
+    }
+
+    .ruta-restitucion summary {
+
+        font-size: 13px;
+    }
+
+}
+
