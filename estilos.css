@@ -4093,3 +4093,225 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   PROGRAMAS INTERACTIVOS DE LA URT
+   PÁGINA 11
+========================================== */
+
+.programas-urt-interactivos {
+
+    display: grid;
+    gap: 12px;
+    margin: 25px 0;
+
+}
+
+.programas-urt-interactivos details {
+
+    background: rgba(15, 28, 20, 0.85);
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+}
+
+
+/* ENCABEZADO DE CADA PROGRAMA */
+
+.programas-urt-interactivos summary {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    position: relative;
+
+    padding: 15px 35px 15px 15px;
+
+    color: #FFF4D8;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    line-height: 1.5;
+
+    cursor: pointer;
+
+    list-style: none;
+
+    transition: background 0.25s ease;
+
+}
+
+.programas-urt-interactivos
+summary::-webkit-details-marker {
+
+    display: none;
+
+}
+
+
+/* NÚMERO DORADO */
+
+.numero-programa {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 34px;
+
+    height: 34px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: #E9CD91;
+
+    color: #20251C;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+/* SÍMBOLOS PARA ABRIR Y CERRAR */
+
+.programas-urt-interactivos summary::after {
+
+    content: "+";
+
+    position: absolute;
+
+    right: 15px;
+
+    color: #E9CD91;
+
+    font-size: 20px;
+
+}
+
+.programas-urt-interactivos
+details[open] summary::after {
+
+    content: "−";
+
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+
+.programas-urt-interactivos summary:hover {
+
+    background: rgba(189, 150, 94, 0.30);
+
+}
+
+
+/* PROGRAMA ABIERTO */
+
+.programas-urt-interactivos
+details[open] summary {
+
+    background: #495126;
+
+    color: #FFFFFF;
+
+}
+
+
+/* CONTENIDO DESPLEGABLE */
+
+.programas-urt-interactivos details p {
+
+    padding: 18px;
+
+    margin: 0;
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    text-align: left;
+
+    border-top: 1px solid #E9CD9155;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+
+/* ANIMACIÓN SUAVE */
+
+@keyframes abrirPrograma {
+
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* ACCESIBILIDAD */
+
+.programas-urt-interactivos
+summary:focus-visible {
+
+    outline: 2px solid #E9CD91;
+
+    outline-offset: -3px;
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .programas-urt-interactivos details p {
+        animation: none;
+    }
+
+}
+
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .programas-urt-interactivos summary {
+
+        font-size: 13px;
+
+        padding: 12px 30px 12px 12px;
+
+    }
+
+    .numero-programa {
+
+        width: 30px;
+
+        height: 30px;
+
+    }
+
+}
+
