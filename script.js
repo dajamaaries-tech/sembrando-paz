@@ -3161,9 +3161,23 @@ const paginas = [
 
             </div>
 
-            <h3>Aprendizajes y reflexiones sobre la URT</h3>
+            
+<!-- APRENDIZAJES Y REFLEXIONES DESPLEGABLES -->
 
-            <p>
+<div class="programas-urt-interactivos">
+
+    <details>
+
+        <summary>
+
+            📖 Aprendizajes y reflexiones sobre la URT
+
+        </summary>
+
+        <div class="aprendizajes-urt">
+
+            <p class="introduccion-aprendizajes">
+
                 El estudio de las funciones de la Unidad
                 de Restitución de Tierras nos permite
                 comprender que la construcción de paz
@@ -3171,91 +3185,114 @@ const paginas = [
                 orientadas a garantizar los derechos
                 humanos y atender las consecuencias
                 del conflicto armado.
+
             </p>
 
-            <div class="caracteristicas-territorio">
+            <div class="aprendizaje-urt">
 
-                <details>
+                <h4>
 
-                    <summary>
-                        ⚖️ La importancia de la justicia
-                    </summary>
+                    ⚖️ La importancia de la justicia
 
-                    <p>
-                        La construcción de paz requiere
-                        mecanismos que permitan reconocer
-                        las afectaciones sufridas por
-                        las víctimas y promover el
-                        restablecimiento de sus derechos.
-                    </p>
+                </h4>
 
-                </details>
+                <p>
 
-                <details>
+                    La construcción de paz requiere
+                    mecanismos que permitan reconocer
+                    las afectaciones sufridas por
+                    las víctimas y promover el
+                    restablecimiento de sus derechos.
 
-                    <summary>
-                        🌿 El valor del territorio
-                    </summary>
-
-                    <p>
-                        La recuperación de los derechos
-                        territoriales contribuye a la
-                        protección de los proyectos de vida,
-                        la identidad cultural y las
-                        relaciones comunitarias.
-                    </p>
-
-                </details>
-
-                <details>
-
-                    <summary>
-                        🤝 La reparación de las víctimas
-                    </summary>
-
-                    <p>
-                        La reparación integral busca
-                        responder a los daños ocasionados
-                        por la violencia y contribuir
-                        a recuperar condiciones de
-                        dignidad y bienestar.
-                    </p>
-
-                </details>
-
-                <details>
-
-                    <summary>
-                        👥 La participación comunitaria
-                    </summary>
-
-                    <p>
-                        La participación de las comunidades
-                        resulta fundamental para reconocer
-                        sus necesidades y orientar las
-                        acciones institucionales desde
-                        sus realidades territoriales.
-                    </p>
-
-                </details>
-
-                <details>
-
-                    <summary>
-                        🕊 Las garantías de no repetición
-                    </summary>
-
-                    <p>
-                        La construcción de una paz duradera
-                        implica transformar las condiciones
-                        que han favorecido la violencia
-                        y fortalecer la protección
-                        de los derechos humanos.
-                    </p>
-
-                </details>
+                </p>
 
             </div>
+
+            <div class="aprendizaje-urt">
+
+                <h4>
+
+                    🌿 El valor del territorio
+
+                </h4>
+
+                <p>
+
+                    La recuperación de los derechos
+                    territoriales contribuye a la
+                    protección de los proyectos de vida,
+                    la identidad cultural y las
+                    relaciones comunitarias.
+
+                </p>
+
+            </div>
+
+            <div class="aprendizaje-urt">
+
+                <h4>
+
+                    🤝 La reparación de las víctimas
+
+                </h4>
+
+                <p>
+
+                    La reparación integral busca
+                    responder a los daños ocasionados
+                    por la violencia y contribuir
+                    a recuperar condiciones de
+                    dignidad y bienestar.
+
+                </p>
+
+            </div>
+
+            <div class="aprendizaje-urt">
+
+                <h4>
+
+                    👥 La participación comunitaria
+
+                </h4>
+
+                <p>
+
+                    La participación de las comunidades
+                    resulta fundamental para reconocer
+                    sus necesidades y orientar las
+                    acciones institucionales desde
+                    sus realidades territoriales.
+
+                </p>
+
+            </div>
+
+            <div class="aprendizaje-urt">
+
+                <h4>
+
+                    🕊️ Las garantías de no repetición
+
+                </h4>
+
+                <p>
+
+                    La construcción de una paz duradera
+                    implica transformar las condiciones
+                    que han favorecido la violencia
+                    y fortalecer la protección
+                    de los derechos humanos.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </details>
+
+</div>
 
             <h3>¿Cómo contribuye la URT a la paz?</h3>
 
