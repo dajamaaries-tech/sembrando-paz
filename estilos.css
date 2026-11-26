@@ -4659,3 +4659,319 @@ summary:focus-visible {
 
 }
 
+/* ==========================================
+   PÁGINAS 13, 14 Y 15
+   DERECHOS HUMANOS, CONFLICTOS Y VOCES
+========================================== */
+
+
+/* FONDOS PROVISIONALES */
+
+#libro .pagina.pagina-derechos-humanos {
+
+    background-color: #20352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.58),
+            rgba(15,25,20,0.78)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+#libro .pagina.pagina-resolucion-conflictos {
+
+    background-color: #243821 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.58),
+            rgba(15,25,20,0.78)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+#libro .pagina.pagina-voces-territorio {
+
+    background-color: #20352A !important;
+
+    background-image:
+        linear-gradient(
+            rgba(15,25,20,0.58),
+            rgba(15,25,20,0.78)
+        ),
+        url("./imagenesfondo-territorio.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    color: #FFFFFF;
+
+}
+
+
+/* TÍTULOS PRINCIPALES */
+
+.pagina-derechos-humanos h2,
+.pagina-resolucion-conflictos h2,
+.pagina-voces-territorio h2 {
+
+    color: #FFF4D8;
+
+    font-family: Georgia, serif;
+
+    border-bottom: 2px solid #E9CD91;
+
+    text-shadow: 0 2px 6px #000000AA;
+
+}
+
+
+/* SUBTÍTULOS */
+
+.pagina-derechos-humanos h3,
+.pagina-resolucion-conflictos h3,
+.pagina-voces-territorio h3 {
+
+    color: #E9CD91;
+
+    font-family: Georgia, serif;
+
+    font-size: 23px;
+
+    line-height: 1.4;
+
+    margin-top: 25px;
+
+}
+
+
+/* TEXTOS PRINCIPALES */
+
+.derechos-humanos-paz p,
+.resolucion-conflictos-paz p,
+.voces-territorio p {
+
+    color: #FFFFFF;
+
+    font-family: Georgia, serif;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    line-height: 1.8;
+
+    text-align: justify;
+
+    text-shadow: 0 1px 4px #000000AA;
+
+}
+
+
+/* ENCABEZADOS Y NUMERACIÓN */
+
+.pagina-derechos-humanos small,
+.pagina-resolucion-conflictos small,
+.pagina-voces-territorio small,
+.pagina-derechos-humanos .numero-pagina,
+.pagina-resolucion-conflictos .numero-pagina,
+.pagina-voces-territorio .numero-pagina {
+
+    color: #E9CD91;
+
+}
+
+
+/* ==========================================
+   VIDEOS VERTICALES
+   GALERÍA AUDIOVISUAL DEL TERRITORIO
+========================================== */
+
+.video-voz-territorio {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 18px;
+
+    background: rgba(10,20,12,0.90);
+
+    border-top: 1px solid #E9CD9155;
+
+    animation: abrirPrograma 0.3s ease;
+
+}
+
+
+.video-voz-territorio video {
+
+    display: block;
+
+    width: 100%;
+
+    max-width: 300px;
+
+    max-height: 65vh;
+
+    aspect-ratio: 9 / 16;
+
+    object-fit: contain;
+
+    background: #000000;
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+}
+
+
+.programas-urt-interactivos
+.video-voz-territorio p {
+
+    padding: 0;
+
+    margin: 0;
+
+    border: none;
+
+    font-size: 14px;
+
+    color: #FFF4D8;
+
+    text-align: center;
+
+    line-height: 1.7;
+
+}
+
+
+.video-voz-territorio small {
+
+    display: block;
+
+    text-align: center;
+
+    color: #E9CD91;
+
+    font-size: 12px;
+
+}
+
+
+/* ==========================================
+   REPRODUCTORES DE YOUTUBE
+========================================== */
+
+.pagina-voces-territorio
+.video-entrevista {
+
+    margin: 12px;
+
+    border: 1px solid #E9CD9188;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    background: rgba(10,20,12,0.92);
+
+}
+
+
+.pagina-voces-territorio
+.video-entrevista iframe {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    border: none;
+
+    background: #000000;
+
+}
+
+
+.pagina-voces-territorio
+.informacion-video {
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+/* ADAPTACIÓN A CELULARES */
+
+@media (max-width: 768px) {
+
+    .derechos-humanos-paz p,
+    .resolucion-conflictos-paz p,
+    .voces-territorio p {
+
+        font-size: 15px;
+
+        text-align: left;
+
+    }
+
+    .pagina-derechos-humanos h3,
+    .pagina-resolucion-conflictos h3,
+    .pagina-voces-territorio h3 {
+
+        font-size: 21px;
+
+    }
+
+    .video-voz-territorio {
+
+        padding: 12px;
+
+    }
+
+    .video-voz-territorio video {
+
+        max-width: 260px;
+
+    }
+
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .video-voz-territorio {
+
+        animation: none;
+
+    }
+
+}
+
