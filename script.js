@@ -5234,38 +5234,1329 @@ const paginas = [
 
     `
 },
-    {
-        titulo: "Nuestros compromisos con la paz",
-        contenido: `
-            <p>
-                Aquí incorporaremos los compromisos
-                individuales y colectivos de los
-                integrantes del grupo.
-            </p>
-        `
-    },
+    
+{
+    titulo: "Nuestros compromisos con la paz",
 
-    {
-        titulo: "Conclusiones",
-        contenido: `
-            <p>
-                Espacio destinado a las reflexiones
-                finales y los aprendizajes obtenidos
-                durante la investigación.
-            </p>
-        `
-    },
+    contenido: `
 
-    {
-        titulo: "Referencias bibliográficas",
-        contenido: `
+        <div class="compromisos-paz">
+
+            <div class="etiqueta-tematica">
+                SEMILLAS DE TRANSFORMACIÓN
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                La paz comienza en nuestras acciones,
+                crece con nuestros compromisos
+                y se fortalece cuando caminamos juntos.
+
+            </blockquote>
+
+            <h3>Nuestra reflexión colectiva</h3>
+
             <p>
-                Aquí incorporaremos todas las fuentes
-                consultadas bajo las normas APA,
-                séptima edición.
+                Como estudiantes de Licenciatura en
+                Matemáticas de la Universidad Popular
+                del Cesar, comprendemos que la construcción
+                de paz es una responsabilidad compartida
+                que comienza con nuestras acciones cotidianas
+                y se fortalece mediante el respeto,
+                la solidaridad, la justicia y el
+                reconocimiento de la diversidad cultural.
             </p>
-        `
-    }
+
+            <p>
+                Nuestro acercamiento al pueblo Kankuamo
+                y el estudio de la labor institucional
+                de la Unidad de Restitución de Tierras
+                nos permiten reconocer que la paz requiere
+                la participación de las personas,
+                las comunidades y las instituciones.
+            </p>
+
+            <h3>Nuestros compromisos colectivos</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        🌱 Ámbito personal
+                    </summary>
+
+                    <p>
+                        Actuar con respeto, empatía
+                        y responsabilidad, resolviendo
+                        los desacuerdos sin violencia
+                        y reconociendo la dignidad
+                        de todas las personas.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🏠 Ámbito familiar
+                    </summary>
+
+                    <p>
+                        Promover la comunicación,
+                        la escucha activa, la solidaridad
+                        y el respeto mutuo dentro
+                        de nuestras familias.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        🤝 Ámbito comunitario
+                    </summary>
+
+                    <p>
+                        Participar en actividades
+                        colectivas, valorar la diversidad
+                        cultural y contribuir al cuidado
+                        del territorio y al fortalecimiento
+                        de la convivencia comunitaria.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        📚 Ámbito profesional
+                    </summary>
+
+                    <p>
+                        Promover una educación inclusiva,
+                        equitativa e intercultural
+                        que fortalezca la convivencia,
+                        el pensamiento crítico
+                        y los derechos humanos.
+                    </p>
+
+                </details>
+
+            </div>
+
+            <h3>Cinco integrantes, cinco semillas de paz</h3>
+
+            <p>
+                Cada integrante del equipo propone
+                un compromiso concreto para contribuir
+                a la construcción de una sociedad
+                más respetuosa, solidaria y pacífica.
+            </p>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">01</span>
+
+                        Dayana Michel Escobar Martínez
+
+                    </summary>
+
+                    <div class="compromiso-integrante">
+
+                        <h4>Respeto e inclusión</h4>
+
+                        <p>
+                            Me comprometo a promover el respeto
+                            por las diferencias culturales,
+                            evitar expresiones discriminatorias
+                            e intervenir respetuosamente cuando
+                            observe situaciones de exclusión
+                            en mis espacios educativos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">02</span>
+
+                        José Miguel Meza Andara
+
+                    </summary>
+
+                    <div class="compromiso-integrante">
+
+                        <h4>Diálogo y convivencia</h4>
+
+                        <p>
+                            Me comprometo a resolver los
+                            desacuerdos mediante la escucha
+                            activa y el diálogo respetuoso,
+                            evitando las agresiones verbales
+                            y procurando construir acuerdos
+                            en mi familia y comunidad.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">03</span>
+
+                        Jhonatan David Verdecia Jiménez
+
+                    </summary>
+
+                    <div class="compromiso-integrante">
+
+                        <h4>Territorio y participación</h4>
+
+                        <p>
+                            Me comprometo a participar
+                            en actividades comunitarias
+                            orientadas al cuidado de
+                            la naturaleza, la protección
+                            del territorio y el reconocimiento
+                            de la identidad cultural.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">04</span>
+
+                        Briana Picon Lengua
+
+                    </summary>
+
+                    <div class="compromiso-integrante">
+
+                        <h4>Solidaridad e igualdad</h4>
+
+                        <p>
+                            Me comprometo a fomentar
+                            la participación equitativa
+                            en las actividades académicas,
+                            escuchar las opiniones de mis
+                            compañeros y apoyar a quienes
+                            enfrenten situaciones de exclusión.
+                        </p>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">05</span>
+
+                        Carlos Andres Torres Rojas
+
+                    </summary>
+
+                    <div class="compromiso-integrante">
+
+                        <h4>Educación para la paz</h4>
+
+                        <p>
+                            Me comprometo a implementar,
+                            como futuro docente de matemáticas,
+                            actividades de aprendizaje
+                            colaborativo que promuevan
+                            el respeto, la igualdad,
+                            la inclusión y la resolución
+                            pacífica de conflictos.
+                        </p>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+
+            <!-- COMPROMISO INTERACTIVO DEL LECTOR -->
+
+            <div class="semilla-paz">
+
+                <div class="icono-semilla">🌱</div>
+
+                <h3>Siembra tu propia semilla de paz</h3>
+
+                <p>
+                    Tú también puedes contribuir
+                    a la construcción de paz.
+                    Escribe un compromiso concreto
+                    que puedas poner en práctica.
+                </p>
+
+                <label for="ambito-compromiso">
+
+                    Selecciona un ámbito:
+
+                </label>
+
+                <select id="ambito-compromiso">
+
+                    <option value="Personal">
+                        Personal
+                    </option>
+
+                    <option value="Familiar">
+                        Familiar
+                    </option>
+
+                    <option value="Comunitario">
+                        Comunitario
+                    </option>
+
+                    <option value="Profesional">
+                        Profesional
+                    </option>
+
+                </select>
+
+                <label for="texto-compromiso">
+
+                    Mi compromiso con la paz:
+
+                </label>
+
+                <textarea
+
+                    id="texto-compromiso"
+
+                    rows="5"
+
+                    maxlength="1500"
+
+                    placeholder="Me comprometo a...">
+
+                </textarea>
+
+                <button
+
+                    class="boton-jugar-paz"
+
+                    onclick="descargarCompromisoPaz()">
+
+                    🌱 Descargar mi compromiso
+
+                </button>
+
+                <p id="mensaje-compromiso"
+                   aria-live="polite"></p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Cinco personas, cinco compromisos,
+                un mismo propósito:
+                sembrar paz desde nuestro territorio.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Conclusiones",
+
+    contenido: `
+
+        <div class="conclusiones-paz">
+
+            <div class="etiqueta-tematica">
+                APRENDIZAJES Y TRANSFORMACIÓN
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                Conocer nuestro territorio,
+                escuchar sus voces y comprender
+                su historia nos permite descubrir
+                nuevos caminos para construir paz.
+
+            </blockquote>
+
+            <h3>Lo que aprendimos durante esta experiencia</h3>
+
+            <p>
+                La elaboración de la cartilla
+                Sembrando Paz desde nuestro Territorio
+                nos permitió relacionar los fundamentos
+                conceptuales de la Cátedra de la Paz
+                con el contexto social, cultural,
+                histórico y comunitario del pueblo
+                indígena Kankuamo.
+            </p>
+
+            <p>
+                Los registros audiovisuales,
+                las entrevistas comunitarias,
+                la experiencia institucional
+                y la revisión documental constituyen
+                los recursos de nuestro acercamiento
+                a la construcción de paz territorial.
+            </p>
+
+            <h3>Siete aprendizajes para construir paz</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">01</span>
+
+                        La paz se construye desde el territorio
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            La paz territorial no se limita
+                            a la ausencia de violencia,
+                            sino que implica reconocer
+                            las particularidades históricas,
+                            sociales, culturales y ambientales
+                            de las comunidades.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Relación con el territorio Kankuamo</h4>
+
+                            <p>
+                                La protección del territorio,
+                                el fortalecimiento de la identidad
+                                y la participación comunitaria
+                                constituyen elementos fundamentales
+                                para comprender la construcción
+                                de paz desde este contexto.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">02</span>
+
+                        La identidad cultural fortalece la convivencia
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            Los registros fotográficos y
+                            audiovisuales permiten apreciar
+                            espacios de encuentro, trabajo
+                            colectivo y manifestaciones
+                            culturales que forman parte
+                            de la vida comunitaria.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Relación entre teoría y experiencia</h4>
+
+                            <p>
+                                Estas expresiones se relacionan
+                                con los principios de respeto,
+                                inclusión, diversidad cultural
+                                y participación desarrollados
+                                en Cátedra de la Paz.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">03</span>
+
+                        La memoria es fundamental para la no repetición
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            El reconocimiento de las
+                            afectaciones históricas del
+                            conflicto armado sobre el
+                            pueblo Kankuamo permite
+                            comprender la importancia
+                            de recuperar la memoria
+                            colectiva y proteger
+                            los derechos humanos.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Fundamentación teórica</h4>
+
+                            <p>
+                                Esta reflexión se relaciona
+                                con los aportes de la
+                                Comisión de la Verdad,
+                                que reconoce la necesidad
+                                de transformar las condiciones
+                                que han permitido la persistencia
+                                de la violencia.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">04</span>
+
+                        Las comunidades son protagonistas de la paz
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            Las imágenes de reuniones y
+                            actividades comunitarias
+                            permiten reconocer la importancia
+                            de los espacios colectivos
+                            para la participación y
+                            el fortalecimiento de las
+                            relaciones sociales.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Participación y organización propia</h4>
+
+                            <p>
+                                La Declaración Ancestral del
+                                V Congreso del Pueblo Indígena
+                                Kankuamo reconoce la unidad
+                                y la paz territorial como
+                                propósitos de su organización
+                                colectiva.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">05</span>
+
+                        Las instituciones contribuyen a la justicia
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            El estudio de la Unidad de
+                            Restitución de Tierras permitió
+                            relacionar los conceptos de
+                            justicia social, dignidad y
+                            reparación con las funciones
+                            institucionales orientadas a
+                            recuperar los derechos de las víctimas.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Restitución y construcción de paz</h4>
+
+                            <p>
+                                La restitución de derechos
+                                territoriales constituye
+                                una herramienta para enfrentar
+                                las consecuencias del
+                                conflicto armado y promover
+                                condiciones que favorezcan
+                                una paz sostenible.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">06</span>
+
+                        La resolución pacífica transforma la convivencia
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            El diálogo, la mediación,
+                            la negociación y la construcción
+                            de acuerdos representan
+                            estrategias que pueden aplicarse
+                            en los ámbitos familiares,
+                            escolares y comunitarios.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Proyección comunitaria</h4>
+
+                            <p>
+                                Estas estrategias deben
+                                reconocer las particularidades
+                                culturales, respetar los
+                                derechos humanos y considerar
+                                la autonomía y las autoridades
+                                propias de las comunidades.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        <span class="numero-programa">07</span>
+
+                        La educación es una herramienta para la paz
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            Como futuros docentes de
+                            matemáticas, comprendemos
+                            que nuestra responsabilidad
+                            profesional trasciende
+                            la enseñanza de contenidos
+                            disciplinares.
+
+                        </p>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Nuestra contribución profesional</h4>
+
+                            <p>
+                                Desde las aulas podemos
+                                fortalecer el pensamiento
+                                crítico, la participación,
+                                el trabajo colaborativo,
+                                la igualdad de oportunidades
+                                y el reconocimiento
+                                de la diversidad cultural.
+                            </p>
+
+                            <p>
+                                Las actividades interactivas
+                                de esta cartilla representan
+                                una propuesta pedagógica
+                                que integra la tecnología
+                                y la educación para promover
+                                la cultura de paz.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <h3>Integración de la teoría y el trabajo de campo</h3>
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        📋 Consultar nuestra síntesis de aprendizajes
+                    </summary>
+
+                    <div class="tabla-comparativa-paz">
+
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th>Fundamento teórico</th>
+                                    <th>Evidencia o recurso estudiado</th>
+                                    <th>Aprendizaje</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Paz territorial</td>
+                                    <td>Registros del territorio Kankuamo.</td>
+                                    <td>Reconocimiento del contexto territorial.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Identidad cultural</td>
+                                    <td>Fotografías y expresiones culturales.</td>
+                                    <td>Valoración de la diversidad.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Participación</td>
+                                    <td>Imágenes de reuniones comunitarias.</td>
+                                    <td>Importancia de los espacios colectivos.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Memoria histórica</td>
+                                    <td>Documentos y registros comunitarios.</td>
+                                    <td>Reconocimiento de la historia.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Justicia y reparación</td>
+                                    <td>Entrevista y documentos de la URT.</td>
+                                    <td>Importancia de recuperar derechos.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Cultura de paz</td>
+                                    <td>Propuestas pedagógicas interactivas.</td>
+                                    <td>Educación para la convivencia.</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+            <div class="reflexion-territorial">
+
+                <strong>Conclusión general</strong>
+
+                <p>
+                    La construcción de paz es un proceso
+                    colectivo que requiere el reconocimiento
+                    de los derechos humanos, la participación
+                    de las comunidades, la protección
+                    del territorio, el fortalecimiento
+                    de la identidad cultural y el
+                    compromiso de las instituciones.
+                </p>
+
+                <p>
+                    Esta experiencia académica nos invita
+                    a asumir una actitud responsable
+                    frente a las realidades sociales
+                    de nuestra región y a contribuir,
+                    desde nuestra futura profesión,
+                    a la formación de personas capaces
+                    de convivir, dialogar y transformar
+                    pacíficamente su entorno.
+                </p>
+
+            </div>
+
+            <blockquote class="cierre-territorio">
+
+                Sembrar paz es reconocer nuestras raíces,
+                aprender de nuestra historia
+                y transformar el presente mediante
+                acciones de respeto, justicia y esperanza.
+
+            </blockquote>
+
+        </div>
+
+    `
+},
+
+    
+{
+    titulo: "Referencias bibliográficas",
+
+    contenido: `
+
+        <div class="referencias-paz">
+
+            <div class="etiqueta-tematica">
+                FUNDAMENTACIÓN ACADÉMICA
+            </div>
+
+            <blockquote class="frase-territorial">
+
+                El conocimiento nos permite
+                comprender nuestra historia
+                y construir nuevas posibilidades
+                para el futuro.
+
+            </blockquote>
+
+            <h3>Referencias bibliográficas</h3>
+
+            <p>
+                Las siguientes fuentes documentales,
+                normativas, institucionales y pedagógicas
+                fundamentan los contenidos desarrollados
+                en esta cartilla digital.
+            </p>
+
+            <div class="bibliografia-apa">
+
+                <p>
+                    Cabildo Indígena del Resguardo Kankuamo.
+                    (s. f.).
+                    <em>
+                        Declaración ancestral del V Congreso
+                        del Pueblo Indígena Kankuamo.
+                    </em>
+                    <a
+                        href="https://cabildokankuamo.org/declaracion-ancestral-del-v-congreso-del-pueblo-indigena-kankuamo/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar documento
+
+                    </a>
+                </p>
+
+                <p>
+                    Centro Nacional de Memoria Histórica.
+                    (2022, 28 de octubre).
+                    <em>
+                        Sanar a través de nuestra imagen,
+                        muestra de resistencia del pueblo Kankuamo.
+                    </em>
+                    <a
+                        href="https://centrodememoriahistorica.gov.co/sanar-a-traves-de-nuestra-imagen-muestra-de-resistencia-del-pueblo-kankuamo/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar documento
+
+                    </a>
+                </p>
+
+                <p>
+                    Comisión para el Esclarecimiento de la
+                    Verdad, la Convivencia y la No Repetición.
+                    (s. f.).
+                    <em>
+                        Guía para la pedagogía del volumen
+                        sobre los hallazgos y las recomendaciones
+                        para la no repetición.
+                    </em>
+                    <a
+                        href="https://www.comisiondelaverdad.co/pedagogia/guia-para-la-pedagogia-del-volumen-sobre-los-hallazgos-y-las-recomendaciones-para-la-no"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar guía pedagógica
+
+                    </a>
+                </p>
+
+                <p>
+                    Comisión para el Esclarecimiento de la
+                    Verdad, la Convivencia y la No Repetición.
+                    (2022).
+                    <em>
+                        Hay futuro si hay verdad:
+                        Hallazgos y recomendaciones.
+                    </em>
+                    <a
+                        href="https://www.comisiondelaverdad.co/hallazgos-y-recomendaciones/recomendaciones-if"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar recomendaciones
+
+                    </a>
+                </p>
+
+                <p>
+                    Constitución Política de Colombia
+                    [Const.]. (1991).
+                    <a
+                        href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar Constitución
+
+                    </a>
+                </p>
+
+                <p>
+                    Corte Constitucional de Colombia.
+                    (2009, 26 de enero).
+                    <em>
+                        Auto 004 de 2009.
+                    </em>
+                    <a
+                        href="https://www.corteconstitucional.gov.co/relatoria/autos/2009/a004-09.htm"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar providencia
+
+                    </a>
+                </p>
+
+                <p>
+                    Decreto 1038 de 2015.
+                    Por el cual se reglamenta la Cátedra
+                    de la Paz. 25 de mayo de 2015.
+                    <a
+                        href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=61735"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar decreto
+
+                    </a>
+                </p>
+
+                <p>
+                    Decreto Ley 4633 de 2011.
+                    Por medio del cual se dictan medidas
+                    de asistencia, atención, reparación
+                    integral y restitución de derechos
+                    territoriales a las víctimas
+                    pertenecientes a los pueblos y
+                    comunidades indígenas.
+                    9 de diciembre de 2011.
+                    <a
+                        href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44966"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar decreto ley
+
+                    </a>
+                </p>
+
+                <p>
+                    Ley 1448 de 2011.
+                    Por la cual se dictan medidas de
+                    atención, asistencia y reparación
+                    integral a las víctimas del conflicto
+                    armado interno y se dictan otras
+                    disposiciones.
+                    10 de junio de 2011.
+                    <a
+                        href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43043"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar ley
+
+                    </a>
+                </p>
+
+                <p>
+                    Ley 1732 de 2014.
+                    Por la cual se establece la Cátedra
+                    de la Paz en todas las instituciones
+                    educativas del país.
+                    1 de septiembre de 2014.
+                    <a
+                        href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=59313"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar ley
+
+                    </a>
+                </p>
+
+                <p>
+                    Naciones Unidas.
+                    (1948, 10 de diciembre).
+                    <em>
+                        Declaración Universal de
+                        los Derechos Humanos.
+                    </em>
+                    <a
+                        href="https://www.un.org/es/about-us/universal-declaration-of-human-rights"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar declaración
+
+                    </a>
+                </p>
+
+                <p>
+                    Unidad de Restitución de Tierras.
+                    (s. f.-a).
+                    <em>Objetivos y funciones.</em>
+                    <a
+                        href="https://www.urt.gov.co/la-unidad/objetivos-y-funciones"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar funciones institucionales
+
+                    </a>
+                </p>
+
+                <p>
+                    Unidad de Restitución de Tierras.
+                    (s. f.-b).
+                    <em>Proyectos.</em>
+                    <a
+                        href="https://urt.gov.co/informacion-de-planeacion/proyectos"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Consultar proyectos institucionales
+
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- EVIDENCIAS AUDIOVISUALES -->
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+                        🎥 Registros audiovisuales
+                        del trabajo académico
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>
+                                Video sobre el contexto
+                                de paz territorial Kankuamo
+                            </h4>
+
+                            <p>
+                                Material audiovisual
+                                incorporado en la página 5.
+                            </p>
+
+                            <a
+                                class="enlace-referencia"
+                                href="https://youtu.be/VRWk0ElQdQE"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                Consultar video
+
+                            </a>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Primer testimonio comunitario</h4>
+
+                            <p>
+                                Entrevista audiovisual
+                                sobre problemáticas
+                                y construcción de paz.
+                            </p>
+
+                            <a
+                                class="enlace-referencia"
+                                href="https://youtu.be/W8-KaDt0CCA"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                Consultar entrevista
+
+                            </a>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Segundo testimonio comunitario</h4>
+
+                            <p>
+                                Entrevista audiovisual
+                                sobre convivencia
+                                y realidades comunitarias.
+                            </p>
+
+                            <a
+                                class="enlace-referencia"
+                                href="https://youtu.be/DogqIDU7XYU"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                Consultar entrevista
+
+                            </a>
+
+                        </div>
+
+                        <div class="aprendizaje-urt">
+
+                            <h4>Visita institucional a la URT</h4>
+
+                            <p>
+                                Registro audiovisual
+                                de la experiencia institucional.
+                            </p>
+
+                            <a
+                                class="enlace-referencia"
+                                href="https://youtu.be/TeX0XX9kQkw"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                Consultar visita institucional
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </details>
+
+                <details>
+
+                    <summary>
+
+                        📷 Créditos fotográficos y audiovisuales
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            Los materiales fotográficos
+                            y audiovisuales incorporados
+                            en esta cartilla se destinan
+                            al desarrollo de la actividad
+                            académica Cátedra de la Paz.
+
+                        </p>
+
+                        <p class="introduccion-aprendizajes">
+
+                            Se reconoce la autoría de
+                            quienes realizaron los registros
+                            originales y se conservan
+                            los créditos visibles en
+                            los materiales utilizados.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+
+            <!-- AGRADECIMIENTOS -->
+
+            <div class="programas-urt-interactivos">
+
+                <details>
+
+                    <summary>
+
+                        ❤️ Nuestros agradecimientos
+
+                    </summary>
+
+                    <div class="aprendizajes-urt">
+
+                        <p class="introduccion-aprendizajes">
+
+                            Expresamos nuestro reconocimiento
+                            al pueblo indígena Kankuamo,
+                            a las personas que compartieron
+                            sus experiencias, a la Unidad
+                            de Restitución de Tierras
+                            y a quienes contribuyeron
+                            al desarrollo de esta
+                            experiencia académica.
+
+                        </p>
+
+                        <p class="introduccion-aprendizajes">
+
+                            Agradecemos a nuestra docente
+                            Yonaidis Ibarra por orientar
+                            este proceso de aprendizaje
+                            y promover la reflexión
+                            sobre la construcción de paz
+                            desde las realidades territoriales.
+
+                        </p>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+
+            <!-- CIERRE FINAL DE LA CARTILLA -->
+
+            <div class="cierre-final-cartilla">
+
+                <div class="simbolo-paz">
+
+                    🕊️
+
+                </div>
+
+                <small>
+
+                    UNIVERSIDAD POPULAR DEL CESAR
+
+                </small>
+
+                <h3>
+
+                    Sembrando Paz desde nuestro Territorio
+
+                </h3>
+
+                <div class="linea-final-paz"></div>
+
+                <p>
+
+                    Licenciatura en Matemáticas
+
+                </p>
+
+                <p>
+
+                    Cátedra de la Paz
+
+                </p>
+
+                <p>
+
+                    Resguardo Indígena Kankuamo
+
+                </p>
+
+                <strong>2026</strong>
+
+                <blockquote>
+
+                    La paz no termina en estas páginas.
+                    Continúa en cada acción que realizamos,
+                    en cada diferencia que respetamos
+                    y en cada semilla de esperanza
+                    que decidimos sembrar.
+
+                </blockquote>
+
+                <h4>¡Gracias por acompañarnos!</h4>
+
+                <button
+
+                    class="boton-jugar-paz"
+
+                    onclick="irPagina(0)">
+
+                    ↶ Volver a la portada
+
+                </button>
+
+            </div>
+
+        </div>
+
+    `
+},
 
 ];
 
@@ -5520,7 +6811,8 @@ function generarPagina(indice, posicion = "") {
 
     return `
 
-        <section class="pagina ${posicion}
+        
+<section class="pagina ${posicion}
     ${indice === 2 ? 'pagina-introduccion' : ''}
     ${indice === 3 ? 'pagina-paz-territorial' : ''}
     ${indice === 4 ? 'pagina-paz-comunitaria' : ''}
@@ -5535,7 +6827,10 @@ function generarPagina(indice, posicion = "") {
     ${indice === 13 ? 'pagina-resolucion-conflictos' : ''}
     ${indice === 14 ? 'pagina-voces-territorio' : ''}
     ${indice === 15 ? 'pagina-actividades-paz' : ''}
-    ${indice === 16 ? 'pagina-juegos-convivencia' : ''}">
+    ${indice === 16 ? 'pagina-juegos-convivencia' : ''}
+    ${indice === 17 ? 'pagina-compromisos-paz' : ''}
+    ${indice === 18 ? 'pagina-conclusiones-paz' : ''}
+    ${indice === 19 ? 'pagina-referencias-paz' : ''}">
             ${contenido}
 
             <div class="numero-pagina">
@@ -6408,3 +7703,96 @@ function ampliarFotoTerritorio(boton) {
 
 }
 
+/* ==========================================
+   DESCARGAR COMPROMISO PERSONAL CON LA PAZ
+========================================== */
+
+function descargarCompromisoPaz() {
+
+    const ambito = document.getElementById(
+        "ambito-compromiso"
+    );
+
+    const campo = document.getElementById(
+        "texto-compromiso"
+    );
+
+    const mensaje = document.getElementById(
+        "mensaje-compromiso"
+    );
+
+    if (!ambito || !campo || !mensaje) return;
+
+    const compromiso = campo.value.trim();
+
+    if (!compromiso) {
+
+        mensaje.textContent =
+            "Escribe primero tu compromiso con la paz.";
+
+        campo.focus();
+
+        return;
+
+    }
+
+    const contenido = [
+
+        "SEMBRANDO PAZ DESDE NUESTRO TERRITORIO",
+
+        "MI COMPROMISO CON LA PAZ",
+
+        "",
+
+        "Ámbito: " + ambito.value,
+
+        "",
+
+        compromiso,
+
+        "",
+
+        "Cada compromiso es una semilla de paz.",
+
+        "",
+
+        "Universidad Popular del Cesar",
+
+        "Licenciatura en Matemáticas",
+
+        "Cátedra de la Paz - 2026"
+
+    ].join("\n");
+
+    const archivo = new Blob(
+
+        ["\uFEFF" + contenido],
+
+        { type: "text/plain;charset=utf-8" }
+
+    );
+
+    const url = URL.createObjectURL(archivo);
+
+    const enlace = document.createElement("a");
+
+    enlace.href = url;
+
+    enlace.download = "Mi-compromiso-con-la-paz.txt";
+
+    document.body.appendChild(enlace);
+
+    enlace.click();
+
+    enlace.remove();
+
+    setTimeout(function() {
+
+        URL.revokeObjectURL(url);
+
+    }, 1000);
+
+    mensaje.textContent =
+        "¡Gracias por sembrar tu compromiso con la paz!";
+
+}
